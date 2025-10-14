@@ -1,0 +1,1450 @@
+[
+  {
+    "phrase": "a bit (of)",
+    "translation": "有一点，一会儿"
+  },
+  {
+    "phrase": "a few",
+    "translation": "一些，少量"
+  },
+  {
+    "phrase": "a great deal",
+    "translation": "大量，许多"
+  },
+  {
+    "phrase": "a good/great many",
+    "translation": "大量，许多"
+  },
+  {
+    "phrase": "a kind of",
+    "translation": "一种，一类"
+  },
+  {
+    "phrase": "a little",
+    "translation": "一点，少许"
+  },
+  {
+    "phrase": "a lot of",
+    "translation": "许多，大量"
+  },
+  {
+    "phrase": "a number of",
+    "translation": "一些，许多"
+  },
+  {
+    "phrase": "a pair of",
+    "translation": "一双，一副"
+  },
+  {
+    "phrase": "a piece of",
+    "translation": "一块(张，根，片)"
+  },
+  {
+    "phrase": "above all",
+    "translation": "首先，首要"
+  },
+  {
+    "phrase": "according to",
+    "translation": "根据，按照"
+  },
+  {
+    "phrase": "add up to",
+    "translation": "合计达......"
+  },
+  {
+    "phrase": "after all",
+    "translation": "毕竟，终究"
+  },
+  {
+    "phrase": "after class",
+    "translation": "课后"
+  },
+  {
+    "phrase": "again and again",
+    "translation": "反复地，再三地"
+  },
+  {
+    "phrase": "agree to do sth.",
+    "translation": "同意做某事"
+  },
+  {
+    "phrase": "agree with sb.",
+    "translation": "同意某人的看法，与某人看法一致"
+  },
+  {
+    "phrase": "ahead of",
+    "translation": "在......之前"
+  },
+  {
+    "phrase": "all in all",
+    "translation": "总的来说，总计"
+  },
+  {
+    "phrase": "all kinds of",
+    "translation": "各种各样的"
+  },
+  {
+    "phrase": "all over",
+    "translation": "到处，遍及，结束"
+  },
+  {
+    "phrase": "all right",
+    "translation": "行,好吧，（病）好了"
+  },
+  {
+    "phrase": "all the best",
+    "translation": "一切顺利，万事如意"
+  },
+  {
+    "phrase": "answer for",
+    "translation": "对......负责"
+  },
+  {
+    "phrase": "apart from",
+    "translation": "除去，除了"
+  },
+  {
+    "phrase": "arrive at (in) a place",
+    "translation": "到达某地"
+  },
+  {
+    "phrase": "as a matter of fact",
+    "translation": "事实上，其实"
+  },
+  {
+    "phrase": "as a result （",
+    "translation": "作为）结果"
+  },
+  {
+    "phrase": "as...as",
+    "translation": "像，如同"
+  },
+  {
+    "phrase": "as soon as",
+    "translation": "一......就......"
+  },
+  {
+    "phrase": "as far as （",
+    "translation": "表示程度，范围）就......；尽......"
+  },
+  {
+    "phrase": "as if",
+    "translation": "好像，仿佛"
+  },
+  {
+    "phrase": "as long as",
+    "translation": "只要"
+  },
+  {
+    "phrase": "as though",
+    "translation": "好像，仿佛"
+  },
+  {
+    "phrase": "as usual",
+    "translation": "通常，平常地"
+  },
+  {
+    "phrase": "as well",
+    "translation": "也，还有"
+  },
+  {
+    "phrase": "as well as",
+    "translation": "除......之外（也）"
+  },
+  {
+    "phrase": "belong to",
+    "translation": "属于"
+  },
+  {
+    "phrase": "be proud of",
+    "translation": "骄傲，自豪"
+  },
+  {
+    "phrase": "be strict with",
+    "translation": "对......严格要求"
+  },
+  {
+    "phrase": "both...and",
+    "translation": "两个都，既...又..."
+  },
+  {
+    "phrase": "break away from",
+    "translation": "脱离......"
+  },
+  {
+    "phrase": "break down",
+    "translation": "损坏; (把化合物等) 分解，（汽车）抛锚"
+  },
+  {
+    "phrase": "break in",
+    "translation": "闯入，强行进入，插嘴，打断"
+  },
+  {
+    "phrase": "break off",
+    "translation": "打断; 折断"
+  },
+  {
+    "phrase": "break out （",
+    "translation": "战争、火灾等）突然发生，爆发"
+  },
+  {
+    "phrase": "break up",
+    "translation": "分解；分裂"
+  },
+  {
+    "phrase": "bring in",
+    "translation": "引来，引进，吸收"
+  },
+  {
+    "phrase": "bring on",
+    "translation": "引起，导致，使前进"
+  },
+  {
+    "phrase": "bring up",
+    "translation": "教育，培养"
+  },
+  {
+    "phrase": "build up",
+    "translation": "逐步建立"
+  },
+  {
+    "phrase": "by accident",
+    "translation": "偶然"
+  },
+  {
+    "phrase": "by air ( bus, train, ship )",
+    "translation": "乘飞机（公共汽车，火车，轮船）"
+  },
+  {
+    "phrase": "by and by",
+    "translation": "不久以后，逐渐地"
+  },
+  {
+    "phrase": "by day",
+    "translation": "日间，在白天"
+  },
+  {
+    "phrase": "by the way",
+    "translation": "顺便说"
+  },
+  {
+    "phrase": "call for",
+    "translation": "提倡，号召, 需要"
+  },
+  {
+    "phrase": "call in",
+    "translation": "召来，召集"
+  },
+  {
+    "phrase": "call on",
+    "translation": "拜访，访问"
+  },
+  {
+    "phrase": "call up",
+    "translation": "号召，打电话"
+  },
+  {
+    "phrase": "care for",
+    "translation": "喜欢；照顾（病人）"
+  },
+  {
+    "phrase": "carry off",
+    "translation": "携走，夺走"
+  },
+  {
+    "phrase": "carry on",
+    "translation": "继续下去; 继续开展"
+  },
+  {
+    "phrase": "carry out",
+    "translation": "开展，执行"
+  },
+  {
+    "phrase": "catch up with",
+    "translation": "赶上（或超过）"
+  },
+  {
+    "phrase": "change into",
+    "translation": "转换成，把...变成"
+  },
+  {
+    "phrase": "check in",
+    "translation": "报到，登记"
+  },
+  {
+    "phrase": "check out",
+    "translation": "查明; 结账"
+  },
+  {
+    "phrase": "clear up",
+    "translation": "整理，收拾, (天气)放晴"
+  },
+  {
+    "phrase": "come about",
+    "translation": "发生，产生"
+  },
+  {
+    "phrase": "come across (",
+    "translation": "偶然)遇见(或发现）"
+  },
+  {
+    "phrase": "come back",
+    "translation": "回来，想起来"
+  },
+  {
+    "phrase": "come down",
+    "translation": "落，下来"
+  },
+  {
+    "phrase": "come from",
+    "translation": "出生（于），来自"
+  },
+  {
+    "phrase": "come in",
+    "translation": "进入，进来"
+  },
+  {
+    "phrase": "come off",
+    "translation": "从...离开，脱落"
+  },
+  {
+    "phrase": "come on",
+    "translation": "来吧，赶快"
+  },
+  {
+    "phrase": "come out",
+    "translation": "出来,(书)出版，发行"
+  },
+  {
+    "phrase": "come to",
+    "translation": "共计，达到"
+  },
+  {
+    "phrase": "come true",
+    "translation": "变为现实，成为事实"
+  },
+  {
+    "phrase": "come up",
+    "translation": "上来，上升，抬头"
+  },
+  {
+    "phrase": "come up with",
+    "translation": "追上，赶上；想出（主意）；找出（答案）"
+  },
+  {
+    "phrase": "compare to",
+    "translation": "与......相比"
+  },
+  {
+    "phrase": "compare with",
+    "translation": "与......相比"
+  },
+  {
+    "phrase": "congratulate...on",
+    "translation": "祝贺......"
+  },
+  {
+    "phrase": "connect to",
+    "translation": "连接，相连"
+  },
+  {
+    "phrase": "connect with",
+    "translation": "与......相连"
+  },
+  {
+    "phrase": "cut down",
+    "translation": "砍倒"
+  },
+  {
+    "phrase": "cut off",
+    "translation": "切断"
+  },
+  {
+    "phrase": "cut up",
+    "translation": "齐根割掉，切碎"
+  },
+  {
+    "phrase": "day and night",
+    "translation": "日日夜夜"
+  },
+  {
+    "phrase": "do one's best",
+    "translation": "尽最大的努力"
+  },
+  {
+    "phrase": "deal with",
+    "translation": "处理，对付"
+  },
+  {
+    "phrase": "depend on (upon)",
+    "translation": "依靠，相信，信赖"
+  },
+  {
+    "phrase": "die out",
+    "translation": "消失，灭亡"
+  },
+  {
+    "phrase": "different from",
+    "translation": "与......不同"
+  },
+  {
+    "phrase": "divide up",
+    "translation": "分配"
+  },
+  {
+    "phrase": "divide...into...",
+    "translation": "把......分成......"
+  },
+  {
+    "phrase": "do some cleaning (shopping)",
+    "translation": "做扫除（买东西）"
+  },
+  {
+    "phrase": "dozens of",
+    "translation": "几十"
+  },
+  {
+    "phrase": "drop in",
+    "translation": "顺便走访（某人）"
+  },
+  {
+    "phrase": "due to",
+    "translation": "由于，因为"
+  },
+  {
+    "phrase": "each other",
+    "translation": "相互"
+  },
+  {
+    "phrase": "earn one's living",
+    "translation": "谋生"
+  },
+  {
+    "phrase": "either...or",
+    "translation": "或者......或者......"
+  },
+  {
+    "phrase": "enjoy oneself",
+    "translation": "过得愉快"
+  },
+  {
+    "phrase": "even if",
+    "translation": "即使，尽管"
+  },
+  {
+    "phrase": "even though",
+    "translation": "即使，尽管"
+  },
+  {
+    "phrase": "ever since",
+    "translation": "自那时起直到现在"
+  },
+  {
+    "phrase": "face to face",
+    "translation": "面对面"
+  },
+  {
+    "phrase": "fall asleep",
+    "translation": "入睡"
+  },
+  {
+    "phrase": "fall ill",
+    "translation": "患病，病倒"
+  },
+  {
+    "phrase": "far away",
+    "translation": "遥远的"
+  },
+  {
+    "phrase": "far from",
+    "translation": "远离"
+  },
+  {
+    "phrase": "feel like doing",
+    "translation": "想要..., 感觉要..."
+  },
+  {
+    "phrase": "figure out",
+    "translation": "理解，想明白"
+  },
+  {
+    "phrase": "fill ... with",
+    "translation": "用......填充"
+  },
+  {
+    "phrase": "fill in",
+    "translation": "填充"
+  },
+  {
+    "phrase": "find out",
+    "translation": "查明，发现，了解"
+  },
+  {
+    "phrase": "first of all",
+    "translation": "首先"
+  },
+  {
+    "phrase": "for ever",
+    "translation": "永远"
+  },
+  {
+    "phrase": "for example",
+    "translation": "例如"
+  },
+  {
+    "phrase": "for good",
+    "translation": "永远"
+  },
+  {
+    "phrase": "from now on",
+    "translation": "从今以后，今后"
+  },
+  {
+    "phrase": "from then on",
+    "translation": "从那时起"
+  },
+  {
+    "phrase": "from... to",
+    "translation": "从......到......"
+  },
+  {
+    "phrase": "from time to time",
+    "translation": "不时，偶尔"
+  },
+  {
+    "phrase": "get along with",
+    "translation": "与......相处"
+  },
+  {
+    "phrase": "get away",
+    "translation": "逃; 离"
+  },
+  {
+    "phrase": "get back",
+    "translation": "返回; 回来; 回家"
+  },
+  {
+    "phrase": "get close (to)",
+    "translation": "接近"
+  },
+  {
+    "phrase": "get down",
+    "translation": "降下"
+  },
+  {
+    "phrase": "get down to",
+    "translation": "开始认真（做某事）"
+  },
+  {
+    "phrase": "get in",
+    "translation": "进入, 收获，达到"
+  },
+  {
+    "phrase": "get off",
+    "translation": "脱下（衣服等）；下车"
+  },
+  {
+    "phrase": "get on",
+    "translation": "上车；过活"
+  },
+  {
+    "phrase": "get on with sb.",
+    "translation": "与......相处"
+  },
+  {
+    "phrase": "get through",
+    "translation": "通过，拨通（电话）"
+  },
+  {
+    "phrase": "get together",
+    "translation": "聚会，联欢"
+  },
+  {
+    "phrase": "get up",
+    "translation": "起床"
+  },
+  {
+    "phrase": "give away",
+    "translation": "分发"
+  },
+  {
+    "phrase": "give back",
+    "translation": "归还；送回"
+  },
+  {
+    "phrase": "give in",
+    "translation": "屈服，让步"
+  },
+  {
+    "phrase": "give out",
+    "translation": "分发"
+  },
+  {
+    "phrase": "give up",
+    "translation": "放?"
+  },
+  {
+    "phrase": "go ahead",
+    "translation": "走在前面，领先；干吧，干下去"
+  },
+  {
+    "phrase": "go away",
+    "translation": "走开，离去"
+  },
+  {
+    "phrase": "go by",
+    "translation": "走过; 经过; 过去"
+  },
+  {
+    "phrase": "go fishing (shopping, skating) （",
+    "translation": "去）钓鱼（买东西，滑冰）"
+  },
+  {
+    "phrase": "go for",
+    "translation": "主张"
+  },
+  {
+    "phrase": "go for a walk",
+    "translation": "散步"
+  },
+  {
+    "phrase": "go in for",
+    "translation": "参加，喜欢"
+  },
+  {
+    "phrase": "go off",
+    "translation": "走开"
+  },
+  {
+    "phrase": "go on",
+    "translation": "继续"
+  },
+  {
+    "phrase": "go on doing...",
+    "translation": "继续干某事，不停地干某事"
+  },
+  {
+    "phrase": "go on with",
+    "translation": "继续"
+  },
+  {
+    "phrase": "go out",
+    "translation": "出去, 熄灭"
+  },
+  {
+    "phrase": "go over",
+    "translation": "仔细检查，复习"
+  },
+  {
+    "phrase": "go through",
+    "translation": "浏览; 翻阅，通过"
+  },
+  {
+    "phrase": "grow up",
+    "translation": "长大成人，成长"
+  },
+  {
+    "phrase": "had better (do)",
+    "translation": "最好（做）"
+  },
+  {
+    "phrase": "hand in",
+    "translation": "上交; 交纳"
+  },
+  {
+    "phrase": "hand out",
+    "translation": "分发"
+  },
+  {
+    "phrase": "have a cold",
+    "translation": "患感冒"
+  },
+  {
+    "phrase": "hang on （",
+    "translation": "打电话时）不挂断，等待片刻"
+  },
+  {
+    "phrase": "hang up",
+    "translation": "挂断电话"
+  },
+  {
+    "phrase": "have a gift for",
+    "translation": "对......有天赋"
+  },
+  {
+    "phrase": "have a good time",
+    "translation": "玩得高兴，过得愉快"
+  },
+  {
+    "phrase": "have classes",
+    "translation": "上课"
+  },
+  {
+    "phrase": "have fun with",
+    "translation": "玩得高兴"
+  },
+  {
+    "phrase": "have got to",
+    "translation": "不得不；必须"
+  },
+  {
+    "phrase": "have to",
+    "translation": "不得不；必须"
+  },
+  {
+    "phrase": "hear of",
+    "translation": "听说，知道"
+  },
+  {
+    "phrase": "hear from",
+    "translation": "收到......的来信"
+  },
+  {
+    "phrase": "help oneself to",
+    "translation": "请随便吃点"
+  },
+  {
+    "phrase": "help sb. with sth.",
+    "translation": "帮助某人做某事"
+  },
+  {
+    "phrase": "help...out",
+    "translation": "帮助某人解决困难"
+  },
+  {
+    "phrase": "hold on",
+    "translation": "等一等（别挂电话）"
+  },
+  {
+    "phrase": "hold one's breath",
+    "translation": "不出气,屏住呼吸"
+  },
+  {
+    "phrase": "hold out",
+    "translation": "伸出；坚持，维持"
+  },
+  {
+    "phrase": "hold up",
+    "translation": "阻挡，使停顿"
+  },
+  {
+    "phrase": "hundreds of",
+    "translation": "几百，成百上千"
+  },
+  {
+    "phrase": "hurry up",
+    "translation": "赶快，快点"
+  },
+  {
+    "phrase": "in a hurry",
+    "translation": "匆忙，很快地"
+  },
+  {
+    "phrase": "in all",
+    "translation": "总之"
+  },
+  {
+    "phrase": "in a word",
+    "translation": "简言之，总之"
+  },
+  {
+    "phrase": "in common",
+    "translation": "共同，共有"
+  },
+  {
+    "phrase": "in debt",
+    "translation": "欠债"
+  },
+  {
+    "phrase": "in danger",
+    "translation": "处在危险状态"
+  },
+  {
+    "phrase": "in fact",
+    "translation": "事实上，实际上"
+  },
+  {
+    "phrase": "in front of",
+    "translation": "在......前面"
+  },
+  {
+    "phrase": "in need of",
+    "translation": "需要，缺少"
+  },
+  {
+    "phrase": "in order",
+    "translation": "按顺序"
+  },
+  {
+    "phrase": "in order that",
+    "translation": "为了"
+  },
+  {
+    "phrase": "in order to",
+    "translation": "为了"
+  },
+  {
+    "phrase": "in other words",
+    "translation": "换句话说"
+  },
+  {
+    "phrase": "in peace",
+    "translation": "安静，宁静"
+  },
+  {
+    "phrase": "in public",
+    "translation": "当众；公开"
+  },
+  {
+    "phrase": "in surprise",
+    "translation": "吃惊，惊讶"
+  },
+  {
+    "phrase": "in the end",
+    "translation": "最后，终于"
+  },
+  {
+    "phrase": "in time",
+    "translation": "及时，来得及"
+  },
+  {
+    "phrase": "instead of",
+    "translation": "代替，而不是"
+  },
+  {
+    "phrase": "join in",
+    "translation": "参加，加入"
+  },
+  {
+    "phrase": "join up",
+    "translation": "联合起来，联结起来"
+  },
+  {
+    "phrase": "just now",
+    "translation": "现在，刚才"
+  },
+  {
+    "phrase": "keep back",
+    "translation": "留下"
+  },
+  {
+    "phrase": "keep doing sth.",
+    "translation": "继续做某事"
+  },
+  {
+    "phrase": "keep off",
+    "translation": "勿踏; 勿踩"
+  },
+  {
+    "phrase": "keep on",
+    "translation": "继续（进行）"
+  },
+  {
+    "phrase": "keep one's word",
+    "translation": "守信"
+  },
+  {
+    "phrase": "keep up",
+    "translation": "保持; 维持; 继续"
+  },
+  {
+    "phrase": "knock at",
+    "translation": "敲"
+  },
+  {
+    "phrase": "knock into sb.",
+    "translation": "撞上"
+  },
+  {
+    "phrase": "laugh at",
+    "translation": "嘲笑"
+  },
+  {
+    "phrase": "lead to",
+    "translation": "导致，导向"
+  },
+  {
+    "phrase": "let in",
+    "translation": "让......进来，放进"
+  },
+  {
+    "phrase": "let out",
+    "translation": "放掉, 泄露"
+  },
+  {
+    "phrase": "live on",
+    "translation": "以...为主食，靠...为生"
+  },
+  {
+    "phrase": "look after",
+    "translation": "照顾"
+  },
+  {
+    "phrase": "look ahead",
+    "translation": "向前看，展望未来"
+  },
+  {
+    "phrase": "look down upon",
+    "translation": "看不起，轻视"
+  },
+  {
+    "phrase": "look for",
+    "translation": "寻找"
+  },
+  {
+    "phrase": "look forward to",
+    "translation": "盼望"
+  },
+  {
+    "phrase": "look into",
+    "translation": "向...里面看去; 调查"
+  },
+  {
+    "phrase": "look out",
+    "translation": "留神，当心"
+  },
+  {
+    "phrase": "look through",
+    "translation": "看穿, 浏览"
+  },
+  {
+    "phrase": "look up",
+    "translation": "查找"
+  },
+  {
+    "phrase": "lots of",
+    "translation": "许多，大量"
+  },
+  {
+    "phrase": "make a face",
+    "translation": "做鬼脸，做苦脸"
+  },
+  {
+    "phrase": "make friends with",
+    "translation": "与......交朋友"
+  },
+  {
+    "phrase": "make up",
+    "translation": "和解，化装"
+  },
+  {
+    "phrase": "make up of",
+    "translation": "由......组成，构成"
+  },
+  {
+    "phrase": "make up one's mind",
+    "translation": "下决心"
+  },
+  {
+    "phrase": "millions of",
+    "translation": "成百万上千万，数以百万计"
+  },
+  {
+    "phrase": "more or less",
+    "translation": "或多或少"
+  },
+  {
+    "phrase": "neither...nor",
+    "translation": "既不......也不......"
+  },
+  {
+    "phrase": "next to",
+    "translation": "紧接着，相邻，次于"
+  },
+  {
+    "phrase": "no doubt",
+    "translation": "无疑地"
+  },
+  {
+    "phrase": "no longer",
+    "translation": "不再"
+  },
+  {
+    "phrase": "not any more",
+    "translation": "不再"
+  },
+  {
+    "phrase": "not at all",
+    "translation": "一点也不，绝非"
+  },
+  {
+    "phrase": "not only ... but also",
+    "translation": "不仅...而且..."
+  },
+  {
+    "phrase": "not so...as",
+    "translation": "不像，不如"
+  },
+  {
+    "phrase": "not till/until",
+    "translation": "直到......才"
+  },
+  {
+    "phrase": "now and then",
+    "translation": "不时，偶尔"
+  },
+  {
+    "phrase": "now that",
+    "translation": "既然"
+  },
+  {
+    "phrase": "of course",
+    "translation": "当然"
+  },
+  {
+    "phrase": "on (the, an) average",
+    "translation": "平均，按平均数计算"
+  },
+  {
+    "phrase": "on duty",
+    "translation": "值日，值班"
+  },
+  {
+    "phrase": "on foot",
+    "translation": "走路，步行"
+  },
+  {
+    "phrase": "on show",
+    "translation": "展出，在上演（放映）"
+  },
+  {
+    "phrase": "on time",
+    "translation": "准时"
+  },
+  {
+    "phrase": "on/over the radio",
+    "translation": "通过收音机"
+  },
+  {
+    "phrase": "once again",
+    "translation": "再一次"
+  },
+  {
+    "phrase": "once more",
+    "translation": "再一次"
+  },
+  {
+    "phrase": "once upon a time",
+    "translation": "从前，很久以前"
+  },
+  {
+    "phrase": "one after another",
+    "translation": "一个接一个"
+  },
+  {
+    "phrase": "open up",
+    "translation": "开启；开创; 开辟"
+  },
+  {
+    "phrase": "or else",
+    "translation": "否则，要不然"
+  },
+  {
+    "phrase": "ought to",
+    "translation": "应该"
+  },
+  {
+    "phrase": "out of breath",
+    "translation": "上气不接下气"
+  },
+  {
+    "phrase": "out of order",
+    "translation": "运转不正常，出毛病"
+  },
+  {
+    "phrase": "out of work",
+    "translation": "失业"
+  },
+  {
+    "phrase": "over and over again",
+    "translation": "反复，多次重复"
+  },
+  {
+    "phrase": "pass by",
+    "translation": "经过"
+  },
+  {
+    "phrase": "pay attention to",
+    "translation": "注意"
+  },
+  {
+    "phrase": "pay back",
+    "translation": "偿还（借款等）"
+  },
+  {
+    "phrase": "pay for",
+    "translation": "付款"
+  },
+  {
+    "phrase": "pay off",
+    "translation": "偿清(欠款等)"
+  },
+  {
+    "phrase": "persuade sb. to do",
+    "translation": "说服"
+  },
+  {
+    "phrase": "pick out",
+    "translation": "选出"
+  },
+  {
+    "phrase": "pick up",
+    "translation": "拾起，捡起, 接收；开车去接......"
+  },
+  {
+    "phrase": "point out",
+    "translation": "指出"
+  },
+  {
+    "phrase": "point to",
+    "translation": "指向"
+  },
+  {
+    "phrase": "prevent ... from",
+    "translation": "妨碍,,防止,,预防"
+  },
+  {
+    "phrase": "put away",
+    "translation": "储存"
+  },
+  {
+    "phrase": "put down",
+    "translation": "记下"
+  },
+  {
+    "phrase": "put off",
+    "translation": "推迟"
+  },
+  {
+    "phrase": "put on",
+    "translation": "穿，戴上，上演"
+  },
+  {
+    "phrase": "put on a performance",
+    "translation": "演出"
+  },
+  {
+    "phrase": "put on weight",
+    "translation": "发福，增加体重"
+  },
+  {
+    "phrase": "put out",
+    "translation": "扑灭，关熄"
+  },
+  {
+    "phrase": "put up",
+    "translation": "挂起，举起, 贴（广告等）"
+  },
+  {
+    "phrase": "put up with",
+    "translation": "忍受"
+  },
+  {
+    "phrase": "rather than",
+    "translation": "而不，非"
+  },
+  {
+    "phrase": "refer to",
+    "translation": "提到，涉及，有关"
+  },
+  {
+    "phrase": "regard... as",
+    "translation": "把......看作"
+  },
+  {
+    "phrase": "ring back",
+    "translation": "回电话"
+  },
+  {
+    "phrase": "ring off",
+    "translation": "挂断电话，停止讲话"
+  },
+  {
+    "phrase": "ring up",
+    "translation": "打电话给"
+  },
+  {
+    "phrase": "right away",
+    "translation": "立即，马上"
+  },
+  {
+    "phrase": "right now",
+    "translation": "立即，马上"
+  },
+  {
+    "phrase": "run away",
+    "translation": "逃跑, 失控"
+  },
+  {
+    "phrase": "run out of",
+    "translation": "用完"
+  },
+  {
+    "phrase": "save one's life",
+    "translation": "挽救某人生命"
+  },
+  {
+    "phrase": "scores of",
+    "translation": "许多，大量"
+  },
+  {
+    "phrase": "see...off",
+    "translation": "为某人送行"
+  },
+  {
+    "phrase": "sell out",
+    "translation": "卖完, 出卖"
+  },
+  {
+    "phrase": "send for",
+    "translation": "派人去叫（请）"
+  },
+  {
+    "phrase": "send out",
+    "translation": "发出，派遣"
+  },
+  {
+    "phrase": "send up",
+    "translation": "发出, 射出"
+  },
+  {
+    "phrase": "sentence...to death",
+    "translation": "判处死刑"
+  },
+  {
+    "phrase": "separate...from...",
+    "translation": "分开"
+  },
+  {
+    "phrase": "set down",
+    "translation": "放下"
+  },
+  {
+    "phrase": "set free",
+    "translation": "释放，解放"
+  },
+  {
+    "phrase": "set off",
+    "translation": "动身，起程；使爆发"
+  },
+  {
+    "phrase": "set out",
+    "translation": "出发; 开始"
+  },
+  {
+    "phrase": "set up settle down",
+    "translation": "建立创立 定居，平静下来"
+  },
+  {
+    "phrase": "show off",
+    "translation": "炫耀"
+  },
+  {
+    "phrase": "side by side",
+    "translation": "肩并肩，一起"
+  },
+  {
+    "phrase": "so as to",
+    "translation": "以便，为的是"
+  },
+  {
+    "phrase": "so far",
+    "translation": "到目前为止"
+  },
+  {
+    "phrase": "so far as （",
+    "translation": "表示程度，范围）就......，尽......"
+  },
+  {
+    "phrase": "so long as",
+    "translation": "只要"
+  },
+  {
+    "phrase": "so...that",
+    "translation": "太......以至于......"
+  },
+  {
+    "phrase": "sooner or later",
+    "translation": "迟早，早晚"
+  },
+  {
+    "phrase": "speed up",
+    "translation": "加快速度"
+  },
+  {
+    "phrase": "spend...on",
+    "translation": "在......花钱"
+  },
+  {
+    "phrase": "stand for",
+    "translation": "代表，象征"
+  },
+  {
+    "phrase": "tick to",
+    "translation": "坚持"
+  },
+  {
+    "phrase": "stop doing sth.",
+    "translation": "停止做某事"
+  },
+  {
+    "phrase": "stop to do sth.",
+    "translation": "停下来做某事"
+  },
+  {
+    "phrase": "struggle against",
+    "translation": "同......作斗争"
+  },
+  {
+    "phrase": "such as",
+    "translation": "例如"
+  },
+  {
+    "phrase": "take away",
+    "translation": "拿走"
+  },
+  {
+    "phrase": "take it easy",
+    "translation": "别着急，别紧张"
+  },
+  {
+    "phrase": "take off",
+    "translation": "脱下，起飞"
+  },
+  {
+    "phrase": "take one's time",
+    "translation": "从容，慢慢行动"
+  },
+  {
+    "phrase": "take out",
+    "translation": "取出"
+  },
+  {
+    "phrase": "take place",
+    "translation": "发生"
+  },
+  {
+    "phrase": "take sb. in the arms",
+    "translation": "搂抱"
+  },
+  {
+    "phrase": "take the place of",
+    "translation": "取代，代替"
+  },
+  {
+    "phrase": "take up",
+    "translation": "占去，占据（时间、地位等）"
+  },
+  {
+    "phrase": "talk about",
+    "translation": "谈论，议论"
+  },
+  {
+    "phrase": "talk of",
+    "translation": "谈论，议论"
+  },
+  {
+    "phrase": "the day after tomorrow",
+    "translation": "后天"
+  },
+  {
+    "phrase": "the day before yesterday",
+    "translation": "前天"
+  },
+  {
+    "phrase": "the more...the more",
+    "translation": "越...就越..."
+  },
+  {
+    "phrase": "the other day",
+    "translation": "前几天，某日"
+  },
+  {
+    "phrase": "think about",
+    "translation": "考虑（是否去做）"
+  },
+  {
+    "phrase": "think of",
+    "translation": "想起,考虑,认为,看法"
+  },
+  {
+    "phrase": "thousands of",
+    "translation": "成千上万，几千"
+  },
+  {
+    "phrase": "throw away",
+    "translation": "扔掉"
+  },
+  {
+    "phrase": "too...to",
+    "translation": "太......以至于不......"
+  },
+  {
+    "phrase": "try on",
+    "translation": "试穿，试试看"
+  },
+  {
+    "phrase": "try out",
+    "translation": "试验"
+  },
+  {
+    "phrase": "turn down",
+    "translation": "关小，调低"
+  },
+  {
+    "phrase": "turn off",
+    "translation": "关掉（水、电、电视、收音机等）"
+  },
+  {
+    "phrase": "turn on",
+    "translation": "打开（水、电视、收音机、灯、煤气等）"
+  },
+  {
+    "phrase": "turn over",
+    "translation": "翻动，犁翻（土地）"
+  },
+  {
+    "phrase": "turn up",
+    "translation": "到达，来到；开大（声音）"
+  },
+  {
+    "phrase": "up and down",
+    "translation": "上下，来回"
+  },
+  {
+    "phrase": "used to sth.",
+    "translation": "习惯于"
+  },
+  {
+    "phrase": "used to do sth.",
+    "translation": "过去常常"
+  },
+  {
+    "phrase": "wait for",
+    "translation": "等候，等待"
+  },
+  {
+    "phrase": "wake up",
+    "translation": "醒来"
+  },
+  {
+    "phrase": "work out",
+    "translation": "算出，解决"
+  },
+  {
+    "phrase": "worry about",
+    "translation": "担心，烦恼"
+  },
+  {
+    "phrase": "wrap up",
+    "translation": "包好, 伪装"
+  },
+  {
+    "phrase": "write down",
+    "translation": "写下，记下"
+  },
+  {
+    "phrase": "write to",
+    "translation": "写信给..."
+  }
+]

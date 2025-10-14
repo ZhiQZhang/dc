@@ -1,0 +1,12190 @@
+// 单词和短语数据
+// 单词数据
+const wordData = [
+  {
+    "word": "abandon",
+    "yb": "[əˈbændən]",
+    "cx": "v.",
+    "sy": "抛弃，舍弃，放弃"
+  },
+  {
+    "word": "abnormal",
+    "yb": "[æbˈnɔːm(ə)l]",
+    "cx": "a.",
+    "sy": "反常的，变态的"
+  },
+  {
+    "word": "aboard",
+    "yb": "[əˈbɔːd]",
+    "cx": "prep.",
+    "sy": "上（船，飞机，火车，汽车等）"
+  },
+  {
+    "word": "abolish",
+    "yb": "[əˈbɔlɪʃ]",
+    "cx": "v.",
+    "sy": "废除，废止"
+  },
+  {
+    "word": "abortion",
+    "yb": "[əˈbɔːʃ(ə)n]",
+    "cx": "v.",
+    "sy": "人工流产，堕胎"
+  },
+  {
+    "word": "abrupt",
+    "yb": "[əˈbrʌpt]",
+    "cx": "a.",
+    "sy": "突然的，意外的，粗鲁"
+  },
+  {
+    "word": "absence",
+    "yb": "[ˈæbsəns]",
+    "cx": "n.",
+    "sy": "不在，缺席"
+  },
+  {
+    "word": "absent",
+    "yb": "[ˈæbsənt]",
+    "cx": "a.",
+    "sy": "缺席， 不在"
+  },
+  {
+    "word": "absolute",
+    "yb": "[ˈæbsəluːt]",
+    "cx": "a.",
+    "sy": "完全，全部，绝对的"
+  },
+  {
+    "word": "absorb",
+    "yb": "[əbˈsɔːb]",
+    "cx": "v.",
+    "sy": "吸收，使全神贯注"
+  },
+  {
+    "word": "abstract",
+    "yb": "[ˈæbstrækt]",
+    "cx": "a.",
+    "sy": "/ n. 抽象的（作品）"
+  },
+  {
+    "word": "absurd",
+    "yb": "[əbˈsɜːd]",
+    "cx": "a.",
+    "sy": "荒谬的，怪诞不经的"
+  },
+  {
+    "word": "abundant",
+    "yb": "[əˈbʌndənt]",
+    "cx": "a.",
+    "sy": "大量,丰盛的,充裕的"
+  },
+  {
+    "word": "abuse",
+    "yb": "[əˈbjuːz]",
+    "cx": "v.",
+    "sy": "（酗酒）滥用,虐待,恶语"
+  },
+  {
+    "word": "academic",
+    "yb": "[ækəˈdemɪk]",
+    "cx": "a.",
+    "sy": "/ n. 学术的，教学的"
+  },
+  {
+    "word": "academy",
+    "yb": "[əˈkædəmɪ]",
+    "cx": "n.",
+    "sy": "专科学院,（美）私立学校"
+  },
+  {
+    "word": "accelerate",
+    "yb": "[əkˈseləreɪt]",
+    "cx": "v.",
+    "sy": "（使）加速，加快"
+  },
+  {
+    "word": "accent",
+    "yb": "[ˈæksənt]",
+    "cx": "n.",
+    "sy": "口音，音调"
+  },
+  {
+    "word": "accept",
+    "yb": "[əkˈsept]",
+    "cx": "vt.",
+    "sy": "接受"
+  },
+  {
+    "word": "access",
+    "yb": "[ˈækses]",
+    "cx": "n.",
+    "sy": "/ v. 通道，入径，存取（计算机文件）"
+  },
+  {
+    "word": "accessible",
+    "yb": "[əkˈsesɪb(ə)l]",
+    "cx": "a.",
+    "sy": "可到达的，可接受的，易相处的）"
+  },
+  {
+    "word": "accommodation",
+    "yb": "[əkɔməˈdeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "住宿，膳宿"
+  },
+  {
+    "word": "accompany",
+    "yb": "[əˈkʌmpənɪ]",
+    "cx": "v.",
+    "sy": "陪同，陪伴，与...同时发生"
+  },
+  {
+    "word": "accomplish",
+    "yb": "[əˈkʌmplɪʃ]",
+    "cx": "v.",
+    "sy": "完成"
+  },
+  {
+    "word": "account",
+    "yb": "[əˈkaʊnt]",
+    "cx": "n.",
+    "sy": "账目;描述"
+  },
+  {
+    "word": "accountant",
+    "yb": "[əˈkaʊnt(ə)nt]",
+    "cx": "n.",
+    "sy": "会计，会计师"
+  },
+  {
+    "word": "accumulate",
+    "yb": "[əˈkjuːmjʊleɪt]",
+    "cx": "v.",
+    "sy": "积累，积聚"
+  },
+  {
+    "word": "accuracy",
+    "yb": "[ˈækjʊrəsɪ]",
+    "cx": "n.",
+    "sy": "准确，精确"
+  },
+  {
+    "word": "accuse",
+    "yb": "[əˈkjuːz]",
+    "cx": "v.",
+    "sy": "正确无误的,精确的"
+  },
+  {
+    "word": "accustomed",
+    "yb": "[əˈkʌstəmd]",
+    "cx": "a.",
+    "sy": "习惯于,惯常的"
+  },
+  {
+    "word": "achieve",
+    "yb": "[əˈtʃiːv]",
+    "cx": "vt.",
+    "sy": "达到，取得"
+  },
+  {
+    "word": "achievement",
+    "yb": "[əˈtʃiːvmənt]",
+    "cx": "n.",
+    "sy": "成就,成绩,功绩"
+  },
+  {
+    "word": "acid",
+    "yb": "[ˈæsɪd]",
+    "cx": "a.",
+    "sy": "酸的"
+  },
+  {
+    "word": "acknowledge",
+    "yb": "[əkˈnɔlɪdʒ]",
+    "cx": "v.",
+    "sy": "承认"
+  },
+  {
+    "word": "acquaintance",
+    "yb": "[əˈkweɪntəns]",
+    "cx": "n.",
+    "sy": "熟人，（与某人）认识"
+  },
+  {
+    "word": "acquire",
+    "yb": "[əˈkwaɪə(r)]",
+    "cx": "v.",
+    "sy": "获得，得到"
+  },
+  {
+    "word": "acquisition",
+    "yb": "[ækwɪˈzɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "获得，得到"
+  },
+  {
+    "word": "acre",
+    "yb": "[ˈeɪkə(r)]",
+    "cx": "n.",
+    "sy": "英亩"
+  },
+  {
+    "word": "active",
+    "yb": "[ˈæktɪv]",
+    "cx": "a.",
+    "sy": "积极的，主动的"
+  },
+  {
+    "word": "actual",
+    "yb": "[ˈæktʃʊəl]",
+    "cx": "a.",
+    "sy": "实际的； 现实的"
+  },
+  {
+    "word": "adapt",
+    "yb": "[əˈdæpt]",
+    "cx": "v.",
+    "sy": "使适应，适合，改编"
+  },
+  {
+    "word": "adaptation",
+    "yb": "[ədæpˈteɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "适应，改编本"
+  },
+  {
+    "word": "addicted",
+    "yb": "[əˈdɪktɪd]",
+    "cx": "a.",
+    "sy": "上瘾，成瘾，入迷"
+  },
+  {
+    "word": "addition",
+    "yb": "[əˈdɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "增加;（算数用语）加"
+  },
+  {
+    "word": "adequate",
+    "yb": "[ˈædɪkwət]",
+    "cx": "a.",
+    "sy": "合适的，合乎需要的"
+  },
+  {
+    "word": "adjust",
+    "yb": "[əˈdʒʌst]",
+    "cx": "v.",
+    "sy": "调整,调节,适应,习惯"
+  },
+  {
+    "word": "adjustment",
+    "yb": "[əˈdʒʌstmənt]",
+    "cx": "n.",
+    "sy": "调整，适应"
+  },
+  {
+    "word": "administration",
+    "yb": "[ədmɪnɪˈstreɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "管理,行政部门"
+  },
+  {
+    "word": "admirable",
+    "yb": "[ˈædmərəb(ə)l]",
+    "cx": "a.",
+    "sy": "值得赞赏的,可钦佩的"
+  },
+  {
+    "word": "admire",
+    "yb": "[ədˈmaɪə(r)]",
+    "cx": "v.",
+    "sy": "钦佩；羡慕"
+  },
+  {
+    "word": "admission",
+    "yb": "[ədˈmɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "准入, 接纳"
+  },
+  {
+    "word": "admit",
+    "yb": "[ədˈmɪt]",
+    "cx": "vt.",
+    "sy": "承认，准许（入场，入学，入会）"
+  },
+  {
+    "word": "adolescence",
+    "yb": "[ædəʊ'lesns]",
+    "cx": "n.",
+    "sy": "青春，青春期"
+  },
+  {
+    "word": "adolescent",
+    "yb": "[ædəˈlesənt]",
+    "cx": "n.",
+    "sy": "青少年"
+  },
+  {
+    "word": "adopt",
+    "yb": "[əˈdɔpt]",
+    "cx": "v.",
+    "sy": "收养，领养"
+  },
+  {
+    "word": "adore",
+    "yb": "[əˈdɔː(r)]",
+    "cx": "v.",
+    "sy": "（不用于进行时）热爱，爱慕某人"
+  },
+  {
+    "word": "advance",
+    "yb": "[ədˈvɑːns; (US) ədˈvæns]",
+    "cx": "v.",
+    "sy": "推进，促进；前进"
+  },
+  {
+    "word": "adventure",
+    "yb": "[ədˈventʃə(r)]",
+    "cx": "n.",
+    "sy": "冒险； 奇遇"
+  },
+  {
+    "word": "advertise",
+    "yb": "[ˈædvətaɪz]",
+    "cx": "vt.",
+    "sy": "为......做广告"
+  },
+  {
+    "word": "advertisement",
+    "yb": "[ədˈvɜːtɪsmənt]",
+    "cx": "n.",
+    "sy": "广告"
+  },
+  {
+    "word": "advocate",
+    "yb": "[ˈædvəkət]",
+    "cx": "v.",
+    "sy": "拥护，支持，提倡"
+  },
+  {
+    "word": "aeroplane",
+    "yb": "[`erə,pleɪn]",
+    "cx": "n.",
+    "sy": "(英)飞机"
+  },
+  {
+    "word": "affair",
+    "yb": "[əˈfeə(r)]",
+    "cx": "n.",
+    "sy": "事，事情"
+  },
+  {
+    "word": "affect",
+    "yb": "[əˈfekt]",
+    "cx": "vt.",
+    "sy": "影响"
+  },
+  {
+    "word": "affection",
+    "yb": "[əˈfekʃ(ə)n]",
+    "cx": "n.",
+    "sy": "喜爱，钟爱"
+  },
+  {
+    "word": "afford",
+    "yb": "[əˈfɔːd]",
+    "cx": "vt.",
+    "sy": "负担得起（......的费用）；抽得出（时间）；提供"
+  },
+  {
+    "word": "African",
+    "yb": "[ˈæfrɪkən]",
+    "cx": "a.",
+    "sy": "非洲的，非洲人的 n. 非洲人"
+  },
+  {
+    "word": "agency",
+    "yb": "[ˈeɪdʒənsɪ]",
+    "cx": "n.",
+    "sy": "代理机构"
+  },
+  {
+    "word": "agenda",
+    "yb": "[əˈdʒendə]",
+    "cx": "n.",
+    "sy": "（会议）议程表，议事日程"
+  },
+  {
+    "word": "agent",
+    "yb": "[ˈeɪdʒənt]",
+    "cx": "n.",
+    "sy": "代理人，经济人"
+  },
+  {
+    "word": "aggression",
+    "yb": "[ˈəɡreʃ(ə)n]",
+    "cx": "n.",
+    "sy": "侵略"
+  },
+  {
+    "word": "aggressive",
+    "yb": "[ˈəɡresɪv]",
+    "cx": "a.",
+    "sy": "侵略的；咄咄逼人"
+  },
+  {
+    "word": "agreement",
+    "yb": "[əˈɡriːmənt]",
+    "cx": "n.",
+    "sy": "同意，一致；协定，协议"
+  },
+  {
+    "word": "agricultural",
+    "yb": "[æɡrɪˈkʌltʃər(ə)l]",
+    "cx": "a.",
+    "sy": "农业的"
+  },
+  {
+    "word": "agriculture",
+    "yb": "[ˈæɡrɪkʌltʃə(r)]",
+    "cx": "n.",
+    "sy": "农业，农学"
+  },
+  {
+    "word": "aid",
+    "yb": "[eɪd]",
+    "cx": "n.",
+    "sy": "援助；救护；辅助器具"
+  },
+  {
+    "word": "AIDS",
+    "yb": "[eɪdz]",
+    "cx": "n.",
+    "sy": "艾滋病"
+  },
+  {
+    "word": "aim",
+    "yb": "[eɪm]",
+    "cx": "n.",
+    "sy": "目的；目标 v. 计划，打算；瞄准；针对"
+  },
+  {
+    "word": "aircraft",
+    "yb": "[ˈeəkrɑːft]",
+    "cx": "n.",
+    "sy": "飞机 (单复数同)"
+  },
+  {
+    "word": "airmail",
+    "yb": "[ˈeəmeɪl]",
+    "cx": "n.",
+    "sy": "航空邮件"
+  },
+  {
+    "word": "airspace",
+    "yb": "[ˈeəspeɪs]",
+    "cx": "n.",
+    "sy": "领空,（某国的）空域"
+  },
+  {
+    "word": "alarm",
+    "yb": "[əˈlɑːm]",
+    "cx": "n.",
+    "sy": "警报"
+  },
+  {
+    "word": "album",
+    "yb": "[ˈælbəm]",
+    "cx": "n.",
+    "sy": "相册，影集，集邮簿"
+  },
+  {
+    "word": "alcohol",
+    "yb": "[ˈælkəhɔl]",
+    "cx": "n.",
+    "sy": "含酒精饮料，酒"
+  },
+  {
+    "word": "alcoholic",
+    "yb": "[ælkəˈhɔlɪk]",
+    "cx": "a.",
+    "sy": "/ n. 含酒精的，酒鬼"
+  },
+  {
+    "word": "algebra",
+    "yb": "[ˈældʒɪbrə]",
+    "cx": "n.",
+    "sy": "代数"
+  },
+  {
+    "word": "alike",
+    "yb": "[əˈlaɪk]",
+    "cx": "ad.",
+    "sy": "很相似地，同样地"
+  },
+  {
+    "word": "alive",
+    "yb": "[əˈlaɪv]",
+    "cx": "a.",
+    "sy": "活着的，存在的"
+  },
+  {
+    "word": "allergic",
+    "yb": "[əˈlɜːdʒɪk]",
+    "cx": "a.",
+    "sy": "过敏的，厌恶"
+  },
+  {
+    "word": "alley",
+    "yb": "[ˈælɪ]",
+    "cx": "n.",
+    "sy": "小巷，胡同"
+  },
+  {
+    "word": "allocate",
+    "yb": "[ˈæləkeɪt]",
+    "cx": "v.",
+    "sy": "拨给,划归,分配...给"
+  },
+  {
+    "word": "allowance",
+    "yb": "[əˈlaʊəns]",
+    "cx": "n.",
+    "sy": "津贴，补助"
+  },
+  {
+    "word": "along",
+    "yb": "[əˈlɔŋ; (US) əˈlɔŋ]",
+    "cx": "ad.",
+    "sy": "向前；和...一起；一同 prep. 沿着；顺着"
+  },
+  {
+    "word": "alongside",
+    "yb": "[əlɔŋˈsaɪd; (US) əlɔːŋˈsaɪd]",
+    "cx": "ad.",
+    "sy": "在...旁边,与...同时"
+  },
+  {
+    "word": "alphabet",
+    "yb": "[ˈælfəbet]",
+    "cx": "n.",
+    "sy": "字母表，字母"
+  },
+  {
+    "word": "alternative",
+    "yb": "[ɔːlˈtɜːnətɪv]",
+    "cx": "a.",
+    "sy": "可供替代,非传统的"
+  },
+  {
+    "word": "altitude",
+    "yb": "[ˈæltɪtjuːd; (US) ælˈtɪtuːd]",
+    "cx": "n.",
+    "sy": "海拔高度"
+  },
+  {
+    "word": "altogether",
+    "yb": "[ɔːltəˈɡeðə(r)]",
+    "cx": "ad.",
+    "sy": "总共"
+  },
+  {
+    "word": "aluminium",
+    "yb": "[æljʊˈmɪnɪəm]",
+    "cx": "n.",
+    "sy": "（化）铝"
+  },
+  {
+    "word": "amateur",
+    "yb": "[ˈæmətə(r)]",
+    "cx": "a.",
+    "sy": "业余爱好的"
+  },
+  {
+    "word": "amaze",
+    "yb": "[əˈmeɪz]",
+    "cx": "v.",
+    "sy": "惊奇，惊叹；震惊"
+  },
+  {
+    "word": "ambiguous",
+    "yb": "[æmˈbɪɡjʊəs]",
+    "cx": "a.",
+    "sy": "模棱两可的"
+  },
+  {
+    "word": "ambition",
+    "yb": "[æmˈbɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "目标,野心,雄心,抱负"
+  },
+  {
+    "word": "ambulance",
+    "yb": "[ˈæmbjʊləns]",
+    "cx": "n.",
+    "sy": "救护车"
+  },
+  {
+    "word": "amount",
+    "yb": "[əˈmaʊnt]",
+    "cx": "n.",
+    "sy": "/ v. 金额，数量，总计"
+  },
+  {
+    "word": "ample",
+    "yb": "[ˈæmp(ə)l]",
+    "cx": "a.",
+    "sy": "足够的，丰裕的"
+  },
+  {
+    "word": "amuse",
+    "yb": "[əˈmjuːz]",
+    "cx": "vt.",
+    "sy": "（使人）快乐，逗乐"
+  },
+  {
+    "word": "amusement",
+    "yb": "[əˈmjuːzmənt]",
+    "cx": "n.",
+    "sy": "娱乐"
+  },
+  {
+    "word": "analysis",
+    "yb": "[əˈnæləsɪs]",
+    "cx": "n.",
+    "sy": "分析，分析结果"
+  },
+  {
+    "word": "ancestor",
+    "yb": "[ˈænsəstə(r)]",
+    "cx": "n.",
+    "sy": "祖宗； 祖先"
+  },
+  {
+    "word": "ancient",
+    "yb": "[ˈeɪnʃənt]",
+    "cx": "a.",
+    "sy": "古代的，古老的"
+  },
+  {
+    "word": "and",
+    "yb": "[ənd, ænd]",
+    "cx": "conj.",
+    "sy": "和；又；而"
+  },
+  {
+    "word": "anecdote",
+    "yb": "[ˈænɪkdəʊt]",
+    "cx": "n.",
+    "sy": "逸事，趣闻"
+  },
+  {
+    "word": "angle",
+    "yb": "[ˈæŋɡ(ə)l]",
+    "cx": "n.",
+    "sy": "角度"
+  },
+  {
+    "word": "ankle",
+    "yb": "[ˈæŋk(ə)l]",
+    "cx": "n.",
+    "sy": "踝，踝关节"
+  },
+  {
+    "word": "anniversary",
+    "yb": "[ænɪˈvɜːsərɪ]",
+    "cx": "n.",
+    "sy": "周年纪念日"
+  },
+  {
+    "word": "announce",
+    "yb": "[əˈnaʊns]",
+    "cx": "vt.",
+    "sy": "宣布，宣告"
+  },
+  {
+    "word": "announcement",
+    "yb": "[əˈnaʊnsmənt]",
+    "cx": "n.",
+    "sy": "通告，通知"
+  },
+  {
+    "word": "annoy",
+    "yb": "[əˈnɔɪ]",
+    "cx": "vt.",
+    "sy": "（使）烦恼"
+  },
+  {
+    "word": "annual",
+    "yb": "[ˈænjʊəl]",
+    "cx": "a.",
+    "sy": "每年的，年度的，一年一次的"
+  },
+  {
+    "word": "Antarctic",
+    "yb": "[ænˈtɑːktɪk]",
+    "cx": "a.",
+    "sy": "南极的"
+  },
+  {
+    "word": "antique",
+    "yb": "[ænˈtiːk]",
+    "cx": "n.",
+    "sy": "古董"
+  },
+  {
+    "word": "anxiety",
+    "yb": "[æŋˈzaɪətɪ]",
+    "cx": "n.",
+    "sy": "担忧，焦虑"
+  },
+  {
+    "word": "anxious",
+    "yb": "[ˈæŋkʃəs]",
+    "cx": "a.",
+    "sy": "忧虑的，焦急的"
+  },
+  {
+    "word": "anyhow",
+    "yb": "[ˈenɪhaʊ]",
+    "cx": "ad.",
+    "sy": "不管怎样"
+  },
+  {
+    "word": "apartment",
+    "yb": "[əˈpɑːtmənt]",
+    "cx": "n.",
+    "sy": "（美）楼中单元房，一套房间；房间"
+  },
+  {
+    "word": "apologize",
+    "yb": "[əˈpɔlədʒaɪz]",
+    "cx": "vi.",
+    "sy": "道歉，谢罪"
+  },
+  {
+    "word": "apology",
+    "yb": "[əˈpɔlədʒɪ]",
+    "cx": "n.",
+    "sy": "道歉；歉意"
+  },
+  {
+    "word": "apparent",
+    "yb": "[əˈpærənt]",
+    "cx": "a.",
+    "sy": "显而易见"
+  },
+  {
+    "word": "appeal",
+    "yb": "[əˈpiːl]",
+    "cx": "v.",
+    "sy": "上诉，申诉，吸引力"
+  },
+  {
+    "word": "appearance",
+    "yb": "[əˈpɪərəns]",
+    "cx": "n.",
+    "sy": "出现，露面；容貌"
+  },
+  {
+    "word": "appendix",
+    "yb": "[əˈpendɪks]",
+    "cx": "n.",
+    "sy": "附录，阑尾"
+  },
+  {
+    "word": "appetite",
+    "yb": "[ˈæpɪtaɪt]",
+    "cx": "n.",
+    "sy": "食欲，胃口"
+  },
+  {
+    "word": "applaud",
+    "yb": "[əˈplɔːd]",
+    "cx": "v.",
+    "sy": "/ n. 鼓掌,赞许,赞赏"
+  },
+  {
+    "word": "applicant",
+    "yb": "[ˈæplɪkənt]",
+    "cx": "n.",
+    "sy": "申请人"
+  },
+  {
+    "word": "application",
+    "yb": "[æplɪˈkeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "申请"
+  },
+  {
+    "word": "apply",
+    "yb": "[əˈplaɪ]",
+    "cx": "v.",
+    "sy": "申请"
+  },
+  {
+    "word": "appoint",
+    "yb": "[əˈpɔɪnt]",
+    "cx": "v.",
+    "sy": "任命，委任，安排，确定（时间，地点）"
+  },
+  {
+    "word": "appointment",
+    "yb": "[əˈpɔɪntmənt]",
+    "cx": "n.",
+    "sy": "约会"
+  },
+  {
+    "word": "appreciate",
+    "yb": "[əˈpriːʃɪeɪt]",
+    "cx": "v.",
+    "sy": "欣赏； 感激"
+  },
+  {
+    "word": "appreciation",
+    "yb": "[əpriːʃɪˈeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "欣赏,鉴定,评估"
+  },
+  {
+    "word": "approach",
+    "yb": "[əˈprəʊtʃ]",
+    "cx": "n.",
+    "sy": "/ v. 靠近，接近，建议，要求"
+  },
+  {
+    "word": "appropriate",
+    "yb": "[əˈprəʊprɪət]",
+    "cx": "a.",
+    "sy": "合适的，恰当的"
+  },
+  {
+    "word": "approve",
+    "yb": "[əˈpruːv]",
+    "cx": "v.",
+    "sy": "赞成,同意,批准,通过"
+  },
+  {
+    "word": "approximately",
+    "yb": "[əprɔksɪˈmətlɪ]",
+    "cx": "ad.",
+    "sy": "近似，大约"
+  },
+  {
+    "word": "apron",
+    "yb": "[ˈeɪprən]",
+    "cx": "n.",
+    "sy": "（机场的）停机坪"
+  },
+  {
+    "word": "arbitrary",
+    "yb": "[ˈɑːbɪtrərɪ; (US) ˈɑːrbɪtrerɪ]",
+    "cx": "a.",
+    "sy": "随心所欲的，独裁的，专断的"
+  },
+  {
+    "word": "arch",
+    "yb": "[ɑːtʃ]",
+    "cx": "n.",
+    "sy": "拱，拱门"
+  },
+  {
+    "word": "architect",
+    "yb": "[ˈɑːkɪtekt]",
+    "cx": "n.",
+    "sy": "建筑师，设计师"
+  },
+  {
+    "word": "architecture",
+    "yb": "[ˈɑːkɪtektʃə(r)]",
+    "cx": "n.",
+    "sy": "建筑学，建筑设计，风格"
+  },
+  {
+    "word": "Arabic",
+    "yb": "[ˈærəbɪk]",
+    "cx": "a.",
+    "sy": "阿拉伯语的 n. 阿拉伯语"
+  },
+  {
+    "word": "Arctic",
+    "yb": "[ˈɑːktɪk]",
+    "cx": "a.",
+    "sy": "北极的"
+  },
+  {
+    "word": "argument",
+    "yb": "[ˈɑːɡjʊmənt]",
+    "cx": "n.",
+    "sy": "争论，辩论"
+  },
+  {
+    "word": "arithmetic",
+    "yb": "[əˈrɪθmətɪk]",
+    "cx": "n.",
+    "sy": "算术"
+  },
+  {
+    "word": "armchair",
+    "yb": "[ɑːmˈtʃeə(r)]",
+    "cx": "n.",
+    "sy": "扶手椅"
+  },
+  {
+    "word": "around",
+    "yb": "[əˈraʊnd]",
+    "cx": "ad.",
+    "sy": "在周围；在附近prep. 在......周围；大约"
+  },
+  {
+    "word": "arrange",
+    "yb": "[əˈreɪndʒ]",
+    "cx": "v.",
+    "sy": "安排，布置"
+  },
+  {
+    "word": "arrangement",
+    "yb": "[əˈreɪndʒmənt]",
+    "cx": "n.",
+    "sy": "安排，布置"
+  },
+  {
+    "word": "arrest",
+    "yb": "[əˈrest]",
+    "cx": "v.",
+    "sy": "逮捕，拘留"
+  },
+  {
+    "word": "arrival",
+    "yb": "[əˈraɪv(ə)l]",
+    "cx": "n.",
+    "sy": "到来，到达"
+  },
+  {
+    "word": "arrive",
+    "yb": "[əˈraɪv]",
+    "cx": "vi.",
+    "sy": "到达；达到"
+  },
+  {
+    "word": "arrow",
+    "yb": "[ˈærəʊ]",
+    "cx": "n.",
+    "sy": "箭；箭头"
+  },
+  {
+    "word": "artificial",
+    "yb": "[ɑːtɪˈfɪʃ(ə)l]",
+    "cx": "a.",
+    "sy": "人工的，人造的"
+  },
+  {
+    "word": "ash",
+    "yb": "[æʃ]",
+    "cx": "n.",
+    "sy": "灰； 灰末"
+  },
+  {
+    "word": "ashamed",
+    "yb": "[əˈʃeɪmd]",
+    "cx": "a.",
+    "sy": "惭愧； 害臊"
+  },
+  {
+    "word": "Asian",
+    "yb": "[ˈeɪʃ(ə)n, ˈeɪʒ(ə)n]",
+    "cx": "a.",
+    "sy": "亚洲（人）的n. 亚洲人"
+  },
+  {
+    "word": "aside",
+    "yb": "[əˈsaɪd]",
+    "cx": "ad.",
+    "sy": "在旁边"
+  },
+  {
+    "word": "aspect",
+    "yb": "[ˈæspekt]",
+    "cx": "n.",
+    "sy": "方面，外观，外表"
+  },
+  {
+    "word": "assess",
+    "yb": "[əˈses]",
+    "cx": "v.",
+    "sy": "评价,评定（性质,质量）"
+  },
+  {
+    "word": "assessment",
+    "yb": "[əˈsesmənt]",
+    "cx": "n.",
+    "sy": "看法，评价"
+  },
+  {
+    "word": "assist",
+    "yb": "[əˈsɪst]",
+    "cx": "v.",
+    "sy": "帮助，协助"
+  },
+  {
+    "word": "assistance",
+    "yb": "[əˈsɪst(ə)ns]",
+    "cx": "n.",
+    "sy": "帮助，援助，支持"
+  },
+  {
+    "word": "assistant",
+    "yb": "[əˈsɪst(ə)nt]",
+    "cx": "n.",
+    "sy": "助手，助理"
+  },
+  {
+    "word": "associate",
+    "yb": "[əˈsəʊʃɪeɪt]",
+    "cx": "v.",
+    "sy": "联想，联系"
+  },
+  {
+    "word": "association",
+    "yb": "[əsəʊsɪˈeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "协会，社团，联系"
+  },
+  {
+    "word": "assume",
+    "yb": "[əˈsjuːm; (US) əˈsuːm]",
+    "cx": "v.",
+    "sy": "假定，假设"
+  },
+  {
+    "word": "assumption",
+    "yb": "[əˈsʌmpʃ(ə)n]",
+    "cx": "n.",
+    "sy": "假定，假设"
+  },
+  {
+    "word": "astonish",
+    "yb": "[əˈstɔnɪʃ]",
+    "cx": "vt.",
+    "sy": "使惊讶"
+  },
+  {
+    "word": "astronaut",
+    "yb": "[ˈæstrənɔːt]",
+    "cx": "n.",
+    "sy": "宇航员"
+  },
+  {
+    "word": "astronomer",
+    "yb": "[əˈstrɔnəmə(r)]",
+    "cx": "n.",
+    "sy": "天文学家"
+  },
+  {
+    "word": "astronomy",
+    "yb": "[əˈstrɔnəmɪ]",
+    "cx": "n.",
+    "sy": "天文学"
+  },
+  {
+    "word": "athletic",
+    "yb": "[æθˈletɪk]",
+    "cx": "a.",
+    "sy": "健壮的,体育运动的"
+  },
+  {
+    "word": "athletics",
+    "yb": "[æθˈletɪks]",
+    "cx": "n.",
+    "sy": "田径"
+  },
+  {
+    "word": "atmosphere",
+    "yb": "[ˈætməsfɪə(r)]",
+    "cx": "n.",
+    "sy": "大气；气氛"
+  },
+  {
+    "word": "atom",
+    "yb": "[ˈætəm]",
+    "cx": "n.",
+    "sy": "原子，微粒"
+  },
+  {
+    "word": "attach",
+    "yb": "[əˈtætʃ]",
+    "cx": "v.",
+    "sy": "把...固定，重视"
+  },
+  {
+    "word": "attack",
+    "yb": "[əˈtæk]",
+    "cx": "vt.",
+    "sy": "/ n. 攻击，袭击"
+  },
+  {
+    "word": "attain",
+    "yb": "[əˈteɪn]",
+    "cx": "v.",
+    "sy": "（经过努力）获得,得到"
+  },
+  {
+    "word": "attempt",
+    "yb": "[əˈtempt]",
+    "cx": "vt.",
+    "sy": "试图，尝试"
+  },
+  {
+    "word": "attend",
+    "yb": "[əˈtend]",
+    "cx": "v.",
+    "sy": "看护，照料，服侍；出席，参加"
+  },
+  {
+    "word": "attention",
+    "yb": "[əˈtenʃ(ə)n]",
+    "cx": "n.",
+    "sy": "注意，关心"
+  },
+  {
+    "word": "attentively",
+    "yb": "[ə'tentivli]",
+    "cx": "ad.",
+    "sy": "注意地"
+  },
+  {
+    "word": "attract",
+    "yb": "[əˈtrækt]",
+    "cx": "v.",
+    "sy": "吸引，引起"
+  },
+  {
+    "word": "attraction",
+    "yb": "[əˈtrækʃ(ə)n]",
+    "cx": "n.",
+    "sy": "吸引，爱慕"
+  },
+  {
+    "word": "attractive",
+    "yb": "[əˈtræktɪv]",
+    "cx": "a.",
+    "sy": "迷人的，有吸引力的"
+  },
+  {
+    "word": "audience",
+    "yb": "[ˈɔːdɪəns]",
+    "cx": "n.",
+    "sy": "观众，听众"
+  },
+  {
+    "word": "authentic",
+    "yb": "[ɜːˈθentɪk]",
+    "cx": "a.",
+    "sy": "真正的，真品的"
+  },
+  {
+    "word": "authority",
+    "yb": "[ɔːˈθɔrɪtɪ]",
+    "cx": "n.",
+    "sy": "权力,权威,威信,官方"
+  },
+  {
+    "word": "automatic",
+    "yb": "[ɔːtəˈmætɪk]",
+    "cx": "a.",
+    "sy": "自动的，机械的"
+  },
+  {
+    "word": "autonomous",
+    "yb": "[ɔːˈtɔnəməs]",
+    "cx": "a.",
+    "sy": "自治的，自主的"
+  },
+  {
+    "word": "available",
+    "yb": "[ˈɔːtəm]",
+    "cx": "a.",
+    "sy": "可获得的，有空的"
+  },
+  {
+    "word": "avenue",
+    "yb": "[ˈævənjuːˈævənuː]",
+    "cx": "n.",
+    "sy": "大道"
+  },
+  {
+    "word": "average",
+    "yb": "[ˈævərɪdʒ]",
+    "cx": "a.",
+    "sy": "平均；普通的 n.平均数"
+  },
+  {
+    "word": "award",
+    "yb": "[wɔːd]",
+    "cx": "n.",
+    "sy": "奖品，奖励"
+  },
+  {
+    "word": "aware",
+    "yb": "[əˈweə(r)]",
+    "cx": "a.",
+    "sy": "知道，意识到，发觉"
+  },
+  {
+    "word": "awesome",
+    "yb": "[ˈɔːsəm]",
+    "cx": "a.",
+    "sy": "令人惊叹,很困难的"
+  },
+  {
+    "word": "awful",
+    "yb": "[ˈɔːfʊl]",
+    "cx": "a.",
+    "sy": "很坏的，极讨厌的"
+  },
+  {
+    "word": "awkward",
+    "yb": "[ˈɔːkwəd]",
+    "cx": "a.",
+    "sy": "令人尴尬,使人难堪的"
+  },
+  {
+    "word": "bachelor",
+    "yb": "[ˈbætʃələ(r)]",
+    "cx": "n.",
+    "sy": "未婚男子，单身汉"
+  },
+  {
+    "word": "background",
+    "yb": "[ˈbækɡraʊnd]",
+    "cx": "n.",
+    "sy": "背景"
+  },
+  {
+    "word": "bacon",
+    "yb": "[ˈbeɪkən]",
+    "cx": "n.",
+    "sy": "咸猪肉；熏猪肉"
+  },
+  {
+    "word": "badminton",
+    "yb": "[ˈbædmɪntən]",
+    "cx": "n.",
+    "sy": "羽毛球"
+  },
+  {
+    "word": "baggage",
+    "yb": "[ˈbæɡɪdʒ]",
+    "cx": "n.",
+    "sy": "行李"
+  },
+  {
+    "word": "bake",
+    "yb": "[beɪk]",
+    "cx": "v.",
+    "sy": "烤； 烘（面包）"
+  },
+  {
+    "word": "bakery",
+    "yb": "[ˈbeɪkərɪ]",
+    "cx": "n.",
+    "sy": "面包店"
+  },
+  {
+    "word": "balance",
+    "yb": "[ˈbæləns]",
+    "cx": "n.",
+    "sy": "平衡"
+  },
+  {
+    "word": "balcony",
+    "yb": "[ˈbælkənɪ]",
+    "cx": "n.",
+    "sy": "阳台；楼座"
+  },
+  {
+    "word": "ballet",
+    "yb": "[ˈbæleɪ]",
+    "cx": "n.",
+    "sy": "芭蕾舞"
+  },
+  {
+    "word": "balloon",
+    "yb": "[bəˈluːn]",
+    "cx": "n.",
+    "sy": "气球"
+  },
+  {
+    "word": "bamboo",
+    "yb": "[bæmˈbuː]",
+    "cx": "n.",
+    "sy": "竹"
+  },
+  {
+    "word": "ban",
+    "yb": "[bæn]",
+    "cx": "n.",
+    "sy": "禁令 v. 禁止；取缔"
+  },
+  {
+    "word": "bandage",
+    "yb": "[ˈbændɪdʒ]",
+    "cx": "n.",
+    "sy": "绷带"
+  },
+  {
+    "word": "bang",
+    "yb": "[bæŋ]",
+    "cx": "int.",
+    "sy": "砰"
+  },
+  {
+    "word": "barbecue",
+    "yb": "[ˈbɑːbɪkjuː]",
+    "cx": "n.",
+    "sy": "烤肉野餐"
+  },
+  {
+    "word": "barber",
+    "yb": "[ˈbɑːbə(r)]",
+    "cx": "n.",
+    "sy": "（为男人理发）理发师"
+  },
+  {
+    "word": "bare",
+    "yb": "[beə(r)]",
+    "cx": "a.",
+    "sy": "裸露的，光秃秃的"
+  },
+  {
+    "word": "bargain",
+    "yb": "[ˈbɑːɡɪn]",
+    "cx": "n.",
+    "sy": "（经讨价还价后）成交的商品；廉价货 v. 讨价还价"
+  },
+  {
+    "word": "bark",
+    "yb": "[bɑːk]",
+    "cx": "v.",
+    "sy": "狗叫 n. 狗叫声"
+  },
+  {
+    "word": "barrier",
+    "yb": "['bærɪə]",
+    "cx": "n.",
+    "sy": "屏障，障碍，关卡"
+  },
+  {
+    "word": "base",
+    "yb": "[beɪs]",
+    "cx": "n.",
+    "sy": "根据地，基地（棒球）垒"
+  },
+  {
+    "word": "basement",
+    "yb": "[ˈbeɪsmənt]",
+    "cx": "n.",
+    "sy": "地下室"
+  },
+  {
+    "word": "basin",
+    "yb": "[ˈbeɪs(ə)n]",
+    "cx": "n.",
+    "sy": "水盆，脸盆"
+  },
+  {
+    "word": "basis",
+    "yb": "[ˈbeɪsɪs]",
+    "cx": "n.",
+    "sy": "原因，缘由，要素"
+  },
+  {
+    "word": "bat",
+    "yb": "[bæt]",
+    "cx": "n.",
+    "sy": "（棒球、板球的）球棒 n. 蝙蝠"
+  },
+  {
+    "word": "bath",
+    "yb": "[bɑːθ; (US) bæθ]",
+    "cx": "n.",
+    "sy": "洗澡；浴室；澡盆"
+  },
+  {
+    "word": "bathe",
+    "yb": "[beɪð]",
+    "cx": "vi.",
+    "sy": "洗澡；游泳"
+  },
+  {
+    "word": "bathrobe",
+    "yb": "[ˈbɑːθrəʊb]",
+    "cx": "n.",
+    "sy": "浴衣"
+  },
+  {
+    "word": "bathtub",
+    "yb": "['bɑ:θtʌb]",
+    "cx": "n.",
+    "sy": "澡盆"
+  },
+  {
+    "word": "battery",
+    "yb": "[ˈbætərɪ]",
+    "cx": "n.",
+    "sy": "电池"
+  },
+  {
+    "word": "battle",
+    "yb": "[ˈbæt(ə)l]",
+    "cx": "n.",
+    "sy": "战斗；战役"
+  },
+  {
+    "word": "battleground",
+    "yb": "[ˈbæt(ə)lɡraʊnd]",
+    "cx": "n.",
+    "sy": "战场"
+  },
+  {
+    "word": "bay",
+    "yb": "[beɪ]",
+    "cx": "n.",
+    "sy": "湾； 海湾"
+  },
+  {
+    "word": "beam",
+    "yb": "[biːm]",
+    "cx": "n.",
+    "sy": "平衡木"
+  },
+  {
+    "word": "beancurd",
+    "yb": "['bi:nkə:d]",
+    "cx": "n.",
+    "sy": "豆腐"
+  },
+  {
+    "word": "bear",
+    "yb": "[beə(r)]",
+    "cx": "v.",
+    "sy": "承受，负担，承担；忍受；容忍 n. 熊"
+  },
+  {
+    "word": "beard",
+    "yb": "[bɪəd]",
+    "cx": "n.",
+    "sy": "（下巴上的）胡须"
+  },
+  {
+    "word": "beast",
+    "yb": "[biːst]",
+    "cx": "n.",
+    "sy": "野兽；牲畜"
+  },
+  {
+    "word": "bedclothes",
+    "yb": "[ˈbedkləʊðz]",
+    "cx": "n.",
+    "sy": "铺盖（被褥等）"
+  },
+  {
+    "word": "beddings",
+    "yb": "[ˈbedɪŋ]",
+    "cx": "n.",
+    "sy": "卧具，铺盖"
+  },
+  {
+    "word": "beehive",
+    "yb": "[ˈbiːhaɪv]",
+    "cx": "n.",
+    "sy": "蜂箱"
+  },
+  {
+    "word": "beg",
+    "yb": "[beɡ]",
+    "cx": "v.",
+    "sy": "请求，乞求，乞讨"
+  },
+  {
+    "word": "behalf",
+    "yb": "[bɪˈhɑːf]",
+    "cx": "n.",
+    "sy": "代表某人，为了某人"
+  },
+  {
+    "word": "behave",
+    "yb": "[bɪˈheɪv]",
+    "cx": "v.",
+    "sy": "守规矩，行为"
+  },
+  {
+    "word": "being",
+    "yb": "[ˈbiːɪŋ]",
+    "cx": "n.",
+    "sy": "物；生物；人"
+  },
+  {
+    "word": "belief",
+    "yb": "[bɪˈliːf]",
+    "cx": "n.",
+    "sy": "信条，信念"
+  },
+  {
+    "word": "bell",
+    "yb": "[bel]",
+    "cx": "n.",
+    "sy": "钟,铃;钟(铃)声;钟形物"
+  },
+  {
+    "word": "belly",
+    "yb": "[ˈbelɪ]",
+    "cx": "n.",
+    "sy": "肚子"
+  },
+  {
+    "word": "belong",
+    "yb": "[bɪˈlɔŋ]",
+    "cx": "vi.",
+    "sy": "属，附属"
+  },
+  {
+    "word": "bench",
+    "yb": "[bentʃ]",
+    "cx": "n.",
+    "sy": "长凳；工作台"
+  },
+  {
+    "word": "beneath",
+    "yb": "[bɪˈniːθ]",
+    "cx": "prep.",
+    "sy": "在...下方（面）"
+  },
+  {
+    "word": "beneficial",
+    "yb": "[benɪˈfɪʃ(ə)l]",
+    "cx": "a.",
+    "sy": "有利的，有帮助的，有用的"
+  },
+  {
+    "word": "benefit",
+    "yb": "[ˈbenɪfɪt]",
+    "cx": "n.",
+    "sy": "/ v.优势,益处,使...受益"
+  },
+  {
+    "word": "bent",
+    "yb": "[bent]",
+    "cx": "a.",
+    "sy": "弯的"
+  },
+  {
+    "word": "betray",
+    "yb": "[bɪˈtreɪ]",
+    "cx": "v.",
+    "sy": "出卖,泄露（机密）,辜负"
+  },
+  {
+    "word": "beyond",
+    "yb": "[bɪˈjɔnd]",
+    "cx": "prep.",
+    "sy": "(表示位置) 在...的那边"
+  },
+  {
+    "word": "bid",
+    "yb": "[bɪd]",
+    "cx": "v.",
+    "sy": "/ n. 出价，投标，向（某人）道别"
+  },
+  {
+    "word": "billion",
+    "yb": "[ˈbɪlɪən]",
+    "cx": "num.",
+    "sy": "十亿，百亿"
+  },
+  {
+    "word": "bingo",
+    "yb": "[ˈbɪŋɡəʊ]",
+    "cx": "n.",
+    "sy": "宾戈游戏"
+  },
+  {
+    "word": "biography",
+    "yb": "[baɪˈɔɡrəfɪ]",
+    "cx": "n.",
+    "sy": "传记"
+  },
+  {
+    "word": "biology",
+    "yb": "[baɪˈɔlədʒɪ]",
+    "cx": "n.",
+    "sy": "生物（学）"
+  },
+  {
+    "word": "birdcage",
+    "yb": "[ˈbɜːdkeɪdʒ]",
+    "cx": "n.",
+    "sy": "鸟笼"
+  },
+  {
+    "word": "biscuit",
+    "yb": "[ˈbɪskɪt]",
+    "cx": "n.",
+    "sy": "饼干"
+  },
+  {
+    "word": "bishop",
+    "yb": "[ˈbɪʃəp]",
+    "cx": "n.",
+    "sy": "主教"
+  },
+  {
+    "word": "bitter",
+    "yb": "[ˈbɪtə(r)]",
+    "cx": "a.",
+    "sy": "有苦味的；痛苦的，难过的；严酷的"
+  },
+  {
+    "word": "blame",
+    "yb": "[bleɪm]",
+    "cx": "n.",
+    "sy": "& v. 责备；责怪"
+  },
+  {
+    "word": "blank",
+    "yb": "[blæŋk]",
+    "cx": "n.",
+    "sy": "& a. 空格，空白（处）；空的；茫然无表情的"
+  },
+  {
+    "word": "blanket",
+    "yb": "[ˈblæŋkɪt]",
+    "cx": "n.",
+    "sy": "毛毯，毯子"
+  },
+  {
+    "word": "bleed",
+    "yb": "[bliːd]",
+    "cx": "vi.",
+    "sy": "出血，流血"
+  },
+  {
+    "word": "bless",
+    "yb": "[bles]",
+    "cx": "vt.",
+    "sy": "保佑，降福"
+  },
+  {
+    "word": "block",
+    "yb": "[blɔk]",
+    "cx": "n.",
+    "sy": "大块；（木、石等）块；街区；路障 vt. 阻塞；阻挡"
+  },
+  {
+    "word": "blow",
+    "yb": "[bləʊ]",
+    "cx": "n.",
+    "sy": "击；打击"
+  },
+  {
+    "word": "boating",
+    "yb": "[ˈbəʊtɪŋ]",
+    "cx": "n.",
+    "sy": "划船（游玩），泛舟 body n. 身体"
+  },
+  {
+    "word": "bomb",
+    "yb": "[bɔm]",
+    "cx": "n.",
+    "sy": "炸弹 v. 轰炸"
+  },
+  {
+    "word": "bond",
+    "yb": "[bɔnd]",
+    "cx": "n.",
+    "sy": "/v. 纽带，联系，使牢固"
+  },
+  {
+    "word": "bonus",
+    "yb": "[ˈbəʊnəs]",
+    "cx": "n.",
+    "sy": "津贴，奖金，红利"
+  },
+  {
+    "word": "bookcase",
+    "yb": "[ˈbʊkkeɪs]",
+    "cx": "n.",
+    "sy": "书橱"
+  },
+  {
+    "word": "bookmark",
+    "yb": "[ˈbʊkmɑːk]",
+    "cx": "n.",
+    "sy": "书签"
+  },
+  {
+    "word": "boom",
+    "yb": "[buːm]",
+    "cx": "n.",
+    "sy": "/ v. 繁荣，轰鸣，激增"
+  },
+  {
+    "word": "booth",
+    "yb": "[buːð]",
+    "cx": "n.",
+    "sy": "岗；（为某种用途而设的）亭或小隔间"
+  },
+  {
+    "word": "border",
+    "yb": "[ˈbɔːdə(r)]",
+    "cx": "n.",
+    "sy": "边缘；边境，国界"
+  },
+  {
+    "word": "botanical",
+    "yb": "[bəˈtænɪk(ə)l]",
+    "cx": "a.",
+    "sy": "植物学的"
+  },
+  {
+    "word": "botany",
+    "yb": "[ˈbɔtənɪ]",
+    "cx": "n.",
+    "sy": "植物； 植物学"
+  },
+  {
+    "word": "bounce",
+    "yb": "[baʊns]",
+    "cx": "v.",
+    "sy": "弹起，蹦，上下晃动"
+  },
+  {
+    "word": "bound",
+    "yb": "[baʊnd]",
+    "cx": "a.",
+    "sy": "被束缚的；被绑的；有义务的 v.& n. 跳跃"
+  },
+  {
+    "word": "boundary",
+    "yb": "[ˈbaʊndərɪ]",
+    "cx": "n.",
+    "sy": "边界，界限"
+  },
+  {
+    "word": "bow",
+    "yb": "[bəʊ]",
+    "cx": "v.",
+    "sy": "& n. 鞠躬，弯腰行礼"
+  },
+  {
+    "word": "bowling",
+    "yb": "[ˈbəʊlɪŋ]",
+    "cx": "n.",
+    "sy": "保龄球"
+  },
+  {
+    "word": "boxing",
+    "yb": "[ˈbɔksɪŋ]",
+    "cx": "n.",
+    "sy": "拳击（运动）"
+  },
+  {
+    "word": "boycott",
+    "yb": "[ˈbɔɪkɔt]",
+    "cx": "v.",
+    "sy": "拒绝购买，抵制"
+  },
+  {
+    "word": "brake",
+    "yb": "[breɪk]",
+    "cx": "n.",
+    "sy": "闸 vi. 刹车"
+  },
+  {
+    "word": "branch",
+    "yb": "[brɑːntʃ]",
+    "cx": "n.",
+    "sy": "树枝；分枝；分公司，分店；支部"
+  },
+  {
+    "word": "brand",
+    "yb": "[brænd]",
+    "cx": "n.",
+    "sy": "品牌"
+  },
+  {
+    "word": "bravery",
+    "yb": "[ˈbreɪvərɪ]",
+    "cx": "n.",
+    "sy": "勇气"
+  },
+  {
+    "word": "break",
+    "yb": "[breɪk]",
+    "cx": "n.",
+    "sy": "间隙"
+  },
+  {
+    "word": "breakthrough",
+    "yb": "[ˈbreɪkθruː]",
+    "cx": "n.",
+    "sy": "重大进展，突破"
+  },
+  {
+    "word": "breast",
+    "yb": "[brest]",
+    "cx": "n.",
+    "sy": "乳房，胸脯"
+  },
+  {
+    "word": "breathless",
+    "yb": "[ˈbreθlɪs]",
+    "cx": "a.",
+    "sy": "气喘吁吁的，上气不接下气的"
+  },
+  {
+    "word": "brewery",
+    "yb": "[ˈbruːərɪ]",
+    "cx": "n.",
+    "sy": "啤酒厂（公司）"
+  },
+  {
+    "word": "brick",
+    "yb": "[brɪk]",
+    "cx": "n.",
+    "sy": "砖；砖块"
+  },
+  {
+    "word": "bridegroom",
+    "yb": "[ˈbraɪdɡruːm]",
+    "cx": "n.",
+    "sy": "新郎"
+  },
+  {
+    "word": "brief",
+    "yb": "[briːf]",
+    "cx": "a.",
+    "sy": "简洁的"
+  },
+  {
+    "word": "brilliant",
+    "yb": "[ˈbrɪlɪənt]",
+    "cx": "a.",
+    "sy": "巧妙的，使人印象深刻的，技艺高的"
+  },
+  {
+    "word": "broad",
+    "yb": "[brɔːd]",
+    "cx": "a.",
+    "sy": "宽的，宽大的"
+  },
+  {
+    "word": "brochure",
+    "yb": "[brəʊˈʃə(r); (US) brəʊˈʃʊər]",
+    "cx": "n.",
+    "sy": "资料（或广告）手册"
+  },
+  {
+    "word": "broom",
+    "yb": "[bruːm]",
+    "cx": "n.",
+    "sy": "扫帚"
+  },
+  {
+    "word": "brotherhood",
+    "yb": "[ˈbrʌðəhʊd]",
+    "cx": "n.",
+    "sy": "兄弟般的关系"
+  },
+  {
+    "word": "brunch",
+    "yb": "[ˈbrʌntʃ]",
+    "cx": "n.",
+    "sy": "早午饭（晚早饭）"
+  },
+  {
+    "word": "bucket",
+    "yb": "[ˈbʌkɪt]",
+    "cx": "n.",
+    "sy": "铲斗；桶"
+  },
+  {
+    "word": "Buddhism",
+    "yb": "[ˈbʊdɪz(ə)m]",
+    "cx": "n.",
+    "sy": "佛教"
+  },
+  {
+    "word": "Buddhist",
+    "yb": "['budist]",
+    "cx": "n.",
+    "sy": "佛教徒"
+  },
+  {
+    "word": "budget",
+    "yb": "[ˈbʌdʒɪt]",
+    "cx": "n.",
+    "sy": "预算"
+  },
+  {
+    "word": "buffet",
+    "yb": "[ˈbʊfeɪ; (US) bəˈfeɪ]",
+    "cx": "n.",
+    "sy": "自助餐"
+  },
+  {
+    "word": "bun",
+    "yb": "[bʌn]",
+    "cx": "n.",
+    "sy": "馒头；小甜面包"
+  },
+  {
+    "word": "bunch",
+    "yb": "[bʌntʃ]",
+    "cx": "n.",
+    "sy": "串,束,扎,大量,大批"
+  },
+  {
+    "word": "bungalow",
+    "yb": "[ˈbʌŋɡələʊ]",
+    "cx": "n.",
+    "sy": "平房"
+  },
+  {
+    "word": "burden",
+    "yb": "[ˈbɜːd(ə)n]",
+    "cx": "n.",
+    "sy": "（义务，责任的）重担，负担"
+  },
+  {
+    "word": "bureaucratic",
+    "yb": "[bjuəˌrəu'krætik]",
+    "cx": "a.",
+    "sy": "官僚的"
+  },
+  {
+    "word": "burglar",
+    "yb": "[ˈbɜːɡlə(r)]",
+    "cx": "n.",
+    "sy": "入室窃贼"
+  },
+  {
+    "word": "burial",
+    "yb": "[ˈberɪəl]",
+    "cx": "n.",
+    "sy": "埋葬"
+  },
+  {
+    "word": "burst",
+    "yb": "[ˈbɜːst]",
+    "cx": "v.",
+    "sy": "突然发生； 突然发作"
+  },
+  {
+    "word": "bury",
+    "yb": "[ˈberɪ]",
+    "cx": "vt.",
+    "sy": "埋；葬"
+  },
+  {
+    "word": "bush",
+    "yb": "[bʊʃ]",
+    "cx": "n.",
+    "sy": "灌木丛，矮树丛"
+  },
+  {
+    "word": "butcher",
+    "yb": "['bʊtʃə]",
+    "cx": "n.",
+    "sy": "vt. 肉店；屠夫 屠宰（动物）；残杀（人）"
+  },
+  {
+    "word": "butterfly",
+    "yb": "[ˈbʌtəflaɪ]",
+    "cx": "n.",
+    "sy": "蝴蝶"
+  },
+  {
+    "word": "button",
+    "yb": "[ˈbʌt(ə)n]",
+    "cx": "n.",
+    "sy": "纽扣；（电铃等的）按钮 v. 扣（纽扣）"
+  },
+  {
+    "word": "cab",
+    "yb": "[kæb]",
+    "cx": "n.",
+    "sy": "（美）出租车"
+  },
+  {
+    "word": "cafeteria",
+    "yb": "[kæfɪˈtɪərɪə]",
+    "cx": "n.",
+    "sy": "自助餐厅"
+  },
+  {
+    "word": "calculate",
+    "yb": "[ˈkælkjʊleɪt]",
+    "cx": "v.",
+    "sy": "计算，核算，推测"
+  },
+  {
+    "word": "camel",
+    "yb": "[ˈkæm(ə)l]",
+    "cx": "n.",
+    "sy": "骆驼"
+  },
+  {
+    "word": "campaign",
+    "yb": "[kæmˈpeɪn]",
+    "cx": "n.",
+    "sy": "运动，战役"
+  },
+  {
+    "word": "Canadian",
+    "yb": "[kəˈneɪdɪən]",
+    "cx": "a.",
+    "sy": "加拿大的；加拿大人的 n. 加拿大人"
+  },
+  {
+    "word": "canal",
+    "yb": "[kəˈnæl]",
+    "cx": "n.",
+    "sy": "运河；水道"
+  },
+  {
+    "word": "cancel",
+    "yb": "[ˈkæns(ə)l]",
+    "cx": "vt.",
+    "sy": "取消"
+  },
+  {
+    "word": "candidate",
+    "yb": "[ˈkændɪdət; (US) ˈkændɪdeɪt]",
+    "cx": "n.",
+    "sy": "候选人，申请人"
+  },
+  {
+    "word": "canteen",
+    "yb": "[kænˈtiːn]",
+    "cx": "n.",
+    "sy": "餐厅；食堂"
+  },
+  {
+    "word": "capsule",
+    "yb": "[ˈkæpsjuːl; (US) ˈkæpsl]",
+    "cx": "n.",
+    "sy": "（药）胶囊"
+  },
+  {
+    "word": "caption",
+    "yb": "[ˈkæpʃ(ə)n]",
+    "cx": "n.",
+    "sy": "（图片，漫画等的）说明文字"
+  },
+  {
+    "word": "carbon",
+    "yb": "[ˈkɑːbən]",
+    "cx": "n.",
+    "sy": "碳"
+  },
+  {
+    "word": "carpenter",
+    "yb": "[ˈkɑːpɪntə(r)]",
+    "cx": "n.",
+    "sy": "木工，木匠"
+  },
+  {
+    "word": "carpet",
+    "yb": "[ˈkɑːpɪt]",
+    "cx": "n.",
+    "sy": "地毯"
+  },
+  {
+    "word": "carriage",
+    "yb": "[ˈkærɪdʒ]",
+    "cx": "n.",
+    "sy": "四轮马车;（火车）客车厢"
+  },
+  {
+    "word": "carrier",
+    "yb": "[ˈkærɪə(r)]",
+    "cx": "n.",
+    "sy": "搬运者；媒介;（自行车等的）置物架；（车的）货架"
+  },
+  {
+    "word": "carve",
+    "yb": "[kɑːv]",
+    "cx": "vt.",
+    "sy": "刻；雕刻"
+  },
+  {
+    "word": "case",
+    "yb": "[keɪs]",
+    "cx": "n.",
+    "sy": "情况；病例；案件；真相 n. 箱；盒；容器"
+  },
+  {
+    "word": "cash",
+    "yb": "[kæʃ]",
+    "cx": "n.",
+    "sy": "现金，现钞 v. 兑现"
+  },
+  {
+    "word": "cassettle",
+    "yb": "[kæ'set]",
+    "cx": "n.",
+    "sy": "磁带"
+  },
+  {
+    "word": "castle",
+    "yb": "[ˈkɑːs(ə)l; (US) ˈkæsl]",
+    "cx": "n.",
+    "sy": "城堡"
+  },
+  {
+    "word": "casual",
+    "yb": "[ˈkæʒʊəl]",
+    "cx": "a.",
+    "sy": "漫不经心的，不经意的，非正式的"
+  },
+  {
+    "word": "catalogue",
+    "yb": "['kætəlɔg]",
+    "cx": "n.",
+    "sy": "目录"
+  },
+  {
+    "word": "catastrophe",
+    "yb": "[kəˈtæstrəfɪ]",
+    "cx": "n.",
+    "sy": "灾难，灾祸，不幸事件"
+  },
+  {
+    "word": "category",
+    "yb": "[ˈkætɪɡərɪ]",
+    "cx": "n.",
+    "sy": "类别，种类"
+  },
+  {
+    "word": "cater",
+    "yb": "[ˈkeɪtə(r)]",
+    "cx": "v.",
+    "sy": "提供饮食，承办酒席"
+  },
+  {
+    "word": "catholic",
+    "yb": "[ˈkæθəlɪk]",
+    "cx": "a.",
+    "sy": "天主教的"
+  },
+  {
+    "word": "cathedral",
+    "yb": "[kəˈθiːdr(ə)l]",
+    "cx": "n.",
+    "sy": "大教堂（天主教）"
+  },
+  {
+    "word": "cattle",
+    "yb": "[ˈkæt(ə)l]",
+    "cx": "n.",
+    "sy": "牛（总称），家畜"
+  },
+  {
+    "word": "caution",
+    "yb": "[ˈkɔːʃ(ə)n]",
+    "cx": "n.",
+    "sy": "谨慎，小心，警告"
+  },
+  {
+    "word": "cautious",
+    "yb": "[ˈkɔːʃəs]",
+    "cx": "a.",
+    "sy": "小心的，谨慎的"
+  },
+  {
+    "word": "cave",
+    "yb": "[keɪv]",
+    "cx": "n.",
+    "sy": "洞，穴；地窖"
+  },
+  {
+    "word": "ceiling",
+    "yb": "[ˈsiːlɪŋ]",
+    "cx": "n.",
+    "sy": "天花板，顶棚"
+  },
+  {
+    "word": "cell",
+    "yb": "[sel]",
+    "cx": "n.",
+    "sy": "（监狱的）单人牢房；（修道院等的）单人小室；（蜂巢的）小蜂窝，蜂房；［生物］ 细胞"
+  },
+  {
+    "word": "cellar",
+    "yb": "[ˈselə(r)]",
+    "cx": "n.",
+    "sy": "地窖；地下储藏室"
+  },
+  {
+    "word": "centigrade",
+    "yb": "[ˈsentɪɡreɪd]",
+    "cx": "a.",
+    "sy": "摄氏的"
+  },
+  {
+    "word": "central",
+    "yb": "[ˈsentr(ə)l]",
+    "cx": "a.",
+    "sy": "中心，中央；主要的"
+  },
+  {
+    "word": "ceremony",
+    "yb": "[ˈserɪmənɪ]",
+    "cx": "n.",
+    "sy": "典礼，仪式，礼节"
+  },
+  {
+    "word": "certificate",
+    "yb": "[səˈtɪfɪkət]",
+    "cx": "n.",
+    "sy": "证明，证明书"
+  },
+  {
+    "word": "chain",
+    "yb": "[tʃeɪn]",
+    "cx": "n.",
+    "sy": "链； 链条"
+  },
+  {
+    "word": "challenge",
+    "yb": "[ˈtʃælɪndʒ]",
+    "cx": "n.",
+    "sy": "挑战(性)"
+  },
+  {
+    "word": "challenging",
+    "yb": "[ˈtʃælɪndʒɪŋ]",
+    "cx": "a.",
+    "sy": "具有挑战性的"
+  },
+  {
+    "word": "changeable",
+    "yb": "[ˈtʃeɪndʒəb(ə)l]",
+    "cx": "a.",
+    "sy": "易变的，变化无常的"
+  },
+  {
+    "word": "chant",
+    "yb": "[tʃɑːnt]",
+    "cx": "v.",
+    "sy": "/ n.反复呼喊"
+  },
+  {
+    "word": "chaos",
+    "yb": "[ˈkeɪɔs]",
+    "cx": "n.",
+    "sy": "混乱，杂乱，紊乱"
+  },
+  {
+    "word": "character",
+    "yb": "[ˈkærɪktə(r)]",
+    "cx": "n.",
+    "sy": "（汉）字.字体；品格"
+  },
+  {
+    "word": "characteristic",
+    "yb": "[kærɪktəˈrɪstɪk]",
+    "cx": "a.",
+    "sy": "典型的，独特的"
+  },
+  {
+    "word": "charge",
+    "yb": "[tʃɑːdʒ]",
+    "cx": "v.",
+    "sy": "要求收费；索价；将(电池)充电 n. 费用；价钱"
+  },
+  {
+    "word": "chapter",
+    "yb": "[ˈtʃæptə(r)]",
+    "cx": "n.",
+    "sy": "章"
+  },
+  {
+    "word": "chart",
+    "yb": "[tʃɑːt]",
+    "cx": "n.",
+    "sy": "图表；航海图"
+  },
+  {
+    "word": "cheat",
+    "yb": "[tʃiːt]",
+    "cx": "n.",
+    "sy": "& v. 骗取，哄骗；作弊"
+  },
+  {
+    "word": "cheek",
+    "yb": "[tʃiːk]",
+    "cx": "n.",
+    "sy": "面颊，脸蛋"
+  },
+  {
+    "word": "cheerful",
+    "yb": "[ˈtʃɪəfʊl]",
+    "cx": "a.",
+    "sy": "兴高采烈的，快活的"
+  },
+  {
+    "word": "cheers",
+    "yb": "[tʃɪə(r)]",
+    "cx": "int.",
+    "sy": "干杯，(口)谢谢，再见"
+  },
+  {
+    "word": "chef",
+    "yb": "[ʃef]",
+    "cx": "n.",
+    "sy": "厨师长，主厨"
+  },
+  {
+    "word": "chemist",
+    "yb": "[ˈkemɪst]",
+    "cx": "n.",
+    "sy": "药剂师；化学家"
+  },
+  {
+    "word": "chemistry",
+    "yb": "[ˈkemɪstrɪ]",
+    "cx": "n.",
+    "sy": "化学"
+  },
+  {
+    "word": "chest",
+    "yb": "[tʃest]",
+    "cx": "n.",
+    "sy": "箱子；盒子；胸部"
+  },
+  {
+    "word": "chew",
+    "yb": "[tʃuː]",
+    "cx": "vt.",
+    "sy": "咀嚼"
+  },
+  {
+    "word": "chick",
+    "yb": "[tʃɪk]",
+    "cx": "n.",
+    "sy": "小鸡"
+  },
+  {
+    "word": "chief",
+    "yb": "[tʃiːf]",
+    "cx": "a.",
+    "sy": "主要,首要的 n.领导，头"
+  },
+  {
+    "word": "childhood",
+    "yb": "[ˈtʃaɪldhʊd]",
+    "cx": "n.",
+    "sy": "幼年时代，童年"
+  },
+  {
+    "word": "chimney",
+    "yb": "[ˈtʃɪmnɪ]",
+    "cx": "n.",
+    "sy": "烟囱，烟筒"
+  },
+  {
+    "word": "choir",
+    "yb": "[ˈkwaɪə(r)]",
+    "cx": "n.",
+    "sy": "合唱团，教堂的唱诗班"
+  },
+  {
+    "word": "choke",
+    "yb": "[tʃəʊk]",
+    "cx": "n.",
+    "sy": "& v. 窒息"
+  },
+  {
+    "word": "chopsticks",
+    "yb": "[ˈtʃɔpstɪks]",
+    "cx": "n.",
+    "sy": "筷子"
+  },
+  {
+    "word": "chorus",
+    "yb": "[ˈkɔːrəs]",
+    "cx": "n.",
+    "sy": "合唱曲，歌咏队"
+  },
+  {
+    "word": "Christian",
+    "yb": "[ˈkrɪstɪən]",
+    "cx": "n.",
+    "sy": "基督教徒和天主教徒的总称"
+  },
+  {
+    "word": "cigar",
+    "yb": "[sɪˈɡɑː(r)]",
+    "cx": "n.",
+    "sy": "雪茄烟"
+  },
+  {
+    "word": "cigarette",
+    "yb": "[sɪɡəˈret]",
+    "cx": "n.",
+    "sy": "纸烟，香烟"
+  },
+  {
+    "word": "circuit",
+    "yb": "[ˈsɜːkɪt]",
+    "cx": "n.",
+    "sy": "环形路线，巡回赛"
+  },
+  {
+    "word": "circulate",
+    "yb": "[ˈsɜːkjʊleɪt]",
+    "cx": "v.",
+    "sy": "（液体或气体）环流，循环"
+  },
+  {
+    "word": "circumstance",
+    "yb": "[ˈsɜːkəmstəns]",
+    "cx": "n.",
+    "sy": "条件,环境,状况"
+  },
+  {
+    "word": "circus",
+    "yb": "[ˈsɜːkəs]",
+    "cx": "n.",
+    "sy": "马戏团"
+  },
+  {
+    "word": "citizen",
+    "yb": "[ˈsɪtɪz(ə)n]",
+    "cx": "n.",
+    "sy": "公民；居民"
+  },
+  {
+    "word": "civil",
+    "yb": "[ˈsɪv(ə)l]",
+    "cx": "a.",
+    "sy": "国内的；平民（非军人）的；民用的"
+  },
+  {
+    "word": "civilian",
+    "yb": "[sɪˈvɪlɪən]",
+    "cx": "n.",
+    "sy": "平民，老百姓"
+  },
+  {
+    "word": "civilization",
+    "yb": "[sɪvɪlaɪˈzeɪʃ(ə)n; (US) sɪvəlɪˈzeɪʃən]",
+    "cx": "n.",
+    "sy": "文明"
+  },
+  {
+    "word": "clap",
+    "yb": "[klæp]",
+    "cx": "vi.",
+    "sy": "拍手；鼓掌"
+  },
+  {
+    "word": "clarify",
+    "yb": "[ˈklærɪfaɪ]",
+    "cx": "v.",
+    "sy": "澄清，阐明"
+  },
+  {
+    "word": "classic",
+    "yb": "[ˈklæsɪk]",
+    "cx": "a.",
+    "sy": "一流的，典型的，有代表性的"
+  },
+  {
+    "word": "classical",
+    "yb": "[ˈklæsɪk(ə)l]",
+    "cx": "a.",
+    "sy": "传统的；古典的"
+  },
+  {
+    "word": "classify",
+    "yb": "[ˈklæsɪfaɪ]",
+    "cx": "v.",
+    "sy": "分类，归类"
+  },
+  {
+    "word": "claw",
+    "yb": "[klɔː]",
+    "cx": "n.",
+    "sy": "爪"
+  },
+  {
+    "word": "clay",
+    "yb": "[kleɪ]",
+    "cx": "n.",
+    "sy": "黏土，陶土"
+  },
+  {
+    "word": "clerk",
+    "yb": "[klɑːk; (US) klərk]",
+    "cx": "n.",
+    "sy": "书记员；办事员；职员"
+  },
+  {
+    "word": "click",
+    "yb": "[klɪk]",
+    "cx": "v.",
+    "sy": "点击（计算机用语）"
+  },
+  {
+    "word": "clinic",
+    "yb": "[ˈklɪnɪk]",
+    "cx": "n.",
+    "sy": "诊所"
+  },
+  {
+    "word": "clone",
+    "yb": "[kləʊn]",
+    "cx": "n.",
+    "sy": "克隆（无性繁殖出来的有机体群）"
+  },
+  {
+    "word": "cloth",
+    "yb": "[klɔθ; (US) klɔθ]",
+    "cx": "n.",
+    "sy": "布"
+  },
+  {
+    "word": "clothing",
+    "yb": "[ˈkləʊðɪŋ]",
+    "cx": "n.",
+    "sy": "(总称) 衣服"
+  },
+  {
+    "word": "clumsy",
+    "yb": "[ˈklʌmzɪ]",
+    "cx": "a.",
+    "sy": "笨拙的，不灵巧的"
+  },
+  {
+    "word": "coal",
+    "yb": "[kəʊl]",
+    "cx": "n.",
+    "sy": "煤；煤块"
+  },
+  {
+    "word": "coast",
+    "yb": "[kəʊst]",
+    "cx": "n.",
+    "sy": "海岸；海滨"
+  },
+  {
+    "word": "cock",
+    "yb": "[kɔk]",
+    "cx": "n.",
+    "sy": "公鸡"
+  },
+  {
+    "word": "cocoa",
+    "yb": "[ˈkəʊkəʊ]",
+    "cx": "n.",
+    "sy": "可可粉"
+  },
+  {
+    "word": "coincidence",
+    "yb": "[kəʊɪnˈsɪdəns]",
+    "cx": "n.",
+    "sy": "巧合，巧事"
+  },
+  {
+    "word": "collar",
+    "yb": "[ˈkɔlə(r)]",
+    "cx": "n.",
+    "sy": "衣领； 硬领"
+  },
+  {
+    "word": "colleague",
+    "yb": "[ˈkɔliːɡ]",
+    "cx": "n.",
+    "sy": "同事"
+  },
+  {
+    "word": "collision",
+    "yb": "[kəˈlɪʒ(ə)n]",
+    "cx": "n.",
+    "sy": "碰撞事故"
+  },
+  {
+    "word": "comb",
+    "yb": "[kəʊm]",
+    "cx": "n.",
+    "sy": "梳子 v. 梳"
+  },
+  {
+    "word": "comfort",
+    "yb": "[ˈkʌmfət]",
+    "cx": "n.",
+    "sy": "安慰； 慰问"
+  },
+  {
+    "word": "comma",
+    "yb": "[ˈkɔmə]",
+    "cx": "n.",
+    "sy": "逗号"
+  },
+  {
+    "word": "command",
+    "yb": "[kəˈmɑːnd; (US) kəˈmænd]",
+    "cx": "n.",
+    "sy": "& v. 命令"
+  },
+  {
+    "word": "comment",
+    "yb": "[ˈkɔment]",
+    "cx": "n.",
+    "sy": "评论"
+  },
+  {
+    "word": "commit",
+    "yb": "[kəˈmɪt]",
+    "cx": "v.",
+    "sy": "犯（罪，错），自杀"
+  },
+  {
+    "word": "commitment",
+    "yb": "[kəˈmɪtmənt]",
+    "cx": "n.",
+    "sy": "承诺,允诺,承担"
+  },
+  {
+    "word": "committee",
+    "yb": "[kəˈmɪtɪ]",
+    "cx": "n.",
+    "sy": "委员会"
+  },
+  {
+    "word": "communism",
+    "yb": "[ˈkɔmjʊnɪz(ə)m]",
+    "cx": "n.",
+    "sy": "共产主义"
+  },
+  {
+    "word": "communist",
+    "yb": "[ˈkɔmjuːnɪst]",
+    "cx": "n.",
+    "sy": "共产主义者 a. 共产党的；共产主义的"
+  },
+  {
+    "word": "companion",
+    "yb": "[kəmˈpænɪən]",
+    "cx": "n.",
+    "sy": "同伴；同事"
+  },
+  {
+    "word": "compass",
+    "yb": "[ˈkʌmpəs]",
+    "cx": "n.",
+    "sy": "罗盘，指南针"
+  },
+  {
+    "word": "compensate",
+    "yb": "[ˈkɔmpenseɪt]",
+    "cx": "v.",
+    "sy": "补偿，弥补"
+  },
+  {
+    "word": "compete",
+    "yb": "[kəmˈpiːt]",
+    "cx": "vi.",
+    "sy": "比赛，竞赛"
+  },
+  {
+    "word": "competence",
+    "yb": "[ˈkɔmpətəns]",
+    "cx": "n.",
+    "sy": "能力,胜任,管辖权"
+  },
+  {
+    "word": "competitor",
+    "yb": "[kəmˈpetɪtə(r)]",
+    "cx": "n.",
+    "sy": "竞赛者，比赛者"
+  },
+  {
+    "word": "complex",
+    "yb": "[ˈkɔmpleks]",
+    "cx": "a.",
+    "sy": "/ n. 复杂的，建筑群"
+  },
+  {
+    "word": "component",
+    "yb": "[kəmˈpəʊnənt]",
+    "cx": "n.",
+    "sy": "组成部分，部件"
+  },
+  {
+    "word": "composition",
+    "yb": "[kɔmpəˈzɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "作文；作曲"
+  },
+  {
+    "word": "comprehension",
+    "yb": "[kɔmprɪˈhenʃ(ə)n]",
+    "cx": "n.",
+    "sy": "理解"
+  },
+  {
+    "word": "compromise",
+    "yb": "[ˈkɔmprəmaɪz]",
+    "cx": "v.",
+    "sy": "妥协,折中,让步"
+  },
+  {
+    "word": "compulsory",
+    "yb": "[kəmˈpʌlsərɪ]",
+    "cx": "a.",
+    "sy": "强制的,必须做的"
+  },
+  {
+    "word": "comrade",
+    "yb": "[ˈkɔmrɪd; (US) ˈkɑmræd]",
+    "cx": "n.",
+    "sy": "同志"
+  },
+  {
+    "word": "concentrate",
+    "yb": "[ˈkɔnsəntreɪt]",
+    "cx": "v.",
+    "sy": "聚精会神"
+  },
+  {
+    "word": "concept",
+    "yb": "[ˈkɔnsept]",
+    "cx": "n.",
+    "sy": "概念"
+  },
+  {
+    "word": "concern",
+    "yb": "[kənˈsɜːn]",
+    "cx": "v.",
+    "sy": "/ n. 涉及，关心"
+  },
+  {
+    "word": "conclude",
+    "yb": "[kənˈkluːd]",
+    "cx": "v.",
+    "sy": "完成，结束"
+  },
+  {
+    "word": "conclusion",
+    "yb": "[kənˈkluːʒ(ə)n]",
+    "cx": "n.",
+    "sy": "结论；结束"
+  },
+  {
+    "word": "concrete",
+    "yb": "[ˈkɔŋkriːt]",
+    "cx": "a.",
+    "sy": "混凝土制的"
+  },
+  {
+    "word": "condemn",
+    "yb": "[kənˈdem]",
+    "cx": "v.",
+    "sy": "谴责，指责，宣判"
+  },
+  {
+    "word": "conduct",
+    "yb": "[ˈkɔndʌkt]",
+    "cx": "vt.",
+    "sy": "引导，带领"
+  },
+  {
+    "word": "conductor",
+    "yb": "[kənˈdʌktə(r)]",
+    "cx": "n.",
+    "sy": "管理人；指导者；（车上的）售票员，列车员；乐队指挥"
+  },
+  {
+    "word": "confidential",
+    "yb": "[kɔnfɪˈdenʃ(ə)l]",
+    "cx": "a.",
+    "sy": "机密的，保密的"
+  },
+  {
+    "word": "conference",
+    "yb": "[ˈkɔnfərəns]",
+    "cx": "n.",
+    "sy": "(正式的)会议；讨论"
+  },
+  {
+    "word": "confirm",
+    "yb": "[kənˈfɜːm]",
+    "cx": "v.",
+    "sy": "证实，证明，确认"
+  },
+  {
+    "word": "conflict",
+    "yb": "[ˈkɔnflɪkt]",
+    "cx": "n.",
+    "sy": "冲突，争执，争论"
+  },
+  {
+    "word": "confuse",
+    "yb": "[kənˈfjuːz]",
+    "cx": "v.",
+    "sy": "使迷惑，混淆"
+  },
+  {
+    "word": "congratulate",
+    "yb": "[kənˈɡrætjʊleɪt]",
+    "cx": "vt.",
+    "sy": "祝贺"
+  },
+  {
+    "word": "connection",
+    "yb": "[kəˈnekʃ(ə)n]",
+    "cx": "n.",
+    "sy": "连接物;接触,联系"
+  },
+  {
+    "word": "conscience",
+    "yb": "[ˈkɔnʃəns]",
+    "cx": "n.",
+    "sy": "良心，良知，内疚"
+  },
+  {
+    "word": "consensus",
+    "yb": "[kənˈsensəs]",
+    "cx": "n.",
+    "sy": "一致的意见，共识"
+  },
+  {
+    "word": "consequence",
+    "yb": "[ˈkɔnsɪkwəns; (US) ˈkɔnsɪkwens]",
+    "cx": "n.",
+    "sy": "结果，后果"
+  },
+  {
+    "word": "conservative",
+    "yb": "[kənˈsɜːvətɪv]",
+    "cx": "a.",
+    "sy": "保守的，守旧的；保守主义的；谨慎的 n.保守的人，保守主义"
+  },
+  {
+    "word": "considerate",
+    "yb": "[kənˈsɪdərət]",
+    "cx": "a.",
+    "sy": "体贴的"
+  },
+  {
+    "word": "consideration",
+    "yb": "[kənsɪdəˈreɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "考虑；关心"
+  },
+  {
+    "word": "consist",
+    "yb": "[kənˈsɪst]",
+    "cx": "v.",
+    "sy": "包含，组成，构成"
+  },
+  {
+    "word": "consistent",
+    "yb": "[kənˈsɪst(ə)nt]",
+    "cx": "a.",
+    "sy": "一致的，始终如一的，连续的"
+  },
+  {
+    "word": "constant",
+    "yb": "[ˈkɔnstənt]",
+    "cx": "a.",
+    "sy": "经常的，不断的"
+  },
+  {
+    "word": "constitution",
+    "yb": "[kɔnstɪˈtjuːʃ(ə)n; (US) kɔnstəˈtuːʃən]",
+    "cx": "n.",
+    "sy": "宪法，章程，身体素质"
+  },
+  {
+    "word": "construct",
+    "yb": "[kənˈstrʌkt]",
+    "cx": "v.",
+    "sy": "构筑；建造，建设"
+  },
+  {
+    "word": "construction",
+    "yb": "[kənˈstrʌkʃ(ə)n]",
+    "cx": "n.",
+    "sy": "建造,建设,建筑物"
+  },
+  {
+    "word": "consult",
+    "yb": "[kənˈsʌlt]",
+    "cx": "v.",
+    "sy": "咨询，商量"
+  },
+  {
+    "word": "consultant",
+    "yb": "[kənˈsʌltənt]",
+    "cx": "n.",
+    "sy": "顾问"
+  },
+  {
+    "word": "consume",
+    "yb": "[kənˈsʌltənt]",
+    "cx": "v.",
+    "sy": "消耗，耗费（燃料，能量，时间等）"
+  },
+  {
+    "word": "container",
+    "yb": "[kənˈteɪnə(r)]",
+    "cx": "n.",
+    "sy": "容器"
+  },
+  {
+    "word": "contemporary",
+    "yb": "[kənˈtempərərɪ; (US) kənˈtempərerɪ]",
+    "cx": "a.",
+    "sy": "属同时期的，同一时代的"
+  },
+  {
+    "word": "content",
+    "yb": "[kənˈtent]",
+    "cx": "a.",
+    "sy": "甘愿的,满意的 n.内容"
+  },
+  {
+    "word": "continent",
+    "yb": "[ˈkɔntɪnənt]",
+    "cx": "n.",
+    "sy": "大陆，大洲；陆地"
+  },
+  {
+    "word": "contradict",
+    "yb": "[kɔntrəˈdɪkt]",
+    "cx": "v.",
+    "sy": "反驳，驳斥，批驳"
+  },
+  {
+    "word": "contradictory",
+    "yb": "[ˌkɔntrə'diktəri]",
+    "cx": "a.",
+    "sy": "相互矛盾,对立的"
+  },
+  {
+    "word": "contrary",
+    "yb": "[ˈkɔntrərɪ; (US) ˈkɔntrerɪ]",
+    "cx": "n.",
+    "sy": "/ a. 相反 相反的"
+  },
+  {
+    "word": "contribute",
+    "yb": "[kənˈtrɪbjuːt]",
+    "cx": "v.",
+    "sy": "贡献"
+  },
+  {
+    "word": "controversial",
+    "yb": "[kɔntrəˈvɜːʃ(ə)l]",
+    "cx": "a.",
+    "sy": "引起争论的,有争议的"
+  },
+  {
+    "word": "convenience",
+    "yb": "[kənˈviːnɪəns]",
+    "cx": "n.",
+    "sy": "便利"
+  },
+  {
+    "word": "conventional",
+    "yb": "[kənˈvenʃən(ə)l]",
+    "cx": "a.",
+    "sy": "依照惯例的，习惯的"
+  },
+  {
+    "word": "convey",
+    "yb": "[kənˈveɪ]",
+    "cx": "v.",
+    "sy": "表达，传递（思想，感情等）"
+  },
+  {
+    "word": "convince",
+    "yb": "[kənˈvɪns]",
+    "cx": "v.",
+    "sy": "使确信，使信服"
+  },
+  {
+    "word": "coral",
+    "yb": "[ˈkɔr(ə)l; (US) ˈkɔːrəl]",
+    "cx": "n.",
+    "sy": "珊瑚；珊瑚虫"
+  },
+  {
+    "word": "cordless",
+    "yb": "[ˈkɔːdlɪs]",
+    "cx": "a.",
+    "sy": "无线的"
+  },
+  {
+    "word": "corn",
+    "yb": "[kɔːn]",
+    "cx": "n.",
+    "sy": "玉米，谷物"
+  },
+  {
+    "word": "corporation",
+    "yb": "[kɔːpəˈreɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "（大）公司"
+  },
+  {
+    "word": "correction",
+    "yb": "[kəˈrekʃ(ə)n]",
+    "cx": "n.",
+    "sy": "改正"
+  },
+  {
+    "word": "correspond",
+    "yb": "[kɔrɪˈspɔnd; (US) kɔːrəˈspɔnd]",
+    "cx": "vi.",
+    "sy": "一致；与......相当；(与人)通信，有书信往"
+  },
+  {
+    "word": "corrupt",
+    "yb": "[kəˈrʌpt]",
+    "cx": "a.",
+    "sy": "/ v. 贪污的，腐败的，使腐化，堕落"
+  },
+  {
+    "word": "cosy",
+    "yb": "['kəuzi]",
+    "cx": "a.",
+    "sy": "暖和舒适的,亲密无间的"
+  },
+  {
+    "word": "cottage",
+    "yb": "[ˈkɔtɪdʒ]",
+    "cx": "n.",
+    "sy": "(郊外)小屋,村舍,别墅"
+  },
+  {
+    "word": "cotton",
+    "yb": "[ˈkɔt(ə)n]",
+    "cx": "n.",
+    "sy": "棉花 a. 棉花的"
+  },
+  {
+    "word": "counter",
+    "yb": "[ˈkaʊntə(r)]",
+    "cx": "n.",
+    "sy": "柜台，结账处"
+  },
+  {
+    "word": "couple",
+    "yb": "[ˈkʌp(ə)l]",
+    "cx": "n.",
+    "sy": "夫妇，一对"
+  },
+  {
+    "word": "court",
+    "yb": "[kɔːt]",
+    "cx": "n.",
+    "sy": "法庭；法院"
+  },
+  {
+    "word": "courtyard",
+    "yb": "[ˈkɔːtjɑːd]",
+    "cx": "n.",
+    "sy": "庭院，院子"
+  },
+  {
+    "word": "cowboy",
+    "yb": "[ˈkaʊbɔɪ]",
+    "cx": "n.",
+    "sy": "（美国）牛仔;牧场骑士"
+  },
+  {
+    "word": "cream",
+    "yb": "[kriːm]",
+    "cx": "n.",
+    "sy": "奶油，乳脂"
+  },
+  {
+    "word": "creature",
+    "yb": "[ˈkriːtʃə(r)]",
+    "cx": "n.",
+    "sy": "生物，动物"
+  },
+  {
+    "word": "credit",
+    "yb": "[ˈkredɪt]",
+    "cx": "n.",
+    "sy": "信用；信赖；信誉"
+  },
+  {
+    "word": "crime",
+    "yb": "[kraɪm]",
+    "cx": "n.",
+    "sy": "（法律上的）罪，犯罪"
+  },
+  {
+    "word": "criminal",
+    "yb": "[ˈkrɪmɪn(ə)l]",
+    "cx": "n.",
+    "sy": "罪犯"
+  },
+  {
+    "word": "crew",
+    "yb": "[kruː]",
+    "cx": "n.",
+    "sy": "全体船员"
+  },
+  {
+    "word": "crop",
+    "yb": "[krɔp]",
+    "cx": "n.",
+    "sy": "庄稼；收成"
+  },
+  {
+    "word": "cross",
+    "yb": "[krɔs]",
+    "cx": "a.",
+    "sy": "脾气不好的，易怒的"
+  },
+  {
+    "word": "cruel",
+    "yb": "[ˈkruːəl]",
+    "cx": "a.",
+    "sy": "残忍的，残酷的；无情的"
+  },
+  {
+    "word": "cube",
+    "yb": "[kjuːb]",
+    "cx": "n.",
+    "sy": "立方体"
+  },
+  {
+    "word": "cubic",
+    "yb": "[ˈkjuːbɪk]",
+    "cx": "a.",
+    "sy": "立方体的，立方形的"
+  },
+  {
+    "word": "cuisine",
+    "yb": "[kwɪˈziːn]",
+    "cx": "n.",
+    "sy": "饭菜，佳肴"
+  },
+  {
+    "word": "curious",
+    "yb": "[ˈkjʊərɪəs]",
+    "cx": "a.",
+    "sy": "好奇的；奇异的"
+  },
+  {
+    "word": "currency",
+    "yb": "[ˈkʌrənsɪ]",
+    "cx": "n.",
+    "sy": "货币；现金"
+  },
+  {
+    "word": "curriculum",
+    "yb": "[kəˈrɪkjʊləm]",
+    "cx": "n.",
+    "sy": "（学校的）全部课程"
+  },
+  {
+    "word": "curtain",
+    "yb": "[ˈkɜːt(ə)n]",
+    "cx": "n.",
+    "sy": "窗帘"
+  },
+  {
+    "word": "cushion",
+    "yb": "[ˈkʊʃ(ə)n]",
+    "cx": "n.",
+    "sy": "垫子"
+  },
+  {
+    "word": "custom",
+    "yb": "[ˈkʌstəm]",
+    "cx": "n.",
+    "sy": "习惯，习俗，风俗习惯"
+  },
+  {
+    "word": "customs",
+    "yb": "[ˈkʌstəm]",
+    "cx": "n.",
+    "sy": "海关，关税"
+  },
+  {
+    "word": "dam",
+    "yb": "[dæm]",
+    "cx": "n.",
+    "sy": "水坝，堰堤"
+  },
+  {
+    "word": "damp",
+    "yb": "[dæmp]",
+    "cx": "a.",
+    "sy": "& n. 潮湿（的）"
+  },
+  {
+    "word": "dare",
+    "yb": "[deə(r)]",
+    "cx": "v.",
+    "sy": "& aux..（后接不带to的不定式；主要用于疑问，否定或条件句）敢，敢于"
+  },
+  {
+    "word": "dash",
+    "yb": "[dæʃ]",
+    "cx": "v.",
+    "sy": "& n. 快跑，冲刺，短跑"
+  },
+  {
+    "word": "data",
+    "yb": "[ˈdeɪtə, ˈdɑːtə; (US) ˈdætə]",
+    "cx": "n.",
+    "sy": "资料，数据"
+  },
+  {
+    "word": "database",
+    "yb": "[ˈdeɪtbeɪs]",
+    "cx": "n.",
+    "sy": "资料库，数据库"
+  },
+  {
+    "word": "dawn",
+    "yb": "[dɔːn]",
+    "cx": "n.",
+    "sy": "黎明，拂晓"
+  },
+  {
+    "word": "daylight",
+    "yb": "[ˈdeɪlaɪt]",
+    "cx": "n.",
+    "sy": "日光，白昼； 黎明"
+  },
+  {
+    "word": "deadline",
+    "yb": "[ˈdedlaɪn]",
+    "cx": "n.",
+    "sy": "最后期限，截止日期"
+  },
+  {
+    "word": "debate",
+    "yb": "[dɪˈbeɪt]",
+    "cx": "n.",
+    "sy": "& v.讨论，辩论"
+  },
+  {
+    "word": "debt",
+    "yb": "[det]",
+    "cx": "n.",
+    "sy": "债务；欠款"
+  },
+  {
+    "word": "decade",
+    "yb": "[ˈdekeɪd]",
+    "cx": "n.",
+    "sy": "十年期"
+  },
+  {
+    "word": "declare",
+    "yb": "[dɪˈkleə(r)]",
+    "cx": "vt.",
+    "sy": "声明；断言"
+  },
+  {
+    "word": "decline",
+    "yb": "[dɪˈklaɪn]",
+    "cx": "v.",
+    "sy": "减少,下降,衰退,谢绝"
+  },
+  {
+    "word": "decrease",
+    "yb": "[dɪˈkriːs]",
+    "cx": "v.",
+    "sy": "减少，减小，降低"
+  },
+  {
+    "word": "deed",
+    "yb": "[diːd]",
+    "cx": "n.",
+    "sy": "行为；事迹"
+  },
+  {
+    "word": "deer",
+    "yb": "[dɪə(r)]",
+    "cx": "n.",
+    "sy": "鹿"
+  },
+  {
+    "word": "defeat",
+    "yb": "[dɪˈfiːt]",
+    "cx": "vt.",
+    "sy": "击败；战胜"
+  },
+  {
+    "word": "defend",
+    "yb": "[dɪˈfend]",
+    "cx": "vt.",
+    "sy": "防守；保卫"
+  },
+  {
+    "word": "delay",
+    "yb": "[dɪˈleɪ]",
+    "cx": "v.",
+    "sy": "& n. 拖延，延误，延迟，延期；耽搁"
+  },
+  {
+    "word": "deliberately",
+    "yb": "[dɪˈlɪbərətlɪ]",
+    "cx": "ad.",
+    "sy": "故意,蓄意,存心"
+  },
+  {
+    "word": "delicate",
+    "yb": "[ˈdelɪkət]",
+    "cx": "a.",
+    "sy": "易损的，易碎的"
+  },
+  {
+    "word": "delight",
+    "yb": "[dɪˈlaɪt]",
+    "cx": "n.",
+    "sy": "快乐；乐事"
+  },
+  {
+    "word": "delighted",
+    "yb": "[di'laitid]",
+    "cx": "a.",
+    "sy": "高兴的，快乐的"
+  },
+  {
+    "word": "departure",
+    "yb": "[dɪˈpɑːtʃə(r)]",
+    "cx": "n.",
+    "sy": "离开，启程"
+  },
+  {
+    "word": "deposit",
+    "yb": "[dɪˈpɔzɪt]",
+    "cx": "v.",
+    "sy": "/ n. 订金，押金，放下，放置，储存"
+  },
+  {
+    "word": "depth",
+    "yb": "[depθ]",
+    "cx": "n.",
+    "sy": "深，深度"
+  },
+  {
+    "word": "description",
+    "yb": "[dɪˈskrɪpʃ(ə)n]",
+    "cx": "n.",
+    "sy": "描述，描写"
+  },
+  {
+    "word": "deserve",
+    "yb": "[dɪˈzɜːv]",
+    "cx": "v.",
+    "sy": "（不用于进行时态）应得，应受"
+  },
+  {
+    "word": "esire",
+    "yb": "[dɪˈzaɪə(r)]",
+    "cx": "vt.",
+    "sy": "& n. 要求；期望"
+  },
+  {
+    "word": "desperate",
+    "yb": "[ˈdespərət]",
+    "cx": "a.",
+    "sy": "（因绝望而）不惜冒险的，不顾一切的，拼命的"
+  },
+  {
+    "word": "dessert",
+    "yb": "[dɪˈzɜːt]",
+    "cx": "n.",
+    "sy": "甜点"
+  },
+  {
+    "word": "destination",
+    "yb": "[destɪˈneɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "目的地，终点"
+  },
+  {
+    "word": "detective",
+    "yb": "[dɪˈtektɪv]",
+    "cx": "n.",
+    "sy": "侦探"
+  },
+  {
+    "word": "determine",
+    "yb": "[dɪˈtɜːmɪn]",
+    "cx": "vt.",
+    "sy": "决定；决心"
+  },
+  {
+    "word": "devote",
+    "yb": "[dɪˈvəʊt]",
+    "cx": "vt.",
+    "sy": "把...奉献, 把...专用（于）"
+  },
+  {
+    "word": "devotion",
+    "yb": "[dɪˈvəʊʃ(ə)n]",
+    "cx": "n.",
+    "sy": "奉献，奉献精神"
+  },
+  {
+    "word": "diagram",
+    "yb": "[ˈdaɪəɡræm]",
+    "cx": "n.",
+    "sy": "图表，图样"
+  },
+  {
+    "word": "dial",
+    "yb": "[ˈdaɪ(ə)l]",
+    "cx": "vt.",
+    "sy": "拨（电话号码）"
+  },
+  {
+    "word": "diamond",
+    "yb": "[ˈdaɪəmənd]",
+    "cx": "n.",
+    "sy": "钻石，金刚石；纸牌中的方块"
+  },
+  {
+    "word": "dictation",
+    "yb": "[dɪkˈteɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "听写"
+  },
+  {
+    "word": "differ",
+    "yb": "[ˈdɪfə(r)]",
+    "cx": "v.",
+    "sy": "相异，有区别"
+  },
+  {
+    "word": "digest",
+    "yb": "[dɪˈdʒest, daɪˈdʒest]",
+    "cx": "v.",
+    "sy": "消化, 领会"
+  },
+  {
+    "word": "digital",
+    "yb": "[ˈdɪdʒɪt(ə)l]",
+    "cx": "a.",
+    "sy": ".数字的，数码的"
+  },
+  {
+    "word": "dignity",
+    "yb": "[ˈdɪɡnɪtɪ]",
+    "cx": "n.",
+    "sy": "庄重，庄严，尊严。尊贵，高尚"
+  },
+  {
+    "word": "dilemma",
+    "yb": "[daɪˈlemə]",
+    "cx": "n.",
+    "sy": "（进退两难的）窘境，困境"
+  },
+  {
+    "word": "dimension",
+    "yb": "[dɪˈmenʃ(ə)n]",
+    "cx": "n.",
+    "sy": "量度，尺寸，面积，程度，范围"
+  },
+  {
+    "word": "dine",
+    "yb": "[daɪn]",
+    "cx": "v.",
+    "sy": "吃饭；（指正式）进餐"
+  },
+  {
+    "word": "dinosaur",
+    "yb": "[ˈdaɪnəsɔː(r)]",
+    "cx": "n.",
+    "sy": "恐龙"
+  },
+  {
+    "word": "dioxide",
+    "yb": "[daɪˈɔksaɪd]",
+    "cx": "n.",
+    "sy": "二氧化物"
+  },
+  {
+    "word": "dip",
+    "yb": "[dɪp]",
+    "cx": "vt.",
+    "sy": "浸，蘸；把...放入又取出"
+  },
+  {
+    "word": "diploma",
+    "yb": "[dɪˈpləʊmə]",
+    "cx": "n.",
+    "sy": "毕业文凭；学位证书"
+  },
+  {
+    "word": "directory",
+    "yb": "[dɪˈrektərɪ]",
+    "cx": "n.",
+    "sy": "姓名地址录"
+  },
+  {
+    "word": "dirt",
+    "yb": "[dɜːt]",
+    "cx": "n.",
+    "sy": "污物；脏物"
+  },
+  {
+    "word": "disability",
+    "yb": "[dɪsəˈbɪlɪtɪ]",
+    "cx": "n.",
+    "sy": ". 残疾；无能"
+  },
+  {
+    "word": "disappoint",
+    "yb": "[dɪsəˈpɔɪnt]",
+    "cx": "vt.",
+    "sy": "使失望"
+  },
+  {
+    "word": "disappointment",
+    "yb": "[dɪsəˈpɔɪntmənt]",
+    "cx": "n.",
+    "sy": "失望；沮丧"
+  },
+  {
+    "word": "disaster",
+    "yb": "[dɪˈzɑːstə(r); (US) dɪzˈæstər]",
+    "cx": "n.",
+    "sy": "灾难；祸患"
+  },
+  {
+    "word": "discount",
+    "yb": "[ˈdɪskaʊnt]",
+    "cx": "n.",
+    "sy": "折扣"
+  },
+  {
+    "word": "discourage",
+    "yb": "[dɪˈskʌrɪdʒ]",
+    "cx": "vt.",
+    "sy": "（使）气馁；打消（做...的念头）"
+  },
+  {
+    "word": "discovery",
+    "yb": "[dɪˈskʌvərɪ]",
+    "cx": "n.",
+    "sy": "发现"
+  },
+  {
+    "word": "discrimination",
+    "yb": "[dɪskrɪmɪˈneɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "歧视"
+  },
+  {
+    "word": "disgusting",
+    "yb": "[dɪsˈɡʌstɪŋ]",
+    "cx": "a.",
+    "sy": "极糟的，令人不快的，令人厌恶的"
+  },
+  {
+    "word": "dismiss",
+    "yb": "[dɪsˈmɪs]",
+    "cx": "vt.",
+    "sy": "让......离开；遣散；解散；解雇"
+  },
+  {
+    "word": "disobey",
+    "yb": "[dɪsəˈbeɪ]",
+    "cx": "vt.",
+    "sy": "不服从"
+  },
+  {
+    "word": "distant",
+    "yb": "[ˈdɪst(ə)nt]",
+    "cx": "a.",
+    "sy": "远的，遥远的"
+  },
+  {
+    "word": "distinction",
+    "yb": "[dɪˈstɪŋkʃ(ə)n]",
+    "cx": "n.",
+    "sy": "差别,区别,优秀,卓越"
+  },
+  {
+    "word": "distinguish",
+    "yb": "[dɪˈstɪŋɡwɪʃ]",
+    "cx": "v.",
+    "sy": "区分，辨别，分清"
+  },
+  {
+    "word": "distribute",
+    "yb": "[dɪˈstrɪbjuːt]",
+    "cx": "v.",
+    "sy": "分发，分配"
+  },
+  {
+    "word": "district",
+    "yb": "[ˈdɪstrɪkt]",
+    "cx": "n.",
+    "sy": "区；地区；区域"
+  },
+  {
+    "word": "disturb",
+    "yb": "[dɪˈstɜːb]",
+    "cx": "vt.",
+    "sy": "扰乱；打扰"
+  },
+  {
+    "word": "disturbing",
+    "yb": "[dɪˈstɜːbɪŋ]",
+    "cx": "a.",
+    "sy": "令人不安的，引起恐慌的"
+  },
+  {
+    "word": "diverse",
+    "yb": "[daɪˈvɜːs]",
+    "cx": "v.",
+    "sy": "不同的，多种多样，形形色色的"
+  },
+  {
+    "word": "division",
+    "yb": "[dɪˈvɪʒ(ə)n]",
+    "cx": "n.",
+    "sy": "（算术用语）除"
+  },
+  {
+    "word": "divorce",
+    "yb": "[dɪˈvɔːs]",
+    "cx": "v.",
+    "sy": "离婚"
+  },
+  {
+    "word": "dizzy",
+    "yb": "[ˈdɪzɪ]",
+    "cx": "a.",
+    "sy": "头眩目晕的"
+  },
+  {
+    "word": "document",
+    "yb": "[ˈdɔkjʊmənt]",
+    "cx": "n.",
+    "sy": "文件；文献"
+  },
+  {
+    "word": "dormitory",
+    "yb": "[ˈdɔːmɪtərɪ; (US) ˈdɔːrmɪtɔːrɪ]",
+    "cx": "n.",
+    "sy": "学生宿舍（缩写式dorm）"
+  },
+  {
+    "word": "double",
+    "yb": "[ˈdʌb(ə)l]",
+    "cx": "a.",
+    "sy": "两倍.双的 n. 两个.双"
+  },
+  {
+    "word": "doubt",
+    "yb": "[daʊt]",
+    "cx": "n.",
+    "sy": "& v. 怀疑，疑惑"
+  },
+  {
+    "word": "downtown",
+    "yb": "[ˈdaʊntaʊn]",
+    "cx": "ad.",
+    "sy": "往或在城市的商业区（或中心区、闹市区） n. 城市的商"
+  },
+  {
+    "word": "downward",
+    "yb": "[ˈdaʊnwəd]",
+    "cx": "ad.",
+    "sy": "向下"
+  },
+  {
+    "word": "draft",
+    "yb": "[drɑːft; (US) dræft]",
+    "cx": "n.",
+    "sy": "/ v. 草稿，草案，起草，草拟"
+  },
+  {
+    "word": "drag",
+    "yb": "[dræɡ]",
+    "cx": "v.",
+    "sy": "拖；拽"
+  },
+  {
+    "word": "drawback",
+    "yb": "[ˈdrɔːbæk]",
+    "cx": "n.",
+    "sy": "缺点，不利条件"
+  },
+  {
+    "word": "drawer",
+    "yb": "[ˈdrɔːə(r)]",
+    "cx": "n.",
+    "sy": "抽屉"
+  },
+  {
+    "word": "drill",
+    "yb": "[drɪl]",
+    "cx": "n.",
+    "sy": "钻头；（反复的）训练 vt. 钻(孔)， 在...上钻孔；重复训练"
+  },
+  {
+    "word": "drown",
+    "yb": "[draʊn]",
+    "cx": "vi.",
+    "sy": "溺死；淹没"
+  },
+  {
+    "word": "drunk",
+    "yb": "[drʌŋk]",
+    "cx": "a.",
+    "sy": "醉的"
+  },
+  {
+    "word": "due",
+    "yb": "[djuː; (US) duː]",
+    "cx": "a.",
+    "sy": "预期的；约定的"
+  },
+  {
+    "word": "dull",
+    "yb": "[dʌl]",
+    "cx": "a.",
+    "sy": "阴暗的；单调无味"
+  },
+  {
+    "word": "dusk",
+    "yb": "[dʌsk]",
+    "cx": "n.",
+    "sy": "黄昏"
+  },
+  {
+    "word": "dustbin",
+    "yb": "[ˈdʌstbɪn]",
+    "cx": "n.",
+    "sy": "垃圾箱"
+  },
+  {
+    "word": "dusty",
+    "yb": "[ˈdʌstɪ]",
+    "cx": "a.",
+    "sy": "尘土般的，尘土多的"
+  },
+  {
+    "word": "Dynamic",
+    "yb": "[daɪˈnæmɪk]",
+    "cx": "a.",
+    "sy": "充满活力,精力充沛的"
+  },
+  {
+    "word": "eager",
+    "yb": "[ˈiːɡə(r)]",
+    "cx": "a.",
+    "sy": "渴望的，热切的"
+  },
+  {
+    "word": "eagle",
+    "yb": "[ˈiːɡ(ə)l]",
+    "cx": "n.",
+    "sy": "鹰"
+  },
+  {
+    "word": "ease",
+    "yb": "[iːz]",
+    "cx": "v.",
+    "sy": "减轻；缓解（难度或严重程度）"
+  },
+  {
+    "word": "Easter",
+    "yb": "[ˈiːstə(r)]",
+    "cx": "n.",
+    "sy": "复活节"
+  },
+  {
+    "word": "eastern",
+    "yb": "[ˈiːst(ə)n]",
+    "cx": "a.",
+    "sy": "东方的；东部的"
+  },
+  {
+    "word": "eastwards",
+    "yb": "[ˈiːstwədz]",
+    "cx": "ad.",
+    "sy": "向东"
+  },
+  {
+    "word": "ecology",
+    "yb": "[ɪˈkɔlədʒɪ]",
+    "cx": "n.",
+    "sy": "生态，生态学"
+  },
+  {
+    "word": "edition",
+    "yb": "[ɪˈdɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "（发行物的）版，版（本）"
+  },
+  {
+    "word": "editor",
+    "yb": "[ˈedɪtə(r)]",
+    "cx": "n.",
+    "sy": "编辑"
+  },
+  {
+    "word": "educator",
+    "yb": "['edju:keitə(r)]",
+    "cx": "n.",
+    "sy": "教育家"
+  },
+  {
+    "word": "effect",
+    "yb": "[ɪˈfekt]",
+    "cx": "n.",
+    "sy": "效果；作用"
+  },
+  {
+    "word": "effort",
+    "yb": "[ˈefət]",
+    "cx": "n.",
+    "sy": "努力，艰难的尝试"
+  },
+  {
+    "word": "eggplant",
+    "yb": "[ˈeɡplɑːnt]",
+    "cx": "n.",
+    "sy": "茄子"
+  },
+  {
+    "word": "Egyptian",
+    "yb": "[ɪˈdʒɪpʃ(ə)n]",
+    "cx": "a.",
+    "sy": "埃及的；埃及人的；埃及语的 n. 埃及人"
+  },
+  {
+    "word": "elect",
+    "yb": "[ɪˈlekt]",
+    "cx": "vt.",
+    "sy": "（投票）选举"
+  },
+  {
+    "word": "electric",
+    "yb": "[ɪˈlektrɪk]",
+    "cx": "a.",
+    "sy": "电的"
+  },
+  {
+    "word": "electricity",
+    "yb": "[ɪlekˈtrɪsɪtɪ]",
+    "cx": "n.",
+    "sy": "电；电流"
+  },
+  {
+    "word": "electronic",
+    "yb": "[ɪlekˈtrɔnɪk]",
+    "cx": "a.",
+    "sy": "电子的"
+  },
+  {
+    "word": "elegant",
+    "yb": "[ˈelɪɡənt]",
+    "cx": "a.",
+    "sy": "文雅的,漂亮的,精美的"
+  },
+  {
+    "word": "embarrass",
+    "yb": "[ɪmˈbærəs]",
+    "cx": "v.",
+    "sy": "使窘迫，尴尬"
+  },
+  {
+    "word": "embassy",
+    "yb": "[ˈembəsɪ]",
+    "cx": "n.",
+    "sy": "大使馆"
+  },
+  {
+    "word": "emergency",
+    "yb": "[ɪˈmɜːdʒənsɪ]",
+    "cx": "n.",
+    "sy": "紧急情况或状态"
+  },
+  {
+    "word": "empire",
+    "yb": "[ˈempaɪə(r)]",
+    "cx": "n.",
+    "sy": "帝国"
+  },
+  {
+    "word": "employ",
+    "yb": "[ɪmˈplɔɪ]",
+    "cx": "vt.",
+    "sy": "雇佣"
+  },
+  {
+    "word": "ending",
+    "yb": "[ˈendɪŋ]",
+    "cx": "n.",
+    "sy": "结局；结尾，最后"
+  },
+  {
+    "word": "endless",
+    "yb": "[ˈendlɪs]",
+    "cx": "a.",
+    "sy": "无止境的； 没完的"
+  },
+  {
+    "word": "enemy",
+    "yb": "[ˈenɪmɪ]",
+    "cx": "n.",
+    "sy": "敌人；敌军"
+  },
+  {
+    "word": "energetic",
+    "yb": "[enəˈdʒetɪk]",
+    "cx": "a.",
+    "sy": "精力旺盛的"
+  },
+  {
+    "word": "engine",
+    "yb": "[ˈendʒɪn]",
+    "cx": "n.",
+    "sy": "发动机，引擎"
+  },
+  {
+    "word": "engineer",
+    "yb": "[endʒɪˈnɪə(r)]",
+    "cx": "n.",
+    "sy": "工程师；技师"
+  },
+  {
+    "word": "enlarge",
+    "yb": "[ɪnˈlɑːdʒ]",
+    "cx": "vt.",
+    "sy": "扩大"
+  },
+  {
+    "word": "enquiry",
+    "yb": "[ɪnˈkwaɪərɪ]",
+    "cx": "n.",
+    "sy": "询问"
+  },
+  {
+    "word": "enterprise",
+    "yb": "[ˈentəpraɪz]",
+    "cx": "n.",
+    "sy": "公司，企，事业单位"
+  },
+  {
+    "word": "entertainment",
+    "yb": "[entəˈteɪnmənt]",
+    "cx": "n.",
+    "sy": "娱乐"
+  },
+  {
+    "word": "enthusiastic",
+    "yb": "[ɪnθjuːzɪˈæstɪk]",
+    "cx": "a.",
+    "sy": "热情的，热心的"
+  },
+  {
+    "word": "entire",
+    "yb": "[ɪnˈtaɪə(r)]",
+    "cx": "a.",
+    "sy": "整个的，全部的"
+  },
+  {
+    "word": "entry",
+    "yb": "[ˈentrɪ]",
+    "cx": "n.",
+    "sy": "进入"
+  },
+  {
+    "word": "envy",
+    "yb": "[ˈenvɪ]",
+    "cx": "vt.",
+    "sy": "& n. 忌妒； 羡慕"
+  },
+  {
+    "word": "equal",
+    "yb": "[ˈiːkw(ə)l]",
+    "cx": "a.",
+    "sy": "平等的 vt.等于，使等于"
+  },
+  {
+    "word": "equality",
+    "yb": "[iːˈkwɔlətɪ]",
+    "cx": "n.",
+    "sy": "平等"
+  },
+  {
+    "word": "equip",
+    "yb": "[ɪˈkwɪp]",
+    "cx": "vt.",
+    "sy": "提供设备；装备；配备"
+  },
+  {
+    "word": "eraser",
+    "yb": "[ɪˈreɪzə(r)]",
+    "cx": "n.",
+    "sy": "橡皮擦；黑板擦"
+  },
+  {
+    "word": "error",
+    "yb": "[ˈerə(r)]",
+    "cx": "n.",
+    "sy": "错误；差错"
+  },
+  {
+    "word": "erupt",
+    "yb": "[ɪˈrʌpt]",
+    "cx": "v.",
+    "sy": "（火山）爆发，喷发"
+  },
+  {
+    "word": "escape",
+    "yb": "[ɪˈskeɪp]",
+    "cx": "n.",
+    "sy": "& vi. 逃跑；逃脱"
+  },
+  {
+    "word": "essay",
+    "yb": "[ˈeseɪ]",
+    "cx": "n.",
+    "sy": "散文；文章；随笔"
+  },
+  {
+    "word": "evaluate",
+    "yb": "[ɪˈvæljʊeɪt]",
+    "cx": "v.",
+    "sy": "估值，评价，评估"
+  },
+  {
+    "word": "eventually",
+    "yb": "[ɪˈventjʊəlɪ]",
+    "cx": "ad.",
+    "sy": "最终地"
+  },
+  {
+    "word": "evidence",
+    "yb": "[ˈevɪdəns]",
+    "cx": "n.",
+    "sy": "证据，证明"
+  },
+  {
+    "word": "evident",
+    "yb": "[ˈevɪdənt]",
+    "cx": "a.",
+    "sy": "清楚的，显而易见的"
+  },
+  {
+    "word": "evolution",
+    "yb": "[iːvəˈluːʃ(ə)n; (US) ev-]",
+    "cx": "n.",
+    "sy": "进化，演变"
+  },
+  {
+    "word": "exact",
+    "yb": "[ɪɡˈzækt]",
+    "cx": "a.",
+    "sy": "精确的；确切的"
+  },
+  {
+    "word": "examine",
+    "yb": "[ɪɡˈzæmɪn]",
+    "cx": "vt.",
+    "sy": "检查；诊察"
+  },
+  {
+    "word": "excellent",
+    "yb": "[ˈeksələnt]",
+    "cx": "a.",
+    "sy": "极好的，优秀的"
+  },
+  {
+    "word": "excite",
+    "yb": "[ɪkˈsaɪt]",
+    "cx": "vt.",
+    "sy": "使兴奋，使激动"
+  },
+  {
+    "word": "excuse",
+    "yb": "[ɪkˈskjuːz]",
+    "cx": "n.",
+    "sy": "借口.辩解 vt.原谅.宽恕"
+  },
+  {
+    "word": "exhibition",
+    "yb": "[eksɪˈbɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "展览；展览会"
+  },
+  {
+    "word": "exist",
+    "yb": "[ɪg'zɪst]",
+    "cx": "vi.",
+    "sy": "存在"
+  },
+  {
+    "word": "existence",
+    "yb": "[ɪɡˈzɪst(ə)ns]",
+    "cx": "n.",
+    "sy": "存在；生存；存在物"
+  },
+  {
+    "word": "exit",
+    "yb": "[ˈeksɪt]",
+    "cx": "n.",
+    "sy": "出口，太平门"
+  },
+  {
+    "word": "expand",
+    "yb": "[ɪkˈspænd]",
+    "cx": "v.",
+    "sy": "扩大，增加，扩展"
+  },
+  {
+    "word": "expectation",
+    "yb": "[ekspekˈteɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "预料；期望"
+  },
+  {
+    "word": "expense",
+    "yb": "[ɪkˈspens]",
+    "cx": "n.",
+    "sy": "消费； 支出"
+  },
+  {
+    "word": "experiment",
+    "yb": "[ɪkˈsperɪmənt]",
+    "cx": "n.",
+    "sy": "实验"
+  },
+  {
+    "word": "explain",
+    "yb": "[ɪksˈpleɪn]",
+    "cx": "vt.",
+    "sy": "解释，说明"
+  },
+  {
+    "word": "explanation",
+    "yb": "[ekspləˈneɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "解释，说明"
+  },
+  {
+    "word": "explicit",
+    "yb": "[ɪkˈsplɪsɪt]",
+    "cx": "a.",
+    "sy": "清楚明白,易于理解的"
+  },
+  {
+    "word": "explode",
+    "yb": "[ɪkˈspləʊd]",
+    "cx": "v.",
+    "sy": "（使）爆炸"
+  },
+  {
+    "word": "explorer",
+    "yb": "[ɪkˈsplɔːrə(r)]",
+    "cx": "n.",
+    "sy": "探险者"
+  },
+  {
+    "word": "export",
+    "yb": "[ɪkˈspɔːt]",
+    "cx": "n.",
+    "sy": "/ v.出口，输出"
+  },
+  {
+    "word": "expose",
+    "yb": "[ɪkˈspəʊz; (US) ekspəˈzeɪ]",
+    "cx": "vt.",
+    "sy": "揭露"
+  },
+  {
+    "word": "expression",
+    "yb": "[ɪkˈspreʃ(ə)n]",
+    "cx": "n.",
+    "sy": "表达；词句；表示，说法；表情"
+  },
+  {
+    "word": "extension",
+    "yb": "[ɪkˈstenʃ(ə)n]",
+    "cx": "n.",
+    "sy": "扩大，延伸"
+  },
+  {
+    "word": "extraordinary",
+    "yb": "[ɪkˈstrɔːdɪnərɪ; (US) -dənerɪ]",
+    "cx": "a.",
+    "sy": "离奇的；使人惊奇的"
+  },
+  {
+    "word": "extreme",
+    "yb": "[ɪkˈstriːm]",
+    "cx": "a.",
+    "sy": "极其的，非常的"
+  },
+  {
+    "word": "extremely",
+    "yb": "[ɪkˈstriːmlɪ]",
+    "cx": "ad.",
+    "sy": "极其，非常"
+  },
+  {
+    "word": "eyewitness",
+    "yb": "[ˈaɪwɪtnɪs]",
+    "cx": "n.",
+    "sy": "目击证人"
+  },
+  {
+    "word": "facial",
+    "yb": "[ˈfeɪʃ(ə)l]",
+    "cx": "a.",
+    "sy": "面部用的"
+  },
+  {
+    "word": "fade",
+    "yb": "[feɪd]",
+    "cx": "vi.",
+    "sy": "褪色，（颜色）消退"
+  },
+  {
+    "word": "failure",
+    "yb": "[ˈfeɪljə(r)]",
+    "cx": "n.",
+    "sy": "失败"
+  },
+  {
+    "word": "fairly",
+    "yb": "[ˈfeəlɪ]",
+    "cx": "ad.",
+    "sy": "公正地，正当地；相当（程度）地"
+  },
+  {
+    "word": "fairness",
+    "yb": "['fɛənis]",
+    "cx": "n.",
+    "sy": "公平；公正"
+  },
+  {
+    "word": "faith",
+    "yb": "[feɪθ]",
+    "cx": "n.",
+    "sy": "信仰；信念"
+  },
+  {
+    "word": "familiar",
+    "yb": "[fəˈmɪlɪə(r)]",
+    "cx": "a.",
+    "sy": "熟悉的"
+  },
+  {
+    "word": "fancy",
+    "yb": "[ˈfænsɪ]",
+    "cx": "a.",
+    "sy": "花式；装饰的；奇特的"
+  },
+  {
+    "word": "fare",
+    "yb": "[feə(r)]",
+    "cx": "n.",
+    "sy": "（车或船的）费用，票（价）"
+  },
+  {
+    "word": "fasten",
+    "yb": "[ˈfɑːs(ə)n; (US) fæsn]",
+    "cx": "vt.",
+    "sy": "扎牢；扣住"
+  },
+  {
+    "word": "fault",
+    "yb": "[fɔːlt]",
+    "cx": "n.",
+    "sy": "缺点，毛病"
+  },
+  {
+    "word": "fax",
+    "yb": "[fæks]",
+    "cx": "n.",
+    "sy": "传真"
+  },
+  {
+    "word": "feast",
+    "yb": "[fiːst]",
+    "cx": "n.",
+    "sy": "盛宴，宴会，（宗教的）节日"
+  },
+  {
+    "word": "feather",
+    "yb": "[ˈfeðə(r)]",
+    "cx": "n.",
+    "sy": "羽毛"
+  },
+  {
+    "word": "fee",
+    "yb": "[fiː]",
+    "cx": "n.",
+    "sy": "费，费用"
+  },
+  {
+    "word": "fellow",
+    "yb": "[ˈfeləʊ]",
+    "cx": "n.",
+    "sy": "同伴；伙伴"
+  },
+  {
+    "word": "fence",
+    "yb": "[fens]",
+    "cx": "n.",
+    "sy": "栅栏；围栏；篱笆"
+  },
+  {
+    "word": "ferry",
+    "yb": "[ˈferɪ]",
+    "cx": "n.",
+    "sy": "渡船"
+  },
+  {
+    "word": "fetch",
+    "yb": "[fetʃ]",
+    "cx": "vt.",
+    "sy": "（去）取（物）来，（去）带（人）来"
+  },
+  {
+    "word": "fiction",
+    "yb": "[ˈfɪkʃ(ə)n]",
+    "cx": "n.",
+    "sy": "小说，虚构的事"
+  },
+  {
+    "word": "fierce",
+    "yb": "[ˈfɪəs]",
+    "cx": "a.",
+    "sy": "猛烈的"
+  },
+  {
+    "word": "fighter",
+    "yb": "[ˈfaɪtə(r)]",
+    "cx": "v.",
+    "sy": "战士；斗士"
+  },
+  {
+    "word": "figure",
+    "yb": "[ˈfɪɡə(r); (US) ˈfɪgjər]",
+    "cx": "n.",
+    "sy": "数字；数目；图；图形；（人的）身型；人物；（绘画、"
+  },
+  {
+    "word": "file",
+    "yb": "[faɪl]",
+    "cx": "n.",
+    "sy": "公文柜；档案(计算机)文档"
+  },
+  {
+    "word": "finance",
+    "yb": "[ˈfaɪnæns]",
+    "cx": "n.",
+    "sy": "资金，财政，财务"
+  },
+  {
+    "word": "fingernail",
+    "yb": "[ˈfɪŋɡəneɪl]",
+    "cx": "n.",
+    "sy": "指甲"
+  },
+  {
+    "word": "fireplace",
+    "yb": "[ˈfaɪəpleɪs]",
+    "cx": "n.",
+    "sy": "壁炉"
+  },
+  {
+    "word": "firewood",
+    "yb": "['fairwud]",
+    "cx": "n.",
+    "sy": "木柴"
+  },
+  {
+    "word": "firm",
+    "yb": "[fɜːm]",
+    "cx": "n.",
+    "sy": "公司;企业 a.坚固的,坚定的"
+  },
+  {
+    "word": "firmly",
+    "yb": "[ˈfɜːmlɪ]",
+    "cx": "ad.",
+    "sy": "牢牢地"
+  },
+  {
+    "word": "fist",
+    "yb": "[fɪst]",
+    "cx": "n.",
+    "sy": "拳(头)"
+  },
+  {
+    "word": "flame",
+    "yb": "[fleɪm]",
+    "cx": "n.",
+    "sy": "火焰，光辉"
+  },
+  {
+    "word": "flaming",
+    "yb": "[ˈfleɪmɪŋ]",
+    "cx": "a.",
+    "sy": "火红的；火焰般的"
+  },
+  {
+    "word": "flash",
+    "yb": "[flæʃ]",
+    "cx": "n.",
+    "sy": "闪；闪光； 转瞬间"
+  },
+  {
+    "word": "flashlight",
+    "yb": "[flæʃ]",
+    "cx": "n.",
+    "sy": "手电"
+  },
+  {
+    "word": "flat",
+    "yb": "[flæt]",
+    "cx": "a.",
+    "sy": "平的 n. 楼中一套房间； 公寓(常用复数)"
+  },
+  {
+    "word": "flexible",
+    "yb": "['fleksəbl]",
+    "cx": "a.",
+    "sy": "灵活的，可变动的"
+  },
+  {
+    "word": "flesh",
+    "yb": "[fleʃ]",
+    "cx": "n.",
+    "sy": "肉"
+  },
+  {
+    "word": "float",
+    "yb": "[fləʊt]",
+    "cx": "vi.",
+    "sy": "漂浮，浮动"
+  },
+  {
+    "word": "flow",
+    "yb": "[fləʊ]",
+    "cx": "vi.",
+    "sy": "流动"
+  },
+  {
+    "word": "flu",
+    "yb": "[fluː]",
+    "cx": "n.",
+    "sy": "流行性感冒"
+  },
+  {
+    "word": "fluency",
+    "yb": "['fluənsi]",
+    "cx": "n.",
+    "sy": "（外语）流利，流畅"
+  },
+  {
+    "word": "fluent",
+    "yb": "[ˈfluːənt]",
+    "cx": "a.",
+    "sy": "（外语）流利的，流畅"
+  },
+  {
+    "word": "fold",
+    "yb": "[fəʊld]",
+    "cx": "vt.",
+    "sy": "折叠；合拢"
+  },
+  {
+    "word": "folk",
+    "yb": "[fəʊk]",
+    "cx": "a.",
+    "sy": "民间的"
+  },
+  {
+    "word": "fond",
+    "yb": "[fɔnd]",
+    "cx": "a.",
+    "sy": "喜爱的，爱好的"
+  },
+  {
+    "word": "fool",
+    "yb": "[fuːl]",
+    "cx": "n.",
+    "sy": "傻子，蠢人"
+  },
+  {
+    "word": "forecast",
+    "yb": "[ˈfɔːkɑːst; (US) ˈfɔrkæst]",
+    "cx": "n.",
+    "sy": "& vt. 预告"
+  },
+  {
+    "word": "forehead",
+    "yb": "[ˈfɔrɪd; (US) ˈfɔːrɪd]",
+    "cx": "n.",
+    "sy": "前额"
+  },
+  {
+    "word": "forgetful",
+    "yb": "[fəˈɡetfʊl]",
+    "cx": "a.",
+    "sy": "健忘的，不留心的"
+  },
+  {
+    "word": "format",
+    "yb": "[ˈfɔːmæt]",
+    "cx": "n.",
+    "sy": "安排，计划，设计"
+  },
+  {
+    "word": "former",
+    "yb": "[ˈfɔːmə(r)]",
+    "cx": "a.",
+    "sy": "以前的，从前的；（两者之中的）前者"
+  },
+  {
+    "word": "fortnight",
+    "yb": "[ˈfɔːtnaɪt]",
+    "cx": "n.",
+    "sy": "十四日，两星期"
+  },
+  {
+    "word": "fortunate",
+    "yb": "[ˈfɔːtʃənət]",
+    "cx": "a.",
+    "sy": "幸运的； 侥幸的"
+  },
+  {
+    "word": "fortune",
+    "yb": "[ˈfɔːtjuːn, ˈfɔːtʃuːn]",
+    "cx": "n.",
+    "sy": "财产；运气"
+  },
+  {
+    "word": "founding",
+    "yb": "['faundiŋ]",
+    "cx": "n.",
+    "sy": "成立，建立"
+  },
+  {
+    "word": "fountain",
+    "yb": "[ˈfaʊntɪn; (US) ˈfaʊntn]",
+    "cx": "n.",
+    "sy": "喷泉"
+  },
+  {
+    "word": "franc",
+    "yb": "[fræŋk]",
+    "cx": "n.",
+    "sy": "法郎"
+  },
+  {
+    "word": "fragile",
+    "yb": "[ˈfrædʒaɪl; (US) ˈfrædʒl]",
+    "cx": "a.",
+    "sy": "易碎的，易损的"
+  },
+  {
+    "word": "fragrant",
+    "yb": "[ˈfreɪɡrənt]",
+    "cx": "a.",
+    "sy": "香的，芳香的"
+  },
+  {
+    "word": "framework",
+    "yb": "[ˈfreɪmwɜːk]",
+    "cx": "n.",
+    "sy": "（建筑物）框架，结构"
+  },
+  {
+    "word": "freedom",
+    "yb": "[ˈfriːdəm]",
+    "cx": "n.",
+    "sy": "自由"
+  },
+  {
+    "word": "freeway",
+    "yb": "[ˈfriːweɪ]",
+    "cx": "n.",
+    "sy": "高速公路"
+  },
+  {
+    "word": "freezing",
+    "yb": "['fri:ziŋ]",
+    "cx": "a.",
+    "sy": "冻结的；极冷的"
+  },
+  {
+    "word": "frequent",
+    "yb": "[ˈfriːkwənt]",
+    "cx": "a.",
+    "sy": "经常的；频繁的"
+  },
+  {
+    "word": "friction",
+    "yb": "[ˈfrɪkʃ(ə)n]",
+    "cx": "n.",
+    "sy": "摩擦"
+  },
+  {
+    "word": "fried",
+    "yb": "[fraid]",
+    "cx": "a.",
+    "sy": "油煎的"
+  },
+  {
+    "word": "fright",
+    "yb": "[fraɪt]",
+    "cx": "n.",
+    "sy": "惊恐；恐吓"
+  },
+  {
+    "word": "frighten",
+    "yb": "[ˈfraɪt(ə)n]",
+    "cx": "vt.",
+    "sy": "使惊恐，吓唬"
+  },
+  {
+    "word": "frontier",
+    "yb": "[ˈfrʌntɪə(r); (US) frʌnˈtɪər]",
+    "cx": "n.",
+    "sy": "前沿 ，边界；前线"
+  },
+  {
+    "word": "frost",
+    "yb": "[frɔst; (US) frɔːst]",
+    "cx": "n.",
+    "sy": "霜"
+  },
+  {
+    "word": "fuel",
+    "yb": "[fjuːəl]",
+    "cx": "n.",
+    "sy": "燃料"
+  },
+  {
+    "word": "function",
+    "yb": "['fʌŋkʃən]",
+    "cx": "n.",
+    "sy": "/ v. 作用,功能,运转"
+  },
+  {
+    "word": "fundamental",
+    "yb": "[fʌndəˈment(ə)l]",
+    "cx": "a.",
+    "sy": "十分重大的，根本的"
+  },
+  {
+    "word": "funeral",
+    "yb": "[ˈfjuːˈnər(ə)l]",
+    "cx": "n.",
+    "sy": "葬礼"
+  },
+  {
+    "word": "furnished",
+    "yb": "['fə:niʃt]",
+    "cx": "a.",
+    "sy": "配备了家具的"
+  },
+  {
+    "word": "furniture",
+    "yb": "[ˈfɜːnɪtʃə(r)]",
+    "cx": "n.",
+    "sy": "（总称）家具"
+  },
+  {
+    "word": "gale",
+    "yb": "[ɡeɪl]",
+    "cx": "n.",
+    "sy": "强风（约每小时60英里）"
+  },
+  {
+    "word": "gallery",
+    "yb": "[ˈɡælərɪ]",
+    "cx": "n.",
+    "sy": "画廊；美术品陈列室"
+  },
+  {
+    "word": "gallon",
+    "yb": "[ˈɡælən]",
+    "cx": "n.",
+    "sy": "加仑"
+  },
+  {
+    "word": "garage",
+    "yb": "[ˈɡærɑːʒ, -rɪdʒ; (US) ɡəˈrɑːʒ]",
+    "cx": "n.",
+    "sy": "汽车间（库）"
+  },
+  {
+    "word": "garbage",
+    "yb": "[ˈɡɑːbɪdʒ]",
+    "cx": "n.",
+    "sy": "垃圾"
+  },
+  {
+    "word": "gardening",
+    "yb": "[ˈɡɑːdnɪŋ]",
+    "cx": "n.",
+    "sy": "园艺学"
+  },
+  {
+    "word": "garlic",
+    "yb": "[ˈɡɑːlɪk]",
+    "cx": "n.",
+    "sy": "大蒜"
+  },
+  {
+    "word": "garment",
+    "yb": "[ˈɡɑːmənt]",
+    "cx": "n.",
+    "sy": "（一件）衣服"
+  },
+  {
+    "word": "gather",
+    "yb": "[ˈɡæðə(r)]",
+    "cx": "v.",
+    "sy": "聚集；采集"
+  },
+  {
+    "word": "gay",
+    "yb": "[ɡeɪ]",
+    "cx": "a.",
+    "sy": "（男）同性恋的；快活的，愉快的"
+  },
+  {
+    "word": "gentle",
+    "yb": "[ˈdʒent(ə)l]",
+    "cx": "a.",
+    "sy": "温柔的，轻轻的"
+  },
+  {
+    "word": "geography",
+    "yb": "[dʒɪˈɔɡrəfɪ]",
+    "cx": "n.",
+    "sy": "地理学"
+  },
+  {
+    "word": "geometry",
+    "yb": "[dʒɪ'ɑmɪtrɪ]",
+    "cx": "n.",
+    "sy": "几何学"
+  },
+  {
+    "word": "gesture",
+    "yb": "[ˈdʒestʃə(r)]",
+    "cx": "n.",
+    "sy": "姿势，手势"
+  },
+  {
+    "word": "gifted",
+    "yb": "[ˈɡɪftɪd]",
+    "cx": "a.",
+    "sy": "有天赋的；有才华的"
+  },
+  {
+    "word": "giraffe",
+    "yb": "[dʒɪˈrɑːf; (US) dʒəˈræf]",
+    "cx": "n.",
+    "sy": "长颈鹿"
+  },
+  {
+    "word": "glance",
+    "yb": "[glæns /glɑːns]",
+    "cx": "vi.",
+    "sy": "匆匆一看；一瞥"
+  },
+  {
+    "word": "glare",
+    "yb": "[ɡleə(r)]",
+    "cx": "v.",
+    "sy": "瞪眼,怒目而视,闪耀"
+  },
+  {
+    "word": "glasshouse",
+    "yb": "[ˈɡlɑːshaʊs]",
+    "cx": "n.",
+    "sy": "温室，暖房"
+  },
+  {
+    "word": "globe",
+    "yb": "[ɡləʊb]",
+    "cx": "n.",
+    "sy": "地球仪,地球"
+  },
+  {
+    "word": "glory",
+    "yb": "[ˈɡlɔːrɪ]",
+    "cx": "n.",
+    "sy": "巨大的光荣; 荣誉;赞美"
+  },
+  {
+    "word": "glue",
+    "yb": "[ɡluː]",
+    "cx": "n.",
+    "sy": "胶水"
+  },
+  {
+    "word": "goodness",
+    "yb": "[ˈɡʊdnɪs]",
+    "cx": "n.",
+    "sy": "善良，美德"
+  },
+  {
+    "word": "govern",
+    "yb": "[ˈɡʌv(ə)n]",
+    "cx": "v.",
+    "sy": "统治；管理"
+  },
+  {
+    "word": "gown",
+    "yb": "[ɡaʊn]",
+    "cx": "n.",
+    "sy": "礼服，长外衣，睡衣"
+  },
+  {
+    "word": "gradually",
+    "yb": "[ˈɡrædjʊəlɪ]",
+    "cx": "ad.",
+    "sy": "逐渐地"
+  },
+  {
+    "word": "graduation",
+    "yb": "[ɡrædjʊˈeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "毕业，毕业典礼"
+  },
+  {
+    "word": "grain",
+    "yb": "[ɡreɪn]",
+    "cx": "n.",
+    "sy": "谷物，谷类"
+  },
+  {
+    "word": "gram",
+    "yb": "[ɡræm]",
+    "cx": "n.",
+    "sy": "克(重量单位)"
+  },
+  {
+    "word": "grammar",
+    "yb": "[ˈɡræmə(r)]",
+    "cx": "n.",
+    "sy": "语法"
+  },
+  {
+    "word": "grand",
+    "yb": "[ɡrænd]",
+    "cx": "a.",
+    "sy": "宏伟的"
+  },
+  {
+    "word": "granny",
+    "yb": "[ˈɡrænɪ]",
+    "cx": "n.",
+    "sy": "老奶奶；祖母；外婆"
+  },
+  {
+    "word": "graph",
+    "yb": "[ɡrɑːf; (US) ɡræf]",
+    "cx": "n.",
+    "sy": "图表，曲线图"
+  },
+  {
+    "word": "grasp",
+    "yb": "[ɡrɑːsp; (US) ɡræsp]",
+    "cx": "v.",
+    "sy": "抓住；紧握"
+  },
+  {
+    "word": "gravity",
+    "yb": "[ˈɡrævɪtɪ]",
+    "cx": "n.",
+    "sy": "重力，地球引力"
+  },
+  {
+    "word": "greedy",
+    "yb": "[ˈɡriːdɪ]",
+    "cx": "a.",
+    "sy": "贪婪的"
+  },
+  {
+    "word": "Greek",
+    "yb": "[ɡriːk]",
+    "cx": "a.",
+    "sy": "/ n. 希腊的，希腊人的，希腊语的 ; 希腊人，希腊语"
+  },
+  {
+    "word": "greengrocer",
+    "yb": "[ˈɡriːnɡrəʊsə(r)]",
+    "cx": "n.",
+    "sy": "（英）蔬菜水果商"
+  },
+  {
+    "word": "grill",
+    "yb": "[ɡrɪl]",
+    "cx": "n.",
+    "sy": "（烧食物的）烤架"
+  },
+  {
+    "word": "grocer",
+    "yb": "[ˈɡrəʊsə(r)]",
+    "cx": "n.",
+    "sy": "零售商人；食品店"
+  },
+  {
+    "word": "growth",
+    "yb": "[ɡrəʊθ]",
+    "cx": "n.",
+    "sy": "生长，增长"
+  },
+  {
+    "word": "gruel",
+    "yb": "[ɡrʊəl]",
+    "cx": "n.",
+    "sy": "粥"
+  },
+  {
+    "word": "guarantee",
+    "yb": "[ɡærənˈtiː]",
+    "cx": "v.",
+    "sy": "保证，担保"
+  },
+  {
+    "word": "guard",
+    "yb": "[ɡɑːd]",
+    "cx": "n.",
+    "sy": "防护装置，警戒"
+  },
+  {
+    "word": "guidance",
+    "yb": "[ˈɡaɪdəns]",
+    "cx": "n.",
+    "sy": "引导，指导"
+  },
+  {
+    "word": "guilty",
+    "yb": "[ˈɡɪltɪ]",
+    "cx": "a.",
+    "sy": "有罪,犯法的,做错事的"
+  },
+  {
+    "word": "guitar",
+    "yb": "[ɡɪˈtɑː(r)]",
+    "cx": "n.",
+    "sy": "吉他，六弦琴"
+  },
+  {
+    "word": "gymnastics",
+    "yb": "[dʒɪmˈnæstɪks]",
+    "cx": "n.",
+    "sy": "体操"
+  },
+  {
+    "word": "haircut",
+    "yb": "[ˈheəkʌt]",
+    "cx": "n.",
+    "sy": "（男子）理发"
+  },
+  {
+    "word": "ham",
+    "yb": "[hæm]",
+    "cx": "n.",
+    "sy": "火腿"
+  },
+  {
+    "word": "hammer",
+    "yb": "['hæmə(r)]",
+    "cx": "n.",
+    "sy": "锤子，锣锤"
+  },
+  {
+    "word": "handful",
+    "yb": "[ˈhændfʊl]",
+    "cx": "n.",
+    "sy": "(一)把；少数，少量"
+  },
+  {
+    "word": "handkerchief",
+    "yb": "[ˈhæŋkətʃɪf]",
+    "cx": "n.",
+    "sy": "手帕"
+  },
+  {
+    "word": "handle",
+    "yb": "[ˈhænd(ə)l]",
+    "cx": "n.",
+    "sy": "柄，把柄 v. 处理"
+  },
+  {
+    "word": "handtruck",
+    "yb": "['hændtrʌk]",
+    "cx": "n.",
+    "sy": "手推运货车"
+  },
+  {
+    "word": "handy",
+    "yb": "[ˈhændɪ]",
+    "cx": "a.",
+    "sy": "便利的，顺手的 hang(hanged,hanged) v. 处（人）绞刑；上吊"
+  },
+  {
+    "word": "hardship",
+    "yb": "[ˈhɑːdʃɪp]",
+    "cx": "n.",
+    "sy": "困难"
+  },
+  {
+    "word": "harm",
+    "yb": "[hɑːm]",
+    "cx": "n.",
+    "sy": "&v. 伤害；损伤"
+  },
+  {
+    "word": "harmless",
+    "yb": "[ˈhɑːmlɪs]",
+    "cx": "a.",
+    "sy": "无害的;不致伤的"
+  },
+  {
+    "word": "harmony",
+    "yb": "[ˈhɑːmənɪ]",
+    "cx": "n.",
+    "sy": "融洽，和睦"
+  },
+  {
+    "word": "harvest",
+    "yb": "[ˈhɑːvɪst]",
+    "cx": "n.",
+    "sy": "& vt. 收割，收获（物）"
+  },
+  {
+    "word": "hatch",
+    "yb": "[hætʃ]",
+    "cx": "v.",
+    "sy": "（鸟、鸡）孵蛋"
+  },
+  {
+    "word": "hawk",
+    "yb": "[hɔːk]",
+    "cx": "n.",
+    "sy": "鹰"
+  },
+  {
+    "word": "hay",
+    "yb": "[heɪ]",
+    "cx": "n.",
+    "sy": "作饲料用的干草"
+  },
+  {
+    "word": "headline",
+    "yb": "[ˈhedlaɪn]",
+    "cx": "n.",
+    "sy": "（报刊的）大字标题"
+  },
+  {
+    "word": "headmistress",
+    "yb": "['hed'mistrɪs]",
+    "cx": "n.",
+    "sy": "女校长"
+  },
+  {
+    "word": "heap",
+    "yb": "[hiːp]",
+    "cx": "n.",
+    "sy": "堆 v. 堆起来"
+  },
+  {
+    "word": "heel",
+    "yb": "[hiːl]",
+    "cx": "n.",
+    "sy": "脚后跟"
+  },
+  {
+    "word": "helicopter",
+    "yb": "[ˈhelɪkɔptə(r)]",
+    "cx": "n.",
+    "sy": "直升飞机"
+  },
+  {
+    "word": "helmet",
+    "yb": "['helmɪt]",
+    "cx": "n.",
+    "sy": "头盔"
+  },
+  {
+    "word": "hen",
+    "yb": "[hen]",
+    "cx": "n.",
+    "sy": "母鸡"
+  },
+  {
+    "word": "herb",
+    "yb": "[hɜːb; (US) ɜːrb]",
+    "cx": "n.",
+    "sy": "草药"
+  },
+  {
+    "word": "heroine",
+    "yb": "[ˈherəʊɪn]",
+    "cx": "n.",
+    "sy": "女英雄，女主角"
+  },
+  {
+    "word": "hibernate",
+    "yb": "[ˈhaɪbəneɪt]",
+    "cx": "vi.",
+    "sy": "冬眠"
+  },
+  {
+    "word": "hibernation",
+    "yb": "[haɪbə(r)'neɪʃn]",
+    "cx": "n.",
+    "sy": "冬眠"
+  },
+  {
+    "word": "hillside",
+    "yb": "[ˈhɪlsaɪd]",
+    "cx": "n.",
+    "sy": "（小山）山腰，山坡"
+  },
+  {
+    "word": "hilly",
+    "yb": "[ˈhɪlɪ]",
+    "cx": "a.",
+    "sy": "丘陵的； 多小山的"
+  },
+  {
+    "word": "hire",
+    "yb": "[ˈhaɪə(r)]",
+    "cx": "vt.",
+    "sy": "租用"
+  },
+  {
+    "word": "hive",
+    "yb": "[haɪv]",
+    "cx": "n.",
+    "sy": "蜂房；蜂箱"
+  },
+  {
+    "word": "holy",
+    "yb": "[ˈhəʊlɪ]",
+    "cx": "a.",
+    "sy": "神圣的"
+  },
+  {
+    "word": "homeland",
+    "yb": "[ˈhəʊmlænd]",
+    "cx": "n.",
+    "sy": "祖国"
+  },
+  {
+    "word": "honey",
+    "yb": "[ˈɔnɪst]",
+    "cx": "n.",
+    "sy": "蜂蜜"
+  },
+  {
+    "word": "hook",
+    "yb": "[hʊk]",
+    "cx": "n.",
+    "sy": "& v. 钩子；衔接，连接"
+  },
+  {
+    "word": "hooray",
+    "yb": "[hʊˈreɪ]",
+    "cx": "int.",
+    "sy": "好哇！（欢呼声）"
+  },
+  {
+    "word": "horrible",
+    "yb": "[ˈhɔrɪb(ə)l]",
+    "cx": "a.",
+    "sy": "令人恐惧；恐怖的"
+  },
+  {
+    "word": "hostess",
+    "yb": "[ˈhəʊstɪs]",
+    "cx": "n.",
+    "sy": "女主人"
+  },
+  {
+    "word": "housewife",
+    "yb": "[ˈhaʊswaɪf]",
+    "cx": "n.",
+    "sy": "家庭主妇"
+  },
+  {
+    "word": "howl",
+    "yb": "[haʊl]",
+    "cx": "vi.",
+    "sy": "嚎叫，嚎哭"
+  },
+  {
+    "word": "humorous",
+    "yb": "[ˈhjuːmərəs]",
+    "cx": "a.",
+    "sy": "富于幽默的"
+  },
+  {
+    "word": "hunger",
+    "yb": "[ˈhʌŋɡə(r)]",
+    "cx": "n.",
+    "sy": "饥饿"
+  },
+  {
+    "word": "hunt",
+    "yb": "[hʌnt]",
+    "cx": "vt.",
+    "sy": "寻找；狩猎，猎取"
+  },
+  {
+    "word": "hurricane",
+    "yb": "[ˈhʌrɪkən]",
+    "cx": "n.",
+    "sy": "飓风，十二级风"
+  },
+  {
+    "word": "hydrogen",
+    "yb": "[ˈhaɪdrədʒ(ə)n]",
+    "cx": "n.",
+    "sy": "氢"
+  },
+  {
+    "word": "identity",
+    "yb": "[aɪˈdentɪtɪ]",
+    "cx": "n.",
+    "sy": "身份，特征"
+  },
+  {
+    "word": "identification",
+    "yb": "[aɪdentɪfɪˈkeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "鉴定，辨别"
+  },
+  {
+    "word": "idiom",
+    "yb": "[ˈɪdɪəm]",
+    "cx": "n.",
+    "sy": "习语，成语"
+  },
+  {
+    "word": "ignore",
+    "yb": "[ɪɡˈnɔː(r)]",
+    "cx": "v.",
+    "sy": "忽视，对...不理会"
+  },
+  {
+    "word": "illegal",
+    "yb": "[ɪˈliːɡ(ə)l]",
+    "cx": "a.",
+    "sy": "非法的"
+  },
+  {
+    "word": "immediate",
+    "yb": "[ɪˈmiːdɪət]",
+    "cx": "a.",
+    "sy": "立即的，马上"
+  },
+  {
+    "word": "immigration",
+    "yb": "[ɪmɪ'greɪʃn]",
+    "cx": "n.",
+    "sy": "移民"
+  },
+  {
+    "word": "import",
+    "yb": "[ɪmˈpɔːt]",
+    "cx": "v.",
+    "sy": "& n. 进口，输入"
+  },
+  {
+    "word": "impress",
+    "yb": "[ɪmˈpres]",
+    "cx": "vt.",
+    "sy": "留下极深的印象"
+  },
+  {
+    "word": "impression",
+    "yb": "[ɪmˈpreʃ(ə)n]",
+    "cx": "n.",
+    "sy": "印象，感觉"
+  },
+  {
+    "word": "inch",
+    "yb": "[ɪntʃ]",
+    "cx": "n.",
+    "sy": "英寸"
+  },
+  {
+    "word": "incorrect",
+    "yb": "[ɪnkəˈrekt]",
+    "cx": "a.",
+    "sy": "不正确的，错误的"
+  },
+  {
+    "word": "indeed",
+    "yb": "[ɪnˈdiːd]",
+    "cx": "a.",
+    "sy": "确实；实在"
+  },
+  {
+    "word": "Indicate",
+    "yb": "['ɪndɪkeɪt]",
+    "cx": "v.",
+    "sy": "表明，象征，暗示"
+  },
+  {
+    "word": "industry",
+    "yb": "[ˈɪndəstrɪ]",
+    "cx": "n.",
+    "sy": "工业，产业"
+  },
+  {
+    "word": "inform",
+    "yb": "[ɪnˈfɔːm]",
+    "cx": "vt.",
+    "sy": "告诉； 通知"
+  },
+  {
+    "word": "initial",
+    "yb": "[ɪˈnɪʃ(ə)l]",
+    "cx": "a.",
+    "sy": "开始的，最初的"
+  },
+  {
+    "word": "injure",
+    "yb": "[ˈɪndʒə(r)]",
+    "cx": "vt.",
+    "sy": "损害，伤害"
+  },
+  {
+    "word": "inland",
+    "yb": "[ˈɪnlənd, ˈɪnlænd]",
+    "cx": "a.",
+    "sy": "内陆的；内地的"
+  },
+  {
+    "word": "inn",
+    "yb": "[ɪn]",
+    "cx": "n.",
+    "sy": "小旅店；小饭店"
+  },
+  {
+    "word": "innocent",
+    "yb": "[ˈɪnəsənt]",
+    "cx": "a.",
+    "sy": "无辜的，清白的"
+  },
+  {
+    "word": "insect",
+    "yb": "[ˈɪnsekt]",
+    "cx": "n.",
+    "sy": "昆虫"
+  },
+  {
+    "word": "insert",
+    "yb": "[ɪnˈsɜːt]",
+    "cx": "vt.",
+    "sy": "插入"
+  },
+  {
+    "word": "inspect",
+    "yb": "[ɪnˈspekt]",
+    "cx": "vt.",
+    "sy": "检查；检验；审视"
+  },
+  {
+    "word": "instant",
+    "yb": "[ˈɪnst(ə)nt]",
+    "cx": "a.",
+    "sy": "瞬间；刹那"
+  },
+  {
+    "word": "institute",
+    "yb": "[ˈɪnstɪtjuːt; (US) ˈɪnstətuːt]",
+    "cx": "n.",
+    "sy": "(研究)所, 院，学院"
+  },
+  {
+    "word": "institution",
+    "yb": "[ɪnstɪˈtjuːʃ(ə)n; (US) ɪnstəˈtuːʃn]",
+    "cx": "n.",
+    "sy": "(慈善、宗教等性质的)公共机构； 学校"
+  },
+  {
+    "word": "instruct",
+    "yb": "[ɪnˈstrʌkt]",
+    "cx": "vt.",
+    "sy": "通知；指示；教"
+  },
+  {
+    "word": "instrument",
+    "yb": "[ˈɪnstrʊmənt]",
+    "cx": "n.",
+    "sy": "乐器;工具,器械"
+  },
+  {
+    "word": "insurance",
+    "yb": "[ɪnˈʃʊərəns]",
+    "cx": "n.",
+    "sy": "保险"
+  },
+  {
+    "word": "insure",
+    "yb": "[ɪnˈʃʊə(r)]",
+    "cx": "vt.",
+    "sy": "给......保险"
+  },
+  {
+    "word": "intelligence",
+    "yb": "[ɪnˈtelɪdʒəns]",
+    "cx": "n.",
+    "sy": "智力,才智,智慧"
+  },
+  {
+    "word": "intend",
+    "yb": "[ɪnˈtend]",
+    "cx": "vt.",
+    "sy": "想要，打算"
+  },
+  {
+    "word": "intention",
+    "yb": "[ɪnˈtenʃ(ə)n]",
+    "cx": "n.",
+    "sy": "打算,计划,意图"
+  },
+  {
+    "word": "interpreter",
+    "yb": "[ɪnˈtɜːprɪtə(r)]",
+    "cx": "n.",
+    "sy": "翻译"
+  },
+  {
+    "word": "interrupt",
+    "yb": "[ɪntəˈrʌpt]",
+    "cx": "v.",
+    "sy": "打扰，打断"
+  },
+  {
+    "word": "interval",
+    "yb": "[ˈɪntəv(ə)l]",
+    "cx": "n.",
+    "sy": "间歇；间隔"
+  },
+  {
+    "word": "Irish",
+    "yb": "[ˈaɪərɪʃ]",
+    "cx": "a.",
+    "sy": "爱尔兰的，爱尔兰人的"
+  },
+  {
+    "word": "iron",
+    "yb": "[ˈaɪən; (US) ˈaɪərn]",
+    "cx": "n.",
+    "sy": "铁，熨斗 vt. 熨烫"
+  },
+  {
+    "word": "irrigate",
+    "yb": "[ˈɪrɪɡeɪt]",
+    "cx": "vt.",
+    "sy": "灌溉"
+  },
+  {
+    "word": "irrigation",
+    "yb": "[ɪrɪˈɡeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "灌溉"
+  },
+  {
+    "word": "Italian",
+    "yb": "[ɪˈtæljən]",
+    "cx": "a.",
+    "sy": "意大利(人)的；意大利语的 n. 意大利人；意大利语"
+  },
+  {
+    "word": "jaw",
+    "yb": "[dʒɔː]",
+    "cx": "n.",
+    "sy": "下巴"
+  },
+  {
+    "word": "jazz",
+    "yb": "[dʒæz]",
+    "cx": "n.",
+    "sy": "爵士音乐，爵士舞曲"
+  },
+  {
+    "word": "jet",
+    "yb": "[dʒet]",
+    "cx": "n.",
+    "sy": "喷气式飞机；喷射（器）"
+  },
+  {
+    "word": "jewel",
+    "yb": "[ˈdʒuːəl]",
+    "cx": "n.",
+    "sy": "宝石"
+  },
+  {
+    "word": "jewelry",
+    "yb": "[ˈdʒuːəlrɪ]",
+    "cx": "n.",
+    "sy": "（总称）珠宝"
+  },
+  {
+    "word": "jog",
+    "yb": "[dʒɔɡ]",
+    "cx": "v.",
+    "sy": "慢跑"
+  },
+  {
+    "word": "journalist",
+    "yb": "[ˈdʒɜːnəlɪzt]",
+    "cx": "n.",
+    "sy": "记者，新闻工作者"
+  },
+  {
+    "word": "judgement",
+    "yb": "['dʒʌdʒmənt]",
+    "cx": "n.",
+    "sy": "裁判"
+  },
+  {
+    "word": "juicy",
+    "yb": "[dʒuːsɪ]",
+    "cx": "a.",
+    "sy": "多汁的；水分多的"
+  },
+  {
+    "word": "jungle",
+    "yb": "[ˈdʒʌŋɡ(ə)l]",
+    "cx": "n.",
+    "sy": "丛林，密林"
+  },
+  {
+    "word": "justice",
+    "yb": "[ˈdʒʌstɪs]",
+    "cx": "n.",
+    "sy": "正义；公正；司法"
+  },
+  {
+    "word": "kangaroo",
+    "yb": "[kæŋɡəˈruː]",
+    "cx": "n.",
+    "sy": "大袋鼠"
+  },
+  {
+    "word": "keeper",
+    "yb": "[ˈkiːpə(r)]",
+    "cx": "n.",
+    "sy": "（动物园中的）饲养员，看守人"
+  },
+  {
+    "word": "kettle",
+    "yb": "[ˈket(ə)l]",
+    "cx": "n.",
+    "sy": "(烧水用的)水壶"
+  },
+  {
+    "word": "kindergarten",
+    "yb": "[kɪndəˈɡɑːt(ə)n]",
+    "cx": "n.",
+    "sy": "幼儿园"
+  },
+  {
+    "word": "kindness",
+    "yb": "[ˈkaɪndnɪs]",
+    "cx": "n.",
+    "sy": "仁慈；善良"
+  },
+  {
+    "word": "lack",
+    "yb": "[læk]",
+    "cx": "n.",
+    "sy": "& vt. 缺乏，缺少"
+  },
+  {
+    "word": "lamb",
+    "yb": "[læm]",
+    "cx": "n.",
+    "sy": "羔羊"
+  },
+  {
+    "word": "lame",
+    "yb": "[leɪm]",
+    "cx": "a.",
+    "sy": "跛的，瘸的，残废的"
+  },
+  {
+    "word": "lantern",
+    "yb": "[ˈlæntən]",
+    "cx": "n.",
+    "sy": "灯笼；提灯"
+  },
+  {
+    "word": "lap",
+    "yb": "[læp]",
+    "cx": "n.",
+    "sy": "(人坐时)膝部.(跑道的)一圈"
+  },
+  {
+    "word": "laser",
+    "yb": "[ˈleɪzə(r)]",
+    "cx": "n.",
+    "sy": "激光"
+  },
+  {
+    "word": "lately",
+    "yb": "[ˈleɪtlɪ]",
+    "cx": "ad.",
+    "sy": "最近，不久前"
+  },
+  {
+    "word": "latter",
+    "yb": "[ˈlætə(r)]",
+    "cx": "n.",
+    "sy": "（两者之中的）后者"
+  },
+  {
+    "word": "laughter",
+    "yb": "[ˈlɑːftə(r); (US) ˈlæftər]",
+    "cx": "n.",
+    "sy": "笑； 笑声"
+  },
+  {
+    "word": "laundry",
+    "yb": "[ˈlɔːndrɪ]",
+    "cx": "n.",
+    "sy": "洗衣店;要洗的衣服"
+  },
+  {
+    "word": "lavatory",
+    "yb": "[ˈlævətrɪ; (US) ˈlævətɔːrɪ]",
+    "cx": "n.",
+    "sy": "便所，厕所"
+  },
+  {
+    "word": "leading",
+    "yb": "[ˈliːdɪŋ]",
+    "cx": "a.",
+    "sy": "最主要的，第一位的"
+  },
+  {
+    "word": "league",
+    "yb": "[liːɡ]",
+    "cx": "n.",
+    "sy": "联盟，社团"
+  },
+  {
+    "word": "leak",
+    "yb": "[liːk]",
+    "cx": "vi.",
+    "sy": "漏； 渗"
+  },
+  {
+    "word": "learned",
+    "yb": "[ˈlɜːnɪd]",
+    "cx": "a.",
+    "sy": "有才华的；博学的"
+  },
+  {
+    "word": "leather",
+    "yb": "[ˈleðə(r)]",
+    "cx": "n.",
+    "sy": "皮革"
+  },
+  {
+    "word": "lecture",
+    "yb": "[ˈlektʃə(r)]",
+    "cx": "n.",
+    "sy": "讲课，演讲"
+  },
+  {
+    "word": "leftover",
+    "yb": "['leftˌəuvə]",
+    "cx": "a.",
+    "sy": "剩余,剩下的n.剩饭菜"
+  },
+  {
+    "word": "legal",
+    "yb": "[ˈliːɡ(ə)l]",
+    "cx": "a.",
+    "sy": "与法律有关的，法律的"
+  },
+  {
+    "word": "liberty",
+    "yb": "[ˈlɪbətɪ]",
+    "cx": "n.",
+    "sy": "自由"
+  },
+  {
+    "word": "liberate",
+    "yb": "[ˈlɪbəreɪt]",
+    "cx": "vt.",
+    "sy": "解放，使获自由"
+  },
+  {
+    "word": "liberation",
+    "yb": "[lɪbəˈreɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "解放"
+  },
+  {
+    "word": "librarian",
+    "yb": "[laɪˈbreərɪən]",
+    "cx": "n.",
+    "sy": "图书管理员；（西方的）图书馆馆长"
+  },
+  {
+    "word": "library",
+    "yb": "[ˈlaɪbrərɪ; (US) ˈlaɪbrerɪ]",
+    "cx": "n.",
+    "sy": "图书馆，图书室"
+  },
+  {
+    "word": "lifetime",
+    "yb": "[ˈlaɪftaɪm]",
+    "cx": "n.",
+    "sy": "一生，终生"
+  },
+  {
+    "word": "likely",
+    "yb": "[ˈlaɪklɪ]",
+    "cx": "a.",
+    "sy": "很可能的"
+  },
+  {
+    "word": "liquid",
+    "yb": "[ˈlɪkwɪd]",
+    "cx": "n.",
+    "sy": "& a. 液体；液体的"
+  },
+  {
+    "word": "literature",
+    "yb": "[ˈlɪtərətʃə(r); (US) ˈlɪtrətʃʊər]",
+    "cx": "n.",
+    "sy": "文学"
+  },
+  {
+    "word": "literary",
+    "yb": "[ˈlɪtərərɪ; (US) ˈlɪtərerɪ]",
+    "cx": "a.",
+    "sy": "文学的"
+  },
+  {
+    "word": "litter",
+    "yb": "[ˈlɪtə(r)]",
+    "cx": "v.",
+    "sy": "乱丢杂物"
+  },
+  {
+    "word": "lively",
+    "yb": "[ˈlaɪvlɪ]",
+    "cx": "a.",
+    "sy": "活泼的;充满生气的"
+  },
+  {
+    "word": "load",
+    "yb": "[ləʊd]",
+    "cx": "n.",
+    "sy": "担子，货物"
+  },
+  {
+    "word": "locust",
+    "yb": "[ˈləʊkəst]",
+    "cx": "n.",
+    "sy": "蝗虫"
+  },
+  {
+    "word": "loose",
+    "yb": "[luːs]",
+    "cx": "a.",
+    "sy": "松散的； 宽松的"
+  },
+  {
+    "word": "lorry",
+    "yb": "[ˈlɔrɪ; (US) ˈlɔːrɪ]",
+    "cx": "n.",
+    "sy": "（英）运货汽车，卡车"
+  },
+  {
+    "word": "loss",
+    "yb": "[lɔs; (US) lɔːs]",
+    "cx": "n.",
+    "sy": "丧失；损耗"
+  },
+  {
+    "word": "loudspeaker",
+    "yb": "[laʊdˈspiːkə(r)]",
+    "cx": "n.",
+    "sy": "扬声器，喇叭"
+  },
+  {
+    "word": "lounge",
+    "yb": "[laʊndʒ]",
+    "cx": "n.",
+    "sy": "休息厅；休息室"
+  },
+  {
+    "word": "luggage",
+    "yb": "[ˈlʌɡɪdʒ]",
+    "cx": "n.",
+    "sy": "(总称)行李"
+  },
+  {
+    "word": "lung",
+    "yb": "[lʌŋ]",
+    "cx": "n.",
+    "sy": "肺；肺脏"
+  },
+  {
+    "word": "maid",
+    "yb": "[meɪd]",
+    "cx": "n.",
+    "sy": "女仆；侍女"
+  },
+  {
+    "word": "mailbox",
+    "yb": "['meɪlbɒks]",
+    "cx": "n.",
+    "sy": "邮筒；邮箱"
+  },
+  {
+    "word": "mainland",
+    "yb": "[ˈmeɪnlənd]",
+    "cx": "n.",
+    "sy": "大陆"
+  },
+  {
+    "word": "majority",
+    "yb": "[məˈdʒɔrɪtɪ]",
+    "cx": "n.",
+    "sy": "大多数"
+  },
+  {
+    "word": "mankind",
+    "yb": "[mænˈkaɪnd]",
+    "cx": "n.",
+    "sy": "人类;（总称）人"
+  },
+  {
+    "word": "manner",
+    "yb": "[ˈmænə(r)]",
+    "cx": "n.",
+    "sy": "方式，态度，举止"
+  },
+  {
+    "word": "maple",
+    "yb": "[ˈmeɪp(ə)l]",
+    "cx": "n.",
+    "sy": "枫树"
+  },
+  {
+    "word": "marathon",
+    "yb": "[ˈmærəθ(ə)n]",
+    "cx": "n.",
+    "sy": "马拉松"
+  },
+  {
+    "word": "marble",
+    "yb": "[ˈmɑːb(ə)l]",
+    "cx": "n.",
+    "sy": "大理石；玻璃弹子"
+  },
+  {
+    "word": "march",
+    "yb": "[mɑːtʃ]",
+    "cx": "n.",
+    "sy": "游行，行进"
+  },
+  {
+    "word": "married",
+    "yb": "[ˈmærɪd]",
+    "cx": "a.",
+    "sy": "已婚的"
+  },
+  {
+    "word": "mask",
+    "yb": "[mɑːsk; (US) mæsk]",
+    "cx": "n.",
+    "sy": "口罩；面罩(具)；遮盖物 v. 戴面具；掩饰；伪装"
+  },
+  {
+    "word": "mass",
+    "yb": "[mæs]",
+    "cx": "n.",
+    "sy": "众多;大量;（复）群众"
+  },
+  {
+    "word": "master",
+    "yb": "[ˈmɑːstə(r); (US) ˈmæstər]",
+    "cx": "vt.",
+    "sy": "精通，掌握"
+  },
+  {
+    "word": "mat",
+    "yb": "[mæt]",
+    "cx": "n.",
+    "sy": "垫子"
+  },
+  {
+    "word": "mature",
+    "yb": "[məˈtjʊə(r); (US) məˈtʊər]",
+    "cx": "a.",
+    "sy": "成熟的"
+  },
+  {
+    "word": "maximum",
+    "yb": "[ˈmæksɪməm]",
+    "cx": "a.",
+    "sy": "& n. 最大量(的)； 最大限度(的)"
+  },
+  {
+    "word": "means",
+    "yb": "[miːnz]",
+    "cx": "n.",
+    "sy": "方法，手段；财产"
+  },
+  {
+    "word": "meanwhile",
+    "yb": "[ˈmiːnwaɪl; (US) ˈmɪnhwaɪl]",
+    "cx": "ad.",
+    "sy": "同时"
+  },
+  {
+    "word": "measure",
+    "yb": "[ˈmeʒə(r)]",
+    "cx": "v.",
+    "sy": "量"
+  },
+  {
+    "word": "media",
+    "yb": "[ˈmiːdɪə]",
+    "cx": "n.",
+    "sy": "大众传播媒介"
+  },
+  {
+    "word": "medical",
+    "yb": "[ˈmedɪk(ə)l]",
+    "cx": "a.",
+    "sy": "医学的，医疗的"
+  },
+  {
+    "word": "medium",
+    "yb": "[ˈmiːdɪəm]",
+    "cx": "n.",
+    "sy": "媒体,中间的,中等的"
+  },
+  {
+    "word": "memorial",
+    "yb": "[mɪˈmɔːrɪəl]",
+    "cx": "n.",
+    "sy": "纪念馆"
+  },
+  {
+    "word": "mend",
+    "yb": "[mend]",
+    "cx": "v.",
+    "sy": "修理，修补"
+  },
+  {
+    "word": "mental",
+    "yb": "[ˈment(ə)l]",
+    "cx": "a.",
+    "sy": "精神的；脑力的"
+  },
+  {
+    "word": "mentally",
+    "yb": "[ˈmentəlɪ]",
+    "cx": "ad.",
+    "sy": "精神上；智力上"
+  },
+  {
+    "word": "merchant",
+    "yb": "[ˈmɜːtʃənt]",
+    "cx": "a.",
+    "sy": "商业的；商人的 n. 商人；生意人"
+  },
+  {
+    "word": "merciful",
+    "yb": "[ˈmɜːsɪfʊl]",
+    "cx": "a.",
+    "sy": "仁慈的；宽大的"
+  },
+  {
+    "word": "mercy",
+    "yb": "[ˈmɜːsɪ]",
+    "cx": "n.",
+    "sy": "怜悯"
+  },
+  {
+    "word": "merely",
+    "yb": "[ˈmɪəlɪ]",
+    "cx": "ad.",
+    "sy": "仅仅，只不过"
+  },
+  {
+    "word": "merry",
+    "yb": "[ˈmerɪ]",
+    "cx": "a.",
+    "sy": "高兴的，愉快的"
+  },
+  {
+    "word": "Mexican",
+    "yb": "[ˈmeksɪkən]",
+    "cx": "a.",
+    "sy": "墨西哥的"
+  },
+  {
+    "word": "microcomputer",
+    "yb": "[ˈmaɪkrəʊkəmpjuːtə(r)]",
+    "cx": "n.",
+    "sy": "微机"
+  },
+  {
+    "word": "microscope",
+    "yb": "[ˈmaɪkrəskəʊp]",
+    "cx": "n.",
+    "sy": "显微镜"
+  },
+  {
+    "word": "midday",
+    "yb": "[ˈmɪddeɪ]",
+    "cx": "n.",
+    "sy": "中午, 正午"
+  },
+  {
+    "word": "mild",
+    "yb": "[maɪld]",
+    "cx": "a.",
+    "sy": "温和,暖和的,凉爽的"
+  },
+  {
+    "word": "millionaire",
+    "yb": "[mɪljəˈneə(r)]",
+    "cx": "n.",
+    "sy": "百万富翁"
+  },
+  {
+    "word": "mine",
+    "yb": "[maɪn]",
+    "cx": "n.",
+    "sy": "矿藏,矿山vt.开采(矿物) pron. 我的"
+  },
+  {
+    "word": "mineral",
+    "yb": "[ˈmɪnər(ə)l]",
+    "cx": "n.",
+    "sy": "矿物质，矿物"
+  },
+  {
+    "word": "minibus",
+    "yb": "[ˈmɪnɪbʌs]",
+    "cx": "n.",
+    "sy": "小型公共汽车"
+  },
+  {
+    "word": "minimum",
+    "yb": "[ˈmɪnɪməm]",
+    "cx": "a.",
+    "sy": "最小的"
+  },
+  {
+    "word": "miniskirt",
+    "yb": "[ˈmɪnɪskɜːt]",
+    "cx": "n.",
+    "sy": "超短裙"
+  },
+  {
+    "word": "minister",
+    "yb": "[ˈmɪnɪstə(r)]",
+    "cx": "n.",
+    "sy": "部长；牧师"
+  },
+  {
+    "word": "ministry",
+    "yb": "[ˈmɪnɪstrɪ]",
+    "cx": "n.",
+    "sy": "（政府的）部"
+  },
+  {
+    "word": "minority",
+    "yb": "[maɪˈnɔrɪtɪ; (US) -ˈnɔːr-]",
+    "cx": "n.",
+    "sy": "少数；少数民族"
+  },
+  {
+    "word": "mist",
+    "yb": "[mɪst]",
+    "cx": "n.",
+    "sy": "雾"
+  },
+  {
+    "word": "mistaken",
+    "yb": "[mɪsˈteɪkən]",
+    "cx": "a.",
+    "sy": "错误的"
+  },
+  {
+    "word": "mixture",
+    "yb": "[ˈmɪkstʃə(r)]",
+    "cx": "n.",
+    "sy": "混合物"
+  },
+  {
+    "word": "mobile",
+    "yb": "[ˈməʊbaɪl; (US) məʊbl]",
+    "cx": "a.",
+    "sy": "活动的，可移动的"
+  },
+  {
+    "word": "modem",
+    "yb": "[ˈməʊdem]",
+    "cx": "n.",
+    "sy": "调制解调器"
+  },
+  {
+    "word": "modest",
+    "yb": "[ˈmɔdɪst]",
+    "cx": "a.",
+    "sy": "谦虚的；谦逊的"
+  },
+  {
+    "word": "monitor",
+    "yb": "[ˈmɔnɪtə(r)]",
+    "cx": "n.",
+    "sy": "（班级内的）班长；纠察生；监视器"
+  },
+  {
+    "word": "monument",
+    "yb": "[ˈmɔnjʊmənt]",
+    "cx": "n.",
+    "sy": "纪念碑，纪念物"
+  },
+  {
+    "word": "moral",
+    "yb": "[ˈmɔr(ə)l; (US) ˈmɔːrəl]",
+    "cx": "a.",
+    "sy": "道德的 n.寓意,道德启示"
+  },
+  {
+    "word": "Moscow",
+    "yb": "[ˈmɔskəʊ]",
+    "cx": "n.",
+    "sy": "莫斯科"
+  },
+  {
+    "word": "Moslem",
+    "yb": "[ˈmɔzləm]",
+    "cx": "n.",
+    "sy": "伊斯兰教徒,回教徒"
+  },
+  {
+    "word": "Mosquito",
+    "yb": "[məˈskiːtəʊ]",
+    "cx": "n.",
+    "sy": "蚊子"
+  },
+  {
+    "word": "motherland",
+    "yb": "[ˈmʌðəlænd]",
+    "cx": "n.",
+    "sy": "祖国"
+  },
+  {
+    "word": "motivation",
+    "yb": "[məʊtɪ'veɪʃn]",
+    "cx": "n.",
+    "sy": "（做事的）动机"
+  },
+  {
+    "word": "motor",
+    "yb": "[ˈməʊtə(r)]",
+    "cx": "n.",
+    "sy": "发动机，马达"
+  },
+  {
+    "word": "motorcycle",
+    "yb": "['məʊtəsaikl]",
+    "cx": "n.",
+    "sy": "摩托车"
+  },
+  {
+    "word": "motto",
+    "yb": "[ˈmɔtəʊ]",
+    "cx": "n.",
+    "sy": "箴言，格言"
+  },
+  {
+    "word": "mountainous",
+    "yb": "[ˈmaʊntɪnəs]",
+    "cx": "a.",
+    "sy": "多山的"
+  },
+  {
+    "word": "mourn",
+    "yb": "[mɔːn]",
+    "cx": "vt.",
+    "sy": "哀痛； 哀悼"
+  },
+  {
+    "word": "moustache",
+    "yb": "[məs'tɑ:ʃ]",
+    "cx": "n.",
+    "sy": "小胡子"
+  },
+  {
+    "word": "mouthful",
+    "yb": "[ˈmaʊθfʊl]",
+    "cx": "n.",
+    "sy": "满口，一口"
+  },
+  {
+    "word": "movement",
+    "yb": "[ˈmuːvmənt]",
+    "cx": "n.",
+    "sy": "运动，活动"
+  },
+  {
+    "word": "muddy",
+    "yb": "[ˈmʌdɪ]",
+    "cx": "a.",
+    "sy": "泥泞的"
+  },
+  {
+    "word": "multiply",
+    "yb": "[ˈmʌltɪplaɪ]",
+    "cx": "vt.",
+    "sy": "乘；使相乘"
+  },
+  {
+    "word": "murder",
+    "yb": "[ˈmɜːdə(r)]",
+    "cx": "vt.",
+    "sy": "谋杀"
+  },
+  {
+    "word": "mushroom",
+    "yb": "[ˈmʌʃrʊm]",
+    "cx": "n.",
+    "sy": "蘑菇"
+  },
+  {
+    "word": "musical",
+    "yb": "[ˈmjuːzɪk(ə)l]",
+    "cx": "a.",
+    "sy": "音乐的，爱好音乐的 n. 音乐片"
+  },
+  {
+    "word": "musician",
+    "yb": "[mjuːˈzɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "音乐家，乐师"
+  },
+  {
+    "word": "mustard",
+    "yb": "[ˈmʌstəd]",
+    "cx": "n.",
+    "sy": "芥末，芥子粉"
+  },
+  {
+    "word": "mutton",
+    "yb": "[ˈmʌt(ə)n]",
+    "cx": "n.",
+    "sy": "羊肉"
+  },
+  {
+    "word": "nail",
+    "yb": "[neɪl]",
+    "cx": "n.",
+    "sy": "钉，钉子"
+  },
+  {
+    "word": "narrow",
+    "yb": "[ˈnærəʊ]",
+    "cx": "a.",
+    "sy": "狭窄的"
+  },
+  {
+    "word": "nationwide",
+    "yb": "[ˈneɪʃ(ə)nwaɪd]",
+    "cx": "ad.",
+    "sy": "全国范围内的,全国性的"
+  },
+  {
+    "word": "native",
+    "yb": "[ˈneɪtɪv]",
+    "cx": "a.",
+    "sy": "本土的，本国的"
+  },
+  {
+    "word": "nature",
+    "yb": "[ˈneɪtʃə(r)]",
+    "cx": "n.",
+    "sy": "自然, 性质，种类"
+  },
+  {
+    "word": "navy",
+    "yb": "[ˈneɪvɪ]",
+    "cx": "n.",
+    "sy": "海军"
+  },
+  {
+    "word": "neat",
+    "yb": "[niːt]",
+    "cx": "a.",
+    "sy": "整洁的；灵巧的"
+  },
+  {
+    "word": "necklace",
+    "yb": "[ˈneklɪs]",
+    "cx": "n.",
+    "sy": "项链"
+  },
+  {
+    "word": "necktie",
+    "yb": "[ˈnektaɪ]",
+    "cx": "n.",
+    "sy": "领带，领花"
+  },
+  {
+    "word": "needle",
+    "yb": "[niːd(ə)l]",
+    "cx": "n.",
+    "sy": "针"
+  },
+  {
+    "word": "negotiate",
+    "yb": "[nɪˈɡəʊʃɪeɪt]",
+    "cx": "v.",
+    "sy": "谈判，协商"
+  },
+  {
+    "word": "nephew",
+    "yb": "[ˈnefjuː, ˈnevjuː]",
+    "cx": "n.",
+    "sy": "侄子，外甥"
+  },
+  {
+    "word": "nest",
+    "yb": "[nest]",
+    "cx": "n.",
+    "sy": "巢；窝"
+  },
+  {
+    "word": "network",
+    "yb": "[ˈnetwɜːk]",
+    "cx": "n.",
+    "sy": "网络，网状系统"
+  },
+  {
+    "word": "niece",
+    "yb": "[niːs]",
+    "cx": "n.",
+    "sy": "侄女，甥女"
+  },
+  {
+    "word": "noble",
+    "yb": "[ˈnəʊb(ə)l]",
+    "cx": "a.",
+    "sy": "高贵的，贵族的"
+  },
+  {
+    "word": "noisily",
+    "yb": "['nɔɪzɪlɪ]",
+    "cx": "ad.",
+    "sy": "喧闹地"
+  },
+  {
+    "word": "northwards",
+    "yb": "[ˈnɔːθwədz]",
+    "cx": "ad.",
+    "sy": "向北"
+  },
+  {
+    "word": "novelist",
+    "yb": "[ˈnɔvəlɪst]",
+    "cx": "n.",
+    "sy": "小说家"
+  },
+  {
+    "word": "nuclear",
+    "yb": "[ˈnjuːklɪə(r)]",
+    "cx": "a.",
+    "sy": "原子核的，原子能的，核动力的"
+  },
+  {
+    "word": "numb",
+    "yb": "[nʌm]",
+    "cx": "a.",
+    "sy": "麻木的，失去知觉的，迟钝的"
+  },
+  {
+    "word": "nursery",
+    "yb": "[ˈnɜːsərɪ]",
+    "cx": "n.",
+    "sy": "托儿所"
+  },
+  {
+    "word": "nursing",
+    "yb": "[nɜːsɪŋ]",
+    "cx": "n.",
+    "sy": "(职业性的）保育,护理"
+  },
+  {
+    "word": "nutrition",
+    "yb": "[njuːˈtrɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "营养，滋养"
+  },
+  {
+    "word": "nylon",
+    "yb": "[ˈnaɪlɔn]",
+    "cx": "n.",
+    "sy": "尼龙"
+  },
+  {
+    "word": "observe",
+    "yb": "[əbˈzɜːv]",
+    "cx": "v.",
+    "sy": "观察，监视，观测"
+  },
+  {
+    "word": "obtain",
+    "yb": "[əbˈteɪn]",
+    "cx": "vt.",
+    "sy": "获得；得到"
+  },
+  {
+    "word": "obvious",
+    "yb": "[ˈɔbvɪəs]",
+    "cx": "a.",
+    "sy": "显然"
+  },
+  {
+    "word": "occupation",
+    "yb": "[ɔkjʊˈpeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "职业，工作"
+  },
+  {
+    "word": "occur",
+    "yb": "[əˈkɜː(r)]",
+    "cx": "vi.",
+    "sy": "发生"
+  },
+  {
+    "word": "offence",
+    "yb": "[of·fence || ə'fens]",
+    "cx": "n.",
+    "sy": "违法行为，犯罪"
+  },
+  {
+    "word": "officer",
+    "yb": "[ˈɔfɪsə(r); (US) ˈɔːfɪsər]",
+    "cx": "n.",
+    "sy": "军官;公务员,官员；警察，警官"
+  },
+  {
+    "word": "official",
+    "yb": "[əˈfɪʃ(ə)l; (US) ˈɔːf-]",
+    "cx": "n.",
+    "sy": "（公司、团体或政府）官员 ,高级职员 a.官方,政府的"
+  },
+  {
+    "word": "offshore",
+    "yb": "[ˈɔfʃɔː(r); (US) ˈɔːf-]",
+    "cx": "a.",
+    "sy": "近海的"
+  },
+  {
+    "word": "oilfield",
+    "yb": "[ˈɔɪlfiːld]",
+    "cx": "n.",
+    "sy": "油田"
+  },
+  {
+    "word": "omelette",
+    "yb": "[ˈɔmlɪt]",
+    "cx": "n.",
+    "sy": "煎蛋卷；煎蛋饼"
+  },
+  {
+    "word": "onion",
+    "yb": "[ˈʌnjən]",
+    "cx": "n.",
+    "sy": "洋葱；洋葱头"
+  },
+  {
+    "word": "opener",
+    "yb": "[ˈəʊpənə(r)]",
+    "cx": "n.",
+    "sy": "开具，启子"
+  },
+  {
+    "word": "opening",
+    "yb": "[ˈəʊpənɪŋ]",
+    "cx": "n.",
+    "sy": "开放，口子"
+  },
+  {
+    "word": "operation",
+    "yb": "[ɔpəˈreɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "手术，操作"
+  },
+  {
+    "word": "operator",
+    "yb": "[ˈɔpəreɪtə(r)]",
+    "cx": "n.",
+    "sy": "接线员"
+  },
+  {
+    "word": "oppose",
+    "yb": "[əˈpəʊz]",
+    "cx": "vt.",
+    "sy": "反对；反抗"
+  },
+  {
+    "word": "optimistic",
+    "yb": "[ɔptɪˈmɪstɪk]",
+    "cx": "a.",
+    "sy": "乐观的"
+  },
+  {
+    "word": "optional",
+    "yb": "[ˈɔpʃən(ə)l]",
+    "cx": "a.",
+    "sy": "可选择的，选修的"
+  },
+  {
+    "word": "oral",
+    "yb": "[ˈɔːrəl]",
+    "cx": "a.",
+    "sy": "口述的，口头上的"
+  },
+  {
+    "word": "orbit",
+    "yb": "[ˈɔːbɪt]",
+    "cx": "n.",
+    "sy": "（天体等的）运行轨道"
+  },
+  {
+    "word": "organ",
+    "yb": "[ˈɔːɡən]",
+    "cx": "n.",
+    "sy": "（人，动物）器官"
+  },
+  {
+    "word": "origin",
+    "yb": "[ˈɔrɪdʒɪn]",
+    "cx": "n.",
+    "sy": "起源，由来"
+  },
+  {
+    "word": "Ottawa",
+    "yb": "[ˈɔtəwə]",
+    "cx": "n.",
+    "sy": "渥太华"
+  },
+  {
+    "word": "ought",
+    "yb": "[ɔːt]",
+    "cx": "v.",
+    "sy": "& aux.应该，应当"
+  },
+  {
+    "word": "outcome",
+    "yb": "[ˈaʊtkʌm]",
+    "cx": "n.",
+    "sy": "结果，效果"
+  },
+  {
+    "word": "outer",
+    "yb": "[ˈaʊtə(r)]",
+    "cx": "a.",
+    "sy": "外部的，外面的"
+  },
+  {
+    "word": "outing",
+    "yb": "[ˈaʊtɪŋ]",
+    "cx": "n.",
+    "sy": "郊游，远足"
+  },
+  {
+    "word": "outline",
+    "yb": "[ˈaʊtlaɪn]",
+    "cx": "n.",
+    "sy": "概述，略述"
+  },
+  {
+    "word": "output",
+    "yb": "[ˈaʊtpʊt]",
+    "cx": "n.",
+    "sy": "产量，输出量"
+  },
+  {
+    "word": "outspoken",
+    "yb": "[aʊtˈspəʊkən]",
+    "cx": "a.",
+    "sy": "直率，坦诚"
+  },
+  {
+    "word": "outstanding",
+    "yb": "[aʊtˈstændɪŋ]",
+    "cx": "a.",
+    "sy": "优秀的，杰出的"
+  },
+  {
+    "word": "oval",
+    "yb": "[ˈəʊv(ə)l]",
+    "cx": "n.",
+    "sy": "& adj.椭圆；椭圆形的"
+  },
+  {
+    "word": "overcome",
+    "yb": "[əʊvəˈkʌm]",
+    "cx": "v.",
+    "sy": "克服，解决"
+  },
+  {
+    "word": "overhead",
+    "yb": "[əʊvəˈhed]",
+    "cx": "a.",
+    "sy": "在头顶上;架空的"
+  },
+  {
+    "word": "overlook",
+    "yb": "[əʊvəˈlʊk]",
+    "cx": "v.",
+    "sy": "忽略,不予理会"
+  },
+  {
+    "word": "owe",
+    "yb": "[əʊ]",
+    "cx": "vt.",
+    "sy": "欠（债等）"
+  },
+  {
+    "word": "ownership",
+    "yb": "[ˈəʊnəʃɪp]",
+    "cx": "n.",
+    "sy": "所有制"
+  },
+  {
+    "word": "oxygen",
+    "yb": "[ˈɔksɪdʒ(ə)n]",
+    "cx": "n.",
+    "sy": "氧；氧气"
+  },
+  {
+    "word": "pace",
+    "yb": "[peɪs]",
+    "cx": "n.",
+    "sy": "步子；节奏"
+  },
+  {
+    "word": "pack",
+    "yb": "[pæk]",
+    "cx": "n.",
+    "sy": "包,捆;（猎犬、野兽的）一群 v.(为运输或储存而)打包"
+  },
+  {
+    "word": "package",
+    "yb": "[ˈpækɪdʒ]",
+    "cx": "n.",
+    "sy": "（尤指包装好或密封的容器）一包，一袋，一盒"
+  },
+  {
+    "word": "packet",
+    "yb": "[ˈpækɪt]",
+    "cx": "n.",
+    "sy": "小包裹，袋"
+  },
+  {
+    "word": "paddle",
+    "yb": "[ˈpæd(ə)l]",
+    "cx": "n.",
+    "sy": "桨状物，蹼"
+  },
+  {
+    "word": "pain",
+    "yb": "[peɪn]",
+    "cx": "n.",
+    "sy": "疼痛，疼"
+  },
+  {
+    "word": "painful",
+    "yb": "[ˈpeɪnfʊl]",
+    "cx": "a.",
+    "sy": "使痛的，使痛苦的"
+  },
+  {
+    "word": "pan",
+    "yb": "[pæn]",
+    "cx": "n.",
+    "sy": "平底锅"
+  },
+  {
+    "word": "pancake",
+    "yb": "[ˈpænkeɪk]",
+    "cx": "n.",
+    "sy": "薄煎饼"
+  },
+  {
+    "word": "panic",
+    "yb": "[ˈpænɪk]",
+    "cx": "a.",
+    "sy": "/ v.惊慌,恐慌,惶恐不安"
+  },
+  {
+    "word": "paperwork",
+    "yb": "[ˈpeɪpəwɜːk]",
+    "cx": "n.",
+    "sy": "日常文书工作"
+  },
+  {
+    "word": "parcel",
+    "yb": "[ˈpɑːs(ə)l]",
+    "cx": "n.",
+    "sy": "包裹"
+  },
+  {
+    "word": "pardon",
+    "yb": "[ˈpɑːd(ə)n]",
+    "cx": "n.",
+    "sy": "原谅,宽恕,对不起"
+  },
+  {
+    "word": "Paris",
+    "yb": "[ˈpærɪs]",
+    "cx": "n.",
+    "sy": "巴黎"
+  },
+  {
+    "word": "participate",
+    "yb": "[pɑːˈtɪsɪpeɪt]",
+    "cx": "v.",
+    "sy": "参加，参与"
+  },
+  {
+    "word": "particular",
+    "yb": "[pəˈtɪkjʊlə(r)]",
+    "cx": "a.",
+    "sy": "特殊的，个别的"
+  },
+  {
+    "word": "partly",
+    "yb": "[ˈpɑːtlɪ]",
+    "cx": "ad.",
+    "sy": "部分地,在一定程度上"
+  },
+  {
+    "word": "passenger",
+    "yb": "[ˈpæsɪndʒə(r)]",
+    "cx": "n.",
+    "sy": "乘客，旅客"
+  },
+  {
+    "word": "passive",
+    "yb": "[ˈpæsɪv]",
+    "cx": "a.",
+    "sy": "被动的"
+  },
+  {
+    "word": "passport",
+    "yb": "[ˈpɑːspɔːt; (US) ˈpæ-]",
+    "cx": "n.",
+    "sy": "护照"
+  },
+  {
+    "word": "patent",
+    "yb": "[ˈpeɪt(ə)nt; (US) ˈpætnt]",
+    "cx": "n.",
+    "sy": "专利权，专利证书"
+  },
+  {
+    "word": "pattern",
+    "yb": "[ˈpæt(ə)n]",
+    "cx": "n.",
+    "sy": "式样"
+  },
+  {
+    "word": "pause",
+    "yb": "[pɔːz]",
+    "cx": "n.",
+    "sy": "& vi. 中止，暂停；停止"
+  },
+  {
+    "word": "pea",
+    "yb": "[piː]",
+    "cx": "n.",
+    "sy": "豌豆"
+  },
+  {
+    "word": "peasant",
+    "yb": "[ˈpezənt]",
+    "cx": "n.",
+    "sy": "农民；佃农"
+  },
+  {
+    "word": "pedestrian",
+    "yb": "[pɪˈdestrɪən]",
+    "cx": "n.",
+    "sy": "步行者，行人"
+  },
+  {
+    "word": "pension",
+    "yb": "[ˈpenʃ(ə)n]",
+    "cx": "n.",
+    "sy": "养老金"
+  },
+  {
+    "word": "pepper",
+    "yb": "[ˈpepə(r)]",
+    "cx": "n.",
+    "sy": "胡椒粉"
+  },
+  {
+    "word": "per",
+    "yb": "[pə(r)]",
+    "cx": "prep.",
+    "sy": "每，每一"
+  },
+  {
+    "word": "percentage",
+    "yb": "[pəˈsentədʒ]",
+    "cx": "n.",
+    "sy": "百分率"
+  },
+  {
+    "word": "perform",
+    "yb": "[pəˈfɔːm]",
+    "cx": "v.",
+    "sy": "表演，履行；行动"
+  },
+  {
+    "word": "performer",
+    "yb": "[pəˈfɔːmə(r)]",
+    "cx": "n.",
+    "sy": "表演者，执行者"
+  },
+  {
+    "word": "perfume",
+    "yb": "[ˈpɜːfjuːm]",
+    "cx": "n.",
+    "sy": "香水"
+  },
+  {
+    "word": "permanent",
+    "yb": "[ˈpɜːmənənt]",
+    "cx": "a.",
+    "sy": "永久的，永恒的"
+  },
+  {
+    "word": "permission",
+    "yb": "[pəˈmɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "允许,许可,同意"
+  },
+  {
+    "word": "permit",
+    "yb": "[pəˈmɪt]",
+    "cx": "vt.",
+    "sy": "许可,允许;执照 n.许可证"
+  },
+  {
+    "word": "personnel",
+    "yb": "[pɜːsəˈnel]",
+    "cx": "n.",
+    "sy": "全体人员，职员"
+  },
+  {
+    "word": "pest",
+    "yb": "[pest]",
+    "cx": "n.",
+    "sy": "害虫"
+  },
+  {
+    "word": "physical",
+    "yb": "[ˈfɪzɪk(ə)l]",
+    "cx": "a.",
+    "sy": "身体的；物理的"
+  },
+  {
+    "word": "physician",
+    "yb": "[fɪˈzɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "(有行医执照的)医生"
+  },
+  {
+    "word": "physicist",
+    "yb": "[ˈfɪzɪsɪst]",
+    "cx": "n.",
+    "sy": "物理学家"
+  },
+  {
+    "word": "pile",
+    "yb": "[paɪ]",
+    "cx": "n.",
+    "sy": "堆"
+  },
+  {
+    "word": "pill",
+    "yb": "[pɪl]",
+    "cx": "n.",
+    "sy": "药丸，药片"
+  },
+  {
+    "word": "pillow",
+    "yb": "[pɪl]",
+    "cx": "n.",
+    "sy": "枕头"
+  },
+  {
+    "word": "pin",
+    "yb": "[pɪn]",
+    "cx": "n.",
+    "sy": "别针 v. 别住, 钉住"
+  },
+  {
+    "word": "pine",
+    "yb": "[paɪn]",
+    "cx": "n.",
+    "sy": "松树"
+  },
+  {
+    "word": "pint",
+    "yb": "[paɪnt]",
+    "cx": "n.",
+    "sy": "（液量单位）品脱"
+  },
+  {
+    "word": "pioneer",
+    "yb": "[paɪəˈnɪə(r)]",
+    "cx": "n.",
+    "sy": "先锋，开拓者"
+  },
+  {
+    "word": "plain",
+    "yb": "[pleɪn]",
+    "cx": "a.",
+    "sy": "家常的； 普通的"
+  },
+  {
+    "word": "platform",
+    "yb": "[ˈplætfɔːm]",
+    "cx": "n.",
+    "sy": "讲台,(车站的)月台"
+  },
+  {
+    "word": "playmate",
+    "yb": "[ˈpleɪmeɪt]",
+    "cx": "n.",
+    "sy": "玩伴"
+  },
+  {
+    "word": "pleasure",
+    "yb": "[pliːzd]",
+    "cx": "n.",
+    "sy": "高兴，愉快"
+  },
+  {
+    "word": "plug",
+    "yb": "[plʌɡ]",
+    "cx": "n.",
+    "sy": "塞子 vt.（用塞子）把...塞住"
+  },
+  {
+    "word": "plus",
+    "yb": "[plʌs]",
+    "cx": "prep.",
+    "sy": "加，加上"
+  },
+  {
+    "word": "poet",
+    "yb": "[ˈpəʊɪt]",
+    "cx": "n.",
+    "sy": "诗人"
+  },
+  {
+    "word": "poison",
+    "yb": "[ˈpɔɪz(ə)n]",
+    "cx": "n.",
+    "sy": "毒药"
+  },
+  {
+    "word": "poisonous",
+    "yb": "[ˈpɔɪzənəs]",
+    "cx": "a.",
+    "sy": "有毒的，致命的"
+  },
+  {
+    "word": "policy",
+    "yb": "[ˈpɔlɪsɪ]",
+    "cx": "n.",
+    "sy": "政策，方针，原则"
+  },
+  {
+    "word": "polish",
+    "yb": "[ˈpɔlɪsɪ]",
+    "cx": "v.",
+    "sy": "擦亮 n.擦光剂,亮光剂"
+  },
+  {
+    "word": "political",
+    "yb": "[pəˈlɪtɪk(ə)l]",
+    "cx": "a.",
+    "sy": "政治的"
+  },
+  {
+    "word": "politician",
+    "yb": "[pɔlɪˈtɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "政治家"
+  },
+  {
+    "word": "politics",
+    "yb": "[ˈpɔlɪtɪks]",
+    "cx": "n.",
+    "sy": "政治"
+  },
+  {
+    "word": "pond",
+    "yb": "[pɔnd]",
+    "cx": "n.",
+    "sy": "池塘"
+  },
+  {
+    "word": "popcorn",
+    "yb": "[ˈpɔpkɔːn]",
+    "cx": "n.",
+    "sy": "爆米花"
+  },
+  {
+    "word": "porridge",
+    "yb": "[ˈpɔrɪdʒ; (US) ˈpɔːrɪdʒ]",
+    "cx": "n.",
+    "sy": "稀饭，粥"
+  },
+  {
+    "word": "port",
+    "yb": "[pɔːt]",
+    "cx": "n.",
+    "sy": "港口，码头"
+  },
+  {
+    "word": "portable",
+    "yb": "[ˈpɔːtəb(ə)l]",
+    "cx": "a.",
+    "sy": "手提的，便携式的"
+  },
+  {
+    "word": "porter",
+    "yb": "[ˈpɔːtə(r)]",
+    "cx": "n.",
+    "sy": "（火车站或旅馆处的）搬运工"
+  },
+  {
+    "word": "position",
+    "yb": "[pəˈzɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "位置"
+  },
+  {
+    "word": "possess",
+    "yb": "[pəˈzɪʃ(ə)n]",
+    "cx": "vt.",
+    "sy": "占有；拥有"
+  },
+  {
+    "word": "possession",
+    "yb": "[pəˈzeʃ(ə)n]",
+    "cx": "n.",
+    "sy": "所有，拥有；财产，所有物"
+  },
+  {
+    "word": "possibility",
+    "yb": "[pɔsɪˈbɪlɪtɪ]",
+    "cx": "vn.",
+    "sy": "可能，可能性"
+  },
+  {
+    "word": "postage",
+    "yb": "[ˈpəʊstɪdʒ]",
+    "cx": "n.",
+    "sy": "邮费"
+  },
+  {
+    "word": "postcode",
+    "yb": "[ˈpəʊstkəʊd]",
+    "cx": "n.",
+    "sy": "（英）邮政编码"
+  },
+  {
+    "word": "postpone",
+    "yb": "[pəʊstˈpəʊn]",
+    "cx": "vt.",
+    "sy": "推迟，延期"
+  },
+  {
+    "word": "pot",
+    "yb": "[pɔt]",
+    "cx": "n.",
+    "sy": "锅，壶，瓶，罐"
+  },
+  {
+    "word": "potential",
+    "yb": "[pəˈtenʃ(ə)l]",
+    "cx": "a.",
+    "sy": "潜在的，可能的"
+  },
+  {
+    "word": "pour",
+    "yb": "[pɔː(r)]",
+    "cx": "vi.",
+    "sy": "倾泻，不断流出"
+  },
+  {
+    "word": "powder",
+    "yb": "[ˈpaʊdə(r)]",
+    "cx": "n.",
+    "sy": "粉，粉末"
+  },
+  {
+    "word": "practical",
+    "yb": "[ˈpræktɪk(ə)l]",
+    "cx": "a.",
+    "sy": "实际的，适用的"
+  },
+  {
+    "word": "prairie",
+    "yb": "[ˈpreərɪ]",
+    "cx": "n.",
+    "sy": "大草原"
+  },
+  {
+    "word": "pray",
+    "yb": "[preɪ]",
+    "cx": "v.",
+    "sy": "祈祷；祈求"
+  },
+  {
+    "word": "prayer",
+    "yb": "[preə(r)]",
+    "cx": "n.",
+    "sy": "祈祷"
+  },
+  {
+    "word": "precious",
+    "yb": "[ˈpreʃəs]",
+    "cx": "a.",
+    "sy": "宝贵的, 珍贵的"
+  },
+  {
+    "word": "precise",
+    "yb": "[prɪˈsaɪs]",
+    "cx": "a.",
+    "sy": "准确,精确的,确切的"
+  },
+  {
+    "word": "preference",
+    "yb": "[ˈprefərəns]",
+    "cx": "n.",
+    "sy": "选择，趋向"
+  },
+  {
+    "word": "pregnant",
+    "yb": "[ˈpreɡnənt]",
+    "cx": "a.",
+    "sy": "怀孕的"
+  },
+  {
+    "word": "prejudice",
+    "yb": "[ˈpredʒʊdɪs]",
+    "cx": "n.",
+    "sy": "偏见，成见"
+  },
+  {
+    "word": "premier",
+    "yb": "[ˈpremɪə(r); (US) priːˈmɪər]",
+    "cx": "n.",
+    "sy": "首相，总理"
+  },
+  {
+    "word": "preparation",
+    "yb": "[prepəˈreɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "准备"
+  },
+  {
+    "word": "prescription",
+    "yb": "[prɪˈskrɪpʃ(ə)n]",
+    "cx": "n.",
+    "sy": "处方，药方"
+  },
+  {
+    "word": "presentation",
+    "yb": "[prezənˈteɪʃ(ə)n; (US) priːzenˈteʃn]",
+    "cx": "n.",
+    "sy": "演示，演出"
+  },
+  {
+    "word": "preserve",
+    "yb": "[prezənˈteɪʃ(ə)n; (US) priːzenˈteʃn]",
+    "cx": "v.",
+    "sy": "保护，保留，保存"
+  },
+  {
+    "word": "press",
+    "yb": "[ˈprezɪdənt]",
+    "cx": "vt.",
+    "sy": "压,按 n.新闻界,出版社"
+  },
+  {
+    "word": "pretend",
+    "yb": "[ˈpreʃə(r)]",
+    "cx": "vi.",
+    "sy": "假装，装作"
+  },
+  {
+    "word": "preview",
+    "yb": "[ˈpriːvjuː]",
+    "cx": "vt.",
+    "sy": "预习;试演;预展"
+  },
+  {
+    "word": "pride",
+    "yb": "[praɪd]",
+    "cx": "n.",
+    "sy": "自豪，骄傲"
+  },
+  {
+    "word": "primary",
+    "yb": "[ˈpraɪmərɪ]",
+    "cx": "a.",
+    "sy": "初等的；初级的"
+  },
+  {
+    "word": "primitive",
+    "yb": "[ˈprɪmɪtɪv]",
+    "cx": "a.",
+    "sy": "原始的，远古的"
+  },
+  {
+    "word": "principle",
+    "yb": "[ˈprɪnsɪp(ə)l]",
+    "cx": "n.",
+    "sy": "道德原则，法则"
+  },
+  {
+    "word": "printer",
+    "yb": "[ˈprɪntə(r)]",
+    "cx": "n.",
+    "sy": "打印机"
+  },
+  {
+    "word": "printing",
+    "yb": "[ˈprɪntɪŋ]",
+    "cx": "n.",
+    "sy": "印刷，印刷术"
+  },
+  {
+    "word": "prison",
+    "yb": "[ˈprɪz(ə)n]",
+    "cx": "n.",
+    "sy": "监狱"
+  },
+  {
+    "word": "prisoner",
+    "yb": "[ˈprɪznə(r)]",
+    "cx": "n.",
+    "sy": "囚犯"
+  },
+  {
+    "word": "private",
+    "yb": "[ˈpraɪvɪt]",
+    "cx": "a.",
+    "sy": "私人的"
+  },
+  {
+    "word": "prize",
+    "yb": "[praɪz]",
+    "cx": "n.",
+    "sy": "奖赏，奖品"
+  },
+  {
+    "word": "probable",
+    "yb": "[ˈprɔbəb(ə)l]",
+    "cx": "a.",
+    "sy": "很可能,很有希望的"
+  },
+  {
+    "word": "procedure",
+    "yb": "[prəˈsiːdʒə(r)]",
+    "cx": "n.",
+    "sy": "程序,手续,待遇"
+  },
+  {
+    "word": "process",
+    "yb": "[ˈprəʊses; (US) ˈprɔses]",
+    "cx": "n.",
+    "sy": "/ v. 过程,加工,处理"
+  },
+  {
+    "word": "profession",
+    "yb": "[prəˈfeʃ(ə)n]",
+    "cx": "n.",
+    "sy": "（需要有高等教育学位的）职业（如医生或律师）"
+  },
+  {
+    "word": "profit",
+    "yb": "[ˈprɔfɪt]",
+    "cx": "n.",
+    "sy": "利润，收益"
+  },
+  {
+    "word": "prohibit",
+    "yb": "[prəˈhɪbɪt]",
+    "cx": "v.",
+    "sy": "禁止"
+  },
+  {
+    "word": "promote",
+    "yb": "[prəˈməʊt]",
+    "cx": "v.",
+    "sy": "促进,推动,促销,晋升"
+  },
+  {
+    "word": "pronounce",
+    "yb": "[prəˈnaʊns]",
+    "cx": "vt.",
+    "sy": "发音"
+  },
+  {
+    "word": "pronunciation",
+    "yb": "[prənʌnsɪˈeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "发音"
+  },
+  {
+    "word": "protection",
+    "yb": "[prəˈtekʃ(ə)n]",
+    "cx": "n.",
+    "sy": "保护"
+  },
+  {
+    "word": "provide",
+    "yb": "[prəˈvaɪd]",
+    "cx": "vt.",
+    "sy": "提供"
+  },
+  {
+    "word": "psychology",
+    "yb": "[saɪˈkɔlədʒɪ]",
+    "cx": "n.",
+    "sy": "心理学"
+  },
+  {
+    "word": "publicly",
+    "yb": "[ˈpʌblɪklɪ]",
+    "cx": "ad.",
+    "sy": "当众；公开地"
+  },
+  {
+    "word": "publish",
+    "yb": "[ˈpʌblɪʃ]",
+    "cx": "t.",
+    "sy": "出版，发行"
+  },
+  {
+    "word": "pulse",
+    "yb": "[pʌls]",
+    "cx": "n.",
+    "sy": "脉搏，（光、能量、波等的）脉动，搏动"
+  },
+  {
+    "word": "pump",
+    "yb": "[ˈpʌmp]",
+    "cx": "t.",
+    "sy": "用泵抽水"
+  },
+  {
+    "word": "punctual",
+    "yb": "[ˈpʌŋktjʊəl]",
+    "cx": "a.",
+    "sy": "准时的"
+  },
+  {
+    "word": "punctuate",
+    "yb": "[ˈpʌŋktjʊeɪt]",
+    "cx": "v.",
+    "sy": "加标点"
+  },
+  {
+    "word": "punish",
+    "yb": "[ˈpʌnɪʃ]",
+    "cx": "v.",
+    "sy": "惩罚，处罚"
+  },
+  {
+    "word": "punishment",
+    "yb": "[ˈpʌnɪʃmənt]",
+    "cx": "n.",
+    "sy": "惩罚"
+  },
+  {
+    "word": "purchase",
+    "yb": "[ˈpɜːtʃəs]",
+    "cx": "v.",
+    "sy": "购买，采购"
+  },
+  {
+    "word": "pure",
+    "yb": "[pjʊə(r)]",
+    "cx": "a.",
+    "sy": "纯的, 不掺杂的"
+  },
+  {
+    "word": "puzzled",
+    "yb": "[ˈpʌz(ə)l]",
+    "cx": "a.",
+    "sy": "迷惑的，困惑的"
+  },
+  {
+    "word": "pyramid",
+    "yb": "[ˈpɪrəmɪd]",
+    "cx": "n.",
+    "sy": "角锥形，金字塔"
+  },
+  {
+    "word": "quake",
+    "yb": "[kweɪk]",
+    "cx": "n.",
+    "sy": "& v. 震动，颤抖"
+  },
+  {
+    "word": "qualification",
+    "yb": "[kwɔlɪfɪˈkeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "资格，学历"
+  },
+  {
+    "word": "quantity",
+    "yb": "[ˈkwɔntətɪ]",
+    "cx": "n.",
+    "sy": "量，数"
+  },
+  {
+    "word": "quarrel",
+    "yb": "[ˈkwɔrəl; (US) ˈkwɔːrəl]",
+    "cx": "vi.",
+    "sy": "争吵，吵架"
+  },
+  {
+    "word": "questionnaire",
+    "yb": "[kwestʃəˈneə(r)]",
+    "cx": "n.",
+    "sy": "调查表，问卷"
+  },
+  {
+    "word": "queue",
+    "yb": "[kjuː]",
+    "cx": "n.",
+    "sy": "行列，长队"
+  },
+  {
+    "word": "quilt",
+    "yb": "[kwɪlt]",
+    "cx": "n.",
+    "sy": "被子；被状物"
+  },
+  {
+    "word": "quit",
+    "yb": "[kwɪt]",
+    "cx": "v.",
+    "sy": "离任，离校，戒掉"
+  },
+  {
+    "word": "quiz",
+    "yb": "[kwɪz]",
+    "cx": "n.",
+    "sy": "测验，小型考试"
+  },
+  {
+    "word": "racial",
+    "yb": "[ˈreɪʃ(ə)l]",
+    "cx": "a.",
+    "sy": "种族的"
+  },
+  {
+    "word": "radiation",
+    "yb": "[reɪdɪˈeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "放射，放射物"
+  },
+  {
+    "word": "radioactive",
+    "yb": "[reɪdɪəʊˈæktɪv]",
+    "cx": "a.",
+    "sy": "放射性的"
+  },
+  {
+    "word": "radium",
+    "yb": "[ˈreɪdɪəm]",
+    "cx": "n.",
+    "sy": "镭"
+  },
+  {
+    "word": "rag",
+    "yb": "[ræɡ]",
+    "cx": "n.",
+    "sy": "破布，抹布"
+  },
+  {
+    "word": "rail",
+    "yb": "[reɪl]",
+    "cx": "n.",
+    "sy": "铁路"
+  },
+  {
+    "word": "rainbow",
+    "yb": "[ˈreɪnbəʊ]",
+    "cx": "n.",
+    "sy": "虹，彩虹"
+  },
+  {
+    "word": "rainfall",
+    "yb": "[ˈreɪnfɔːl]",
+    "cx": "n.",
+    "sy": "一场雨； 降雨量"
+  },
+  {
+    "word": "raise",
+    "yb": "[reɪz]",
+    "cx": "vt.",
+    "sy": "使升高； 饲养"
+  },
+  {
+    "word": "random",
+    "yb": "[ˈrændəm]",
+    "cx": "a.",
+    "sy": "随意,未经事先考虑的"
+  },
+  {
+    "word": "range",
+    "yb": "[reɪndʒ]",
+    "cx": "n.",
+    "sy": "/ v. 变化，变动，排序"
+  },
+  {
+    "word": "rank",
+    "yb": "[ræŋk]",
+    "cx": "n.",
+    "sy": "职衔，军衔"
+  },
+  {
+    "word": "rapid",
+    "yb": "[ˈræpɪd]",
+    "cx": "a.",
+    "sy": "快的，迅速的"
+  },
+  {
+    "word": "rare",
+    "yb": "[reə(r)]",
+    "cx": "a.",
+    "sy": "罕见的，稀有的"
+  },
+  {
+    "word": "rat",
+    "yb": "[ræt]",
+    "cx": "n.",
+    "sy": "老鼠"
+  },
+  {
+    "word": "rate",
+    "yb": "[reɪt]",
+    "cx": "n.",
+    "sy": "/ v. 率，评估，评价"
+  },
+  {
+    "word": "raw",
+    "yb": "[rɔː]",
+    "cx": "a.",
+    "sy": "生的,未煮过的,未加工的"
+  },
+  {
+    "word": "ray",
+    "yb": "[reɪ]",
+    "cx": "n.",
+    "sy": "光辉，光线"
+  },
+  {
+    "word": "razor",
+    "yb": "[ˈreɪzə(r)]",
+    "cx": "n.",
+    "sy": "剃须刀"
+  },
+  {
+    "word": "reality",
+    "yb": "[rɪˈælɪtɪ]",
+    "cx": "n.",
+    "sy": "现实"
+  },
+  {
+    "word": "reasonable",
+    "yb": "[ˈriːzənəb(ə)l]",
+    "cx": "a.",
+    "sy": "合乎情理的"
+  },
+  {
+    "word": "rebuild",
+    "yb": "[riːˈbɪld]",
+    "cx": "vt.",
+    "sy": "重建"
+  },
+  {
+    "word": "receipt",
+    "yb": "[rɪˈsiːt]",
+    "cx": "n.",
+    "sy": "收据"
+  },
+  {
+    "word": "receiver",
+    "yb": "[rɪˈsiːvə(r)]",
+    "cx": "n.",
+    "sy": "电话听筒"
+  },
+  {
+    "word": "reception",
+    "yb": "[rɪˈsepʃ(ə)n]",
+    "cx": "n.",
+    "sy": "接待"
+  },
+  {
+    "word": "receptionist",
+    "yb": "[rɪˈsepʃənɪst]",
+    "cx": "n.",
+    "sy": "接待员"
+  },
+  {
+    "word": "recipe",
+    "yb": "[ˈresɪpɪ]",
+    "cx": "n.",
+    "sy": "烹饪法，食谱"
+  },
+  {
+    "word": "recommend",
+    "yb": "[rekəˈmend]",
+    "cx": "v.",
+    "sy": "推荐"
+  },
+  {
+    "word": "recover",
+    "yb": "[rɪˈkʌvə(r)]",
+    "cx": "vi.",
+    "sy": "痊愈；恢复"
+  },
+  {
+    "word": "recreation",
+    "yb": "[rekrɪˈeɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "娱乐，消遣"
+  },
+  {
+    "word": "rectangle",
+    "yb": "[ˈrektæŋɡ(ə)l]",
+    "cx": "n.",
+    "sy": "& a.长方形,长方形的"
+  },
+  {
+    "word": "redirect",
+    "yb": "[riːdaɪˈrekt]",
+    "cx": "vt.",
+    "sy": "使改变，使转移"
+  },
+  {
+    "word": "refer",
+    "yb": "[rɪˈfɜː(r)]",
+    "cx": "vi.",
+    "sy": "谈到,提到,涉及,有关"
+  },
+  {
+    "word": "referee",
+    "yb": "[refəˈriː]",
+    "cx": "n.",
+    "sy": "裁判，仲裁，调解员"
+  },
+  {
+    "word": "reference",
+    "yb": "[ˈref(ə)rəns]",
+    "cx": "n.",
+    "sy": "提到,涉及,谈及,查询"
+  },
+  {
+    "word": "reflect",
+    "yb": "[rɪˈflekt]",
+    "cx": "v.",
+    "sy": "反映，反射"
+  },
+  {
+    "word": "reform",
+    "yb": "[rɪˈfɔːm]",
+    "cx": "v.",
+    "sy": "/ n. 改革，改进，改良"
+  },
+  {
+    "word": "refresh",
+    "yb": "[rɪˈfreʃ]",
+    "cx": "v.",
+    "sy": "使恢复精力，提醒"
+  },
+  {
+    "word": "refreshments",
+    "yb": "[rɪˈfreʃmənt]",
+    "cx": "n.",
+    "sy": "点心，便餐；(会议后的)简单茶点招待"
+  },
+  {
+    "word": "refrigerator",
+    "yb": "[rɪˈfrɪdʒəreɪtə(r)]",
+    "cx": "n.",
+    "sy": "冰箱"
+  },
+  {
+    "word": "refusal",
+    "yb": "[rɪˈfjuːz(ə)l]",
+    "cx": "n.",
+    "sy": "拒绝"
+  },
+  {
+    "word": "regard",
+    "yb": "[rɪˈɡɑːd]",
+    "cx": "v.",
+    "sy": "把......看作"
+  },
+  {
+    "word": "regards",
+    "yb": "[rɪˈɡɑːd]",
+    "cx": "n.",
+    "sy": "问候，致意"
+  },
+  {
+    "word": "regardless",
+    "yb": "[rɪˈɡɑːdlɪs]",
+    "cx": "a.",
+    "sy": "不顾，不加理会"
+  },
+  {
+    "word": "register",
+    "yb": "[ˈredʒɪstə(r)]",
+    "cx": "n.",
+    "sy": "登记簿，花名册，注册员 v. 登记，注册"
+  },
+  {
+    "word": "regret",
+    "yb": "[rɪˈɡret]",
+    "cx": "n.",
+    "sy": "/ vt.可惜,遗憾;痛惜;哀悼"
+  },
+  {
+    "word": "regulation",
+    "yb": "[reɡjʊˈleɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "规则，规章"
+  },
+  {
+    "word": "reject",
+    "yb": "[rɪˈdʒekt]",
+    "cx": "v.",
+    "sy": "拒绝"
+  },
+  {
+    "word": "relate",
+    "yb": "[rɪˈleɪt]",
+    "cx": "vi.",
+    "sy": "有关； 涉及"
+  },
+  {
+    "word": "relative",
+    "yb": "[ˈrelətɪv]",
+    "cx": "n.",
+    "sy": "亲属，亲戚"
+  },
+  {
+    "word": "relay",
+    "yb": "[ˈriːleɪ]",
+    "cx": "n.",
+    "sy": "接力，接替人，中转 v. 接替，补充；转运"
+  },
+  {
+    "word": "reliable",
+    "yb": "[rɪˈlaɪəb(ə)l]",
+    "cx": "a.",
+    "sy": "可信赖的，可依靠的"
+  },
+  {
+    "word": "relief",
+    "yb": "[rɪˈliːf]",
+    "cx": "n.",
+    "sy": "轻松,解脱,缓和,救济"
+  },
+  {
+    "word": "religion",
+    "yb": "[rɪˈlɪdʒən]",
+    "cx": "n.",
+    "sy": "宗教"
+  },
+  {
+    "word": "religious",
+    "yb": "[rɪˈlɪdʒəs]",
+    "cx": "a.",
+    "sy": "宗教的"
+  },
+  {
+    "word": "rely",
+    "yb": "[rɪˈlaɪ]",
+    "cx": "v.",
+    "sy": "依赖，依靠"
+  },
+  {
+    "word": "remain",
+    "yb": "[rɪˈmeɪn]",
+    "cx": "vt.",
+    "sy": "余下,留下vi.保持,仍是"
+  },
+  {
+    "word": "remark",
+    "yb": "[rɪˈmɑːk]",
+    "cx": "n.",
+    "sy": "陈述；话；议论"
+  },
+  {
+    "word": "remind",
+    "yb": "[rɪˈmaɪnd]",
+    "cx": "vt.",
+    "sy": "提醒，使记起"
+  },
+  {
+    "word": "remote",
+    "yb": "[rɪˈməʊt]",
+    "cx": "a.",
+    "sy": "偏远的，偏僻的"
+  },
+  {
+    "word": "remove",
+    "yb": "[rɪˈmuːv]",
+    "cx": "vt.",
+    "sy": "移动，拿走，脱掉（衣服等）"
+  },
+  {
+    "word": "rent",
+    "yb": "[rent]",
+    "cx": "n.",
+    "sy": "& v. 租金"
+  },
+  {
+    "word": "repairs",
+    "yb": "[rɪˈpeə(r)]",
+    "cx": "n.",
+    "sy": "修理工作"
+  },
+  {
+    "word": "replace",
+    "yb": "[rɪˈpleɪs]",
+    "cx": "vt.",
+    "sy": "取代"
+  },
+  {
+    "word": "representative",
+    "yb": "[reprɪˈzentətɪv]",
+    "cx": "n.",
+    "sy": "代表,典型人物"
+  },
+  {
+    "word": "republic",
+    "yb": "[rɪˈpʌblɪk]",
+    "cx": "n.",
+    "sy": "共和国"
+  },
+  {
+    "word": "reputation",
+    "yb": "[repjʊˈteɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "名声，名誉"
+  },
+  {
+    "word": "request",
+    "yb": "[rɪˈkwest]",
+    "cx": "n.",
+    "sy": "请求，要求的事物"
+  },
+  {
+    "word": "requirement",
+    "yb": "[rɪˈkwaɪəmənt]",
+    "cx": "n.",
+    "sy": "需要； 要求； 必要的条件"
+  },
+  {
+    "word": "rescue",
+    "yb": "[ˈreskjuː]",
+    "cx": "vt.",
+    "sy": "营救，援救"
+  },
+  {
+    "word": "resemble",
+    "yb": "[rɪˈzemb(ə)l]",
+    "cx": "v.",
+    "sy": "（不用进行时）像，看起来像"
+  },
+  {
+    "word": "reservation",
+    "yb": "[rezəˈveɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "预定"
+  },
+  {
+    "word": "reserve",
+    "yb": "[rɪˈzɜːv]",
+    "cx": "n.",
+    "sy": "& v. 储备；预定"
+  },
+  {
+    "word": "resign",
+    "yb": "[rɪˈzaɪn]",
+    "cx": "v.",
+    "sy": "辞职"
+  },
+  {
+    "word": "resist",
+    "yb": "[rɪˈzɪst]",
+    "cx": "v.",
+    "sy": "抵抗；挡开"
+  },
+  {
+    "word": "respond",
+    "yb": "[rɪˈspekt]",
+    "cx": "v.",
+    "sy": "回答,回应,作出反应"
+  },
+  {
+    "word": "responsibility",
+    "yb": "[rɪspɔnsɪˈbɪlɪtɪ]",
+    "cx": "n.",
+    "sy": "责任，负责"
+  },
+  {
+    "word": "restrict",
+    "yb": "[rɪˈstrɪkt]",
+    "cx": "v.",
+    "sy": "限制"
+  },
+  {
+    "word": "restriction",
+    "yb": "[rɪˈstrɪkʃ(ə)n]",
+    "cx": "n.",
+    "sy": "限制，约束"
+  },
+  {
+    "word": "reviewer",
+    "yb": "[rɪˈvjuːə(r)]",
+    "cx": "n.",
+    "sy": "评论者；书评家"
+  },
+  {
+    "word": "revision",
+    "yb": "[rɪˈvɪʒ(ə)n]",
+    "cx": "n.",
+    "sy": "复习，温习"
+  },
+  {
+    "word": "revolution",
+    "yb": "[revəˈluːʃ(ə)n]",
+    "cx": "n.",
+    "sy": "革命，变革"
+  },
+  {
+    "word": "reward",
+    "yb": "[rɪˈwɔːd]",
+    "cx": "n.",
+    "sy": "奖赏"
+  },
+  {
+    "word": "rewind",
+    "yb": "[riːˈwaɪnd]",
+    "cx": "v.",
+    "sy": "回转（磁带等）"
+  },
+  {
+    "word": "rewrite",
+    "yb": "[riːˈraɪt]",
+    "cx": "vt.",
+    "sy": "重写"
+  },
+  {
+    "word": "rhyme",
+    "yb": "[raɪm]",
+    "cx": "n.",
+    "sy": "/ v. 押韵"
+  },
+  {
+    "word": "riddle",
+    "yb": "[ˈrɪd(ə)l]",
+    "cx": "n.",
+    "sy": "谜(语)"
+  },
+  {
+    "word": "ridiculous",
+    "yb": "[rɪˈdɪkjʊləs]",
+    "cx": "a.",
+    "sy": "荒谬的，愚蠢的"
+  },
+  {
+    "word": "rigid",
+    "yb": "[ˈrɪdʒɪd]",
+    "cx": "a.",
+    "sy": "死板的,僵硬的,固执的"
+  },
+  {
+    "word": "ripe",
+    "yb": "[raɪp]",
+    "cx": "a.",
+    "sy": "成熟的，熟的"
+  },
+  {
+    "word": "ripen",
+    "yb": "[ˈraɪpən]",
+    "cx": "v.",
+    "sy": "成熟"
+  },
+  {
+    "word": "risk",
+    "yb": "[rɪsk]",
+    "cx": "n.",
+    "sy": "/ v. 危险，风险，冒险"
+  },
+  {
+    "word": "roast",
+    "yb": "[rəʊst]",
+    "cx": "v.",
+    "sy": "烤（肉）"
+  },
+  {
+    "word": "rob",
+    "yb": "[rɔb]",
+    "cx": "v.",
+    "sy": "抢夺，抢劫"
+  },
+  {
+    "word": "roll",
+    "yb": "[rəʊl]",
+    "cx": "v.",
+    "sy": "滚动, 打滚 n. 面包圈，小圆面包；卷状物"
+  },
+  {
+    "word": "roller",
+    "yb": "[ˈrəʊlə(r)]",
+    "cx": "n.",
+    "sy": "滚筒； 辊"
+  },
+  {
+    "word": "rooster",
+    "yb": "[ˈruːstə(r)]",
+    "cx": "n.",
+    "sy": "(美)公鸡"
+  },
+  {
+    "word": "root",
+    "yb": "[ruːt]",
+    "cx": "n.",
+    "sy": "根，根源，起源"
+  },
+  {
+    "word": "rot",
+    "yb": "[rɔt]",
+    "cx": "vi.",
+    "sy": "烂； 腐败"
+  },
+  {
+    "word": "rough",
+    "yb": "[rʌf]",
+    "cx": "a.",
+    "sy": "粗糙的，粗略的"
+  },
+  {
+    "word": "roundabout",
+    "yb": "[ˈraʊndəbaʊt]",
+    "cx": "a.",
+    "sy": "& n. 绕道的，不直接的；转盘路"
+  },
+  {
+    "word": "routine",
+    "yb": "[ruːˈtiːn]",
+    "cx": "n.",
+    "sy": "常规,正常顺序,无聊"
+  },
+  {
+    "word": "royal",
+    "yb": "[ˈrɔɪəl]",
+    "cx": "a.",
+    "sy": "皇家的，王室的，国王的，女王的"
+  },
+  {
+    "word": "rubber",
+    "yb": "[ˈrʌbə(r)]",
+    "cx": "n.",
+    "sy": "橡胶； 合成橡胶"
+  },
+  {
+    "word": "rude",
+    "yb": "[ruːd]",
+    "cx": "a.",
+    "sy": "无理的, 粗鲁的"
+  },
+  {
+    "word": "rugby",
+    "yb": "[ˈrʌɡbɪ]",
+    "cx": "n.",
+    "sy": "（英）橄榄球"
+  },
+  {
+    "word": "ruin",
+    "yb": "[ˈruːɪn]",
+    "cx": "vt.",
+    "sy": "（使）毁坏；（使） 毁灭 n. (复) 废墟；遗迹"
+  },
+  {
+    "word": "runner",
+    "yb": "[ˈrʌnə(r)]",
+    "cx": "n.",
+    "sy": "赛跑者；操作者；滑行装置"
+  },
+  {
+    "word": "Russian",
+    "yb": "[ˈrʌʃ(ə)n]",
+    "cx": "a.",
+    "sy": "俄国人的，俄语的 n. 俄国人，俄语"
+  },
+  {
+    "word": "sacrifice",
+    "yb": "[ˈsækrɪfaɪs]",
+    "cx": "vt.",
+    "sy": "牺牲"
+  },
+  {
+    "word": "sailing",
+    "yb": "[ˈseɪlɪŋ]",
+    "cx": "n.",
+    "sy": "航海"
+  },
+  {
+    "word": "sailor",
+    "yb": "[ˈseɪlə(r)]",
+    "cx": "n.",
+    "sy": "水手，海员"
+  },
+  {
+    "word": "salesgirl",
+    "yb": "[ˈseɪlzɡɜːl]",
+    "cx": "n.",
+    "sy": "女售货员"
+  },
+  {
+    "word": "salesman",
+    "yb": "[ˈseɪlzmən]",
+    "cx": "n.",
+    "sy": "男售货员"
+  },
+  {
+    "word": "saleswoman",
+    "yb": "[seɪlz‚wʊmən]",
+    "cx": "n.",
+    "sy": "女售货员"
+  },
+  {
+    "word": "salty",
+    "yb": "[ˈsɔːltɪ, ˈsɔltɪ]",
+    "cx": "a.",
+    "sy": "盐的，咸的，含盐的"
+  },
+  {
+    "word": "salute",
+    "yb": "[səˈluːt, səˈljuːt]",
+    "cx": "v.",
+    "sy": "& n. 敬礼"
+  },
+  {
+    "word": "satellite",
+    "yb": "[ˈsætəlaɪt]",
+    "cx": "n.",
+    "sy": "卫星"
+  },
+  {
+    "word": "satisfaction",
+    "yb": "[sætɪsˈfækʃ(ə)n]",
+    "cx": "n.",
+    "sy": "满意"
+  },
+  {
+    "word": "satisfy",
+    "yb": "[ˈsætɪsfaɪ]",
+    "cx": "vt.",
+    "sy": "满足，使满意"
+  },
+  {
+    "word": "sauce",
+    "yb": "[sɔːs]",
+    "cx": "n.",
+    "sy": "酱汁； 调味汁"
+  },
+  {
+    "word": "saucer",
+    "yb": "[ˈsɔːsə(r)]",
+    "cx": "n.",
+    "sy": "茶碟，茶托，小圆盘"
+  },
+  {
+    "word": "savage",
+    "yb": "[ˈsævɪdʒ]",
+    "cx": "n.",
+    "sy": "野蛮人，未开化的人"
+  },
+  {
+    "word": "scan",
+    "yb": "[skæn]",
+    "cx": "v.",
+    "sy": "略读，浏览，扫描"
+  },
+  {
+    "word": "scar",
+    "yb": "[skɑː(r)]",
+    "cx": "n.",
+    "sy": "伤疤，伤痕"
+  },
+  {
+    "word": "scare",
+    "yb": "[skeə(r)]",
+    "cx": "v.",
+    "sy": "使害怕，使恐惧"
+  },
+  {
+    "word": "scene",
+    "yb": "[sɪːn]",
+    "cx": "n.",
+    "sy": "（戏剧、电影等的）一场，场景，布景"
+  },
+  {
+    "word": "scenery",
+    "yb": "[ˈsiːnərɪ]",
+    "cx": "n.",
+    "sy": "风景，景色，风光"
+  },
+  {
+    "word": "schedule",
+    "yb": "[ˈʃedjuːl; (US) ˈskedʒʊl]",
+    "cx": "n.",
+    "sy": "工作计划，日程安排v. 安排时间，预定"
+  },
+  {
+    "word": "scholar",
+    "yb": "[ˈskɔlə(r)]",
+    "cx": "n.",
+    "sy": "学者"
+  },
+  {
+    "word": "scholarship",
+    "yb": "[ˈskɔləʃɪp]",
+    "cx": "n.",
+    "sy": "奖学金"
+  },
+  {
+    "word": "scientific",
+    "yb": "[saɪənˈtɪfɪk]",
+    "cx": "a.",
+    "sy": "科学的"
+  },
+  {
+    "word": "scissors",
+    "yb": "[ˈsɪzəz]",
+    "cx": "n.",
+    "sy": "剪刀，剪子"
+  },
+  {
+    "word": "scold",
+    "yb": "[skəʊld]",
+    "cx": "vt.",
+    "sy": "责骂"
+  },
+  {
+    "word": "scores",
+    "yb": "[skɔː(r) z]",
+    "cx": "n.",
+    "sy": "许多，很多"
+  },
+  {
+    "word": "Scottish",
+    "yb": "[ˈskɔtɪʃ]",
+    "cx": "a.",
+    "sy": "苏格兰（人）的 n. 苏格兰人"
+  },
+  {
+    "word": "Scratch",
+    "yb": "[ krætʃ ]",
+    "cx": "v.",
+    "sy": "/ n. 划破，划痕，划伤"
+  },
+  {
+    "word": "scream",
+    "yb": "[skriːm]",
+    "cx": "n.",
+    "sy": "尖叫"
+  },
+  {
+    "word": "sculpture",
+    "yb": "[ˈskʌlptʃə(r)]",
+    "cx": "n.",
+    "sy": "雕塑（术），雕刻（术），雕刻作品，雕像"
+  },
+  {
+    "word": "seagull",
+    "yb": "[ˈsiːɡʌl]",
+    "cx": "n.",
+    "sy": "海鸥"
+  },
+  {
+    "word": "seal",
+    "yb": "[siːl]",
+    "cx": "n.",
+    "sy": "海豹"
+  },
+  {
+    "word": "seaman",
+    "yb": "[ˈsiːmən]",
+    "cx": "n.",
+    "sy": "水手； 海员"
+  },
+  {
+    "word": "seashell",
+    "yb": "[ˈsiːʃel]",
+    "cx": "n.",
+    "sy": "海贝"
+  },
+  {
+    "word": "seaside",
+    "yb": "[ˈsiːsaɪd]",
+    "cx": "n.",
+    "sy": "海滨"
+  },
+  {
+    "word": "seaweed",
+    "yb": "[ˈsiːwiːd]",
+    "cx": "n.",
+    "sy": "海草,海藻,海带"
+  },
+  {
+    "word": "second",
+    "yb": "[ˈsekənd]",
+    "cx": "n.",
+    "sy": "秒 num.第二a.第二的"
+  },
+  {
+    "word": "secondhand",
+    "yb": "['sekənd'hænd]",
+    "cx": "n.",
+    "sy": "二手货; 旧货"
+  },
+  {
+    "word": "secretary",
+    "yb": "[ˈsekrətərɪ]",
+    "cx": "n.",
+    "sy": "秘书；书记"
+  },
+  {
+    "word": "section",
+    "yb": "[ˈsekʃ(ə)n]",
+    "cx": "n.",
+    "sy": "段，部分，部门"
+  },
+  {
+    "word": "secure",
+    "yb": "[sɪˈkjʊə(r)]",
+    "cx": "a.",
+    "sy": "安心的,有把握的,牢靠的"
+  },
+  {
+    "word": "security",
+    "yb": "[sɪˈkjʊərɪtɪ]",
+    "cx": "n.",
+    "sy": "安全，平安"
+  },
+  {
+    "word": "seed",
+    "yb": "[siːd]",
+    "cx": "n.",
+    "sy": "种子"
+  },
+  {
+    "word": "seize",
+    "yb": "[siːz]",
+    "cx": "vt.",
+    "sy": "抓住(时机等)"
+  },
+  {
+    "word": "selfish",
+    "yb": "[ˈselfɪʃ]",
+    "cx": "a.",
+    "sy": "自私的"
+  },
+  {
+    "word": "semicircle",
+    "yb": "[ˈsemɪsɜːk(ə)l]",
+    "cx": "n.",
+    "sy": "半圆"
+  },
+  {
+    "word": "senior",
+    "yb": "[ˈsiːnɪə(r)]",
+    "cx": "a.",
+    "sy": "年长的,资深的,高年级的 n. 上级，长辈，高年级生"
+  },
+  {
+    "word": "sensitive",
+    "yb": "[ˈsensɪtɪv]",
+    "cx": "a.",
+    "sy": "体贴的,善解人意的"
+  },
+  {
+    "word": "separate",
+    "yb": "[ˈsepərət]",
+    "cx": "v.",
+    "sy": "使分开，使分离a. 单独的，分开的"
+  },
+  {
+    "word": "separately",
+    "yb": "[ˈsepərətlɪ]",
+    "cx": "ad.",
+    "sy": "单独地，各自地"
+  },
+  {
+    "word": "separation",
+    "yb": "[sepəˈreɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "分离，隔离"
+  },
+  {
+    "word": "servant",
+    "yb": "[ˈsɜːvənt]",
+    "cx": "n.",
+    "sy": "仆人，佣人"
+  },
+  {
+    "word": "session",
+    "yb": "[ˈseʃ(ə)n]",
+    "cx": "n.",
+    "sy": "一场,一节,一段时间"
+  },
+  {
+    "word": "settle",
+    "yb": "[ˈset(ə)l]",
+    "cx": "vi.",
+    "sy": "安家，定居"
+  },
+  {
+    "word": "settlement",
+    "yb": "[ˈsetəlmənt]",
+    "cx": "n.",
+    "sy": "新拓居地；（美）部落，村落"
+  },
+  {
+    "word": "settler",
+    "yb": "[ˈsetlə(r)]",
+    "cx": "n.",
+    "sy": "移居者，开拓者"
+  },
+  {
+    "word": "severe",
+    "yb": "[sɪˈvɪə(r)]",
+    "cx": "a.",
+    "sy": "极为恶劣,十分严重的"
+  },
+  {
+    "word": "shabby",
+    "yb": "[ˈʃæbɪ]",
+    "cx": "a.",
+    "sy": "破旧,破烂,衣衫褴褛的"
+  },
+  {
+    "word": "shade",
+    "yb": "[ʃeɪd]",
+    "cx": "n.",
+    "sy": "阴凉处，树荫处"
+  },
+  {
+    "word": "shadow",
+    "yb": "[ˈʃædəʊ]",
+    "cx": "n.",
+    "sy": "影子, 阴影"
+  },
+  {
+    "word": "shallow",
+    "yb": "[ˈʃæləʊ]",
+    "cx": "a.",
+    "sy": "浅的,不深的,肤浅的"
+  },
+  {
+    "word": "shame",
+    "yb": "[ʃeɪm]",
+    "cx": "n.",
+    "sy": "遗憾的事；羞愧"
+  },
+  {
+    "word": "sharpen",
+    "yb": "[ˈʃɑːpən]",
+    "cx": "v.",
+    "sy": "（使）变锐利，削尖"
+  },
+  {
+    "word": "sheet",
+    "yb": "[ʃiːt]",
+    "cx": "n.",
+    "sy": "成幅的薄片，薄板"
+  },
+  {
+    "word": "shelter",
+    "yb": "[ˈʃeltə(r)]",
+    "cx": "n.",
+    "sy": "掩蔽；隐蔽处"
+  },
+  {
+    "word": "shine",
+    "yb": "[ʃaɪn]",
+    "cx": "n.",
+    "sy": "光泽；光彩；阳光；晴天；光(亮)"
+  },
+  {
+    "word": "shock",
+    "yb": "[ʃɔk]",
+    "cx": "vt.",
+    "sy": "使震惊"
+  },
+  {
+    "word": "shopkeeper",
+    "yb": "[ˈʃɔpkiːpə(r)]",
+    "cx": "n.",
+    "sy": "店主，零售商人"
+  },
+  {
+    "word": "shore",
+    "yb": "[ʃɔː(r)]",
+    "cx": "n.",
+    "sy": "滨，岸"
+  },
+  {
+    "word": "shortcoming",
+    "yb": "[ˈʃɔːtkʌmɪŋ]",
+    "cx": "n.",
+    "sy": "缺点，短处"
+  },
+  {
+    "word": "shortly",
+    "yb": "[ˈʃɔːtlɪ]",
+    "cx": "ad.",
+    "sy": "不久"
+  },
+  {
+    "word": "shorts",
+    "yb": "[ʃɔːts]",
+    "cx": "n.",
+    "sy": "短裤；运动短裤"
+  },
+  {
+    "word": "shot",
+    "yb": "[ʃɔt]",
+    "cx": "n.",
+    "sy": "射击，开枪，开炮，射击声；子弹"
+  },
+  {
+    "word": "shuttle",
+    "yb": "[ˈʃʌt(ə)l]",
+    "cx": "vn.",
+    "sy": "合拢 （往返与两个定点之间的）（火车汽车飞机）班车/机"
+  },
+  {
+    "word": "shyv",
+    "yb": "[ʃaɪ]",
+    "cx": "a.",
+    "sy": "害羞的"
+  },
+  {
+    "word": "sideway",
+    "yb": "[ˈsaɪdweɪz]",
+    "cx": "n.",
+    "sy": "岔路，旁路"
+  },
+  {
+    "word": "sideways",
+    "yb": "[ˈsaɪdweɪz]",
+    "cx": "ad.",
+    "sy": "斜向一边的"
+  },
+  {
+    "word": "sigh",
+    "yb": "[saɪ]",
+    "cx": "vi.",
+    "sy": "叹息；叹气"
+  },
+  {
+    "word": "sightseeing",
+    "yb": "[ˈsaɪtsiːɪŋ]",
+    "cx": "n.",
+    "sy": "游览，观光"
+  },
+  {
+    "word": "signal",
+    "yb": "[ˈsɪɡn(ə)l]",
+    "cx": "n.",
+    "sy": "信号，暗号"
+  },
+  {
+    "word": "signature",
+    "yb": "[ˈsɪɡnətʃə(r)]",
+    "cx": "n.",
+    "sy": "签名"
+  },
+  {
+    "word": "significance",
+    "yb": "[ˈsɪɡnətʃə(r)]",
+    "cx": "n.",
+    "sy": "重要性，意义"
+  },
+  {
+    "word": "simplify",
+    "yb": "[ˈsɪmplɪfaɪ]",
+    "cx": "v.",
+    "sy": "使简化，使简易"
+  },
+  {
+    "word": "sincerely",
+    "yb": "[sɪn'sɪrlɪ /-'sɪəl-]",
+    "cx": "ad.",
+    "sy": "真诚地"
+  },
+  {
+    "word": "sink",
+    "yb": "[sɪŋk]",
+    "cx": "n.",
+    "sy": "洗涤槽；污水槽"
+  },
+  {
+    "word": "skateboard",
+    "yb": "[ˈskeɪtbɔːd]",
+    "cx": "n.",
+    "sy": "冰鞋，滑板"
+  },
+  {
+    "word": "skilled",
+    "yb": "[skiː]",
+    "cx": "a.",
+    "sy": "熟练的；有技能的"
+  },
+  {
+    "word": "skillful",
+    "yb": "[ˈskɪlf(ə)l]",
+    "cx": "a.",
+    "sy": "熟练,精湛的,灵巧的"
+  },
+  {
+    "word": "skillfully",
+    "yb": "['skilfuli]",
+    "cx": "ad.",
+    "sy": "精湛地,巧妙地"
+  },
+  {
+    "word": "skip",
+    "yb": "[skɪp]",
+    "cx": "v.",
+    "sy": "蹦蹦跳跳；跳绳"
+  },
+  {
+    "word": "skyscraper",
+    "yb": "[ˈskaɪskreɪpə(r)]",
+    "cx": "n.",
+    "sy": "摩天楼"
+  },
+  {
+    "word": "slave",
+    "yb": "[sleɪv]",
+    "cx": "n.",
+    "sy": "奴隶"
+  },
+  {
+    "word": "slavery",
+    "yb": "[ˈsleɪvərɪ]",
+    "cx": "n.",
+    "sy": "奴隶制度"
+  },
+  {
+    "word": "sleeve",
+    "yb": "[sliːv]",
+    "cx": "n.",
+    "sy": "袖子，袖套"
+  },
+  {
+    "word": "slice",
+    "yb": "[sliːv]",
+    "cx": "n.",
+    "sy": "片，切面（薄）片"
+  },
+  {
+    "word": "slide",
+    "yb": "[slaɪd]",
+    "cx": "n.",
+    "sy": "幻灯片,滑道 v.滑行,滑动"
+  },
+  {
+    "word": "slight",
+    "yb": "[slaɪt]",
+    "cx": "a.",
+    "sy": "轻微的，细小的"
+  },
+  {
+    "word": "smelly",
+    "yb": "[ˈsmelɪ]",
+    "cx": "a.",
+    "sy": "有臭味的,发出臭味的"
+  },
+  {
+    "word": "smog",
+    "yb": "[smaɪl]",
+    "cx": "n.",
+    "sy": "烟雾(= smoke + fog)"
+  },
+  {
+    "word": "smooth",
+    "yb": "[ˈsməʊkɪŋ]",
+    "cx": "a.",
+    "sy": "光滑的;平坦的"
+  },
+  {
+    "word": "snatch",
+    "yb": "[sneɪk]",
+    "cx": "v.",
+    "sy": "夺，夺得，夺走"
+  },
+  {
+    "word": "sneaker",
+    "yb": "[sneɪk]",
+    "cx": "n.",
+    "sy": "（复）轻便运动鞋（美）"
+  },
+  {
+    "word": "sneeze",
+    "yb": "[sneɪk]",
+    "cx": "v.",
+    "sy": "打喷嚏"
+  },
+  {
+    "word": "sniff",
+    "yb": "[snɪf]",
+    "cx": "v.",
+    "sy": "抽鼻子（哭,患感冒时）"
+  },
+  {
+    "word": "sob",
+    "yb": "[səʊp]",
+    "cx": "n.",
+    "sy": "& v. 抽泣，啜泣"
+  },
+  {
+    "word": "soccer",
+    "yb": "[ˈsɔkə(r)]",
+    "cx": "n.",
+    "sy": "英式足球"
+  },
+  {
+    "word": "socialism",
+    "yb": "[ˈsəʊʃəlɪz(ə)m]",
+    "cx": "n.",
+    "sy": "社会主义"
+  },
+  {
+    "word": "socialist",
+    "yb": "[ˈsəʊʃəlɪst]",
+    "cx": "a.",
+    "sy": "社会主义的"
+  },
+  {
+    "word": "society",
+    "yb": "[səˈsaɪətɪ]",
+    "cx": "n.",
+    "sy": "社会"
+  },
+  {
+    "word": "socket",
+    "yb": "[ˈsɔkɪt]",
+    "cx": "n.",
+    "sy": "（电源）插座"
+  },
+  {
+    "word": "softball",
+    "yb": "[ˈsɔftbɔːl]",
+    "cx": "n.",
+    "sy": "垒球"
+  },
+  {
+    "word": "soil",
+    "yb": "[sɔɪl]",
+    "cx": "n.",
+    "sy": "土壤，土地"
+  },
+  {
+    "word": "solar",
+    "yb": "[ˈsəʊlə(r)]",
+    "cx": "a.",
+    "sy": "太阳的"
+  },
+  {
+    "word": "soldier",
+    "yb": "[ˈsəʊldʒə(r)]",
+    "cx": "n.",
+    "sy": "士兵，战士"
+  },
+  {
+    "word": "solid",
+    "yb": "[ˈsɔlɪd]",
+    "cx": "a.",
+    "sy": "结实的,固体的 n.固体"
+  },
+  {
+    "word": "sorrow",
+    "yb": "[ˈsɔrəʊ]",
+    "cx": "n.",
+    "sy": "悲伤，悲痛"
+  },
+  {
+    "word": "soul",
+    "yb": "[səʊl]",
+    "cx": "n.",
+    "sy": "灵魂；心灵；气魄"
+  },
+  {
+    "word": "sour",
+    "yb": "[ˈsaʊə(r)]",
+    "cx": "a.",
+    "sy": "酸的，馊的"
+  },
+  {
+    "word": "souvenirs",
+    "yb": "[suːvəˈnɪə(r); (US) ˈsuːvənɪər]",
+    "cx": "n.",
+    "sy": "旅游纪念品,纪念物"
+  },
+  {
+    "word": "spade",
+    "yb": "[speɪd]",
+    "cx": "n.",
+    "sy": "铲子;纸牌中的黑桃"
+  },
+  {
+    "word": "Spanish",
+    "yb": "[ˈspænɪʃ]",
+    "cx": "a.",
+    "sy": "西班牙人的，西班牙的，西班牙语的 n. 西班牙语"
+  },
+  {
+    "word": "sparrow",
+    "yb": "[ˈspærəʊ]",
+    "cx": "n.",
+    "sy": "麻雀，雀型鸟类"
+  },
+  {
+    "word": "spear",
+    "yb": "[spɪə(r)]",
+    "cx": "n.",
+    "sy": "矛，枪，梭镖"
+  },
+  {
+    "word": "specialist",
+    "yb": "[ˈspeʃəlɪst]",
+    "cx": "n.",
+    "sy": "（医学）专家，专科医生；专家；专业人员"
+  },
+  {
+    "word": "specific",
+    "yb": "[spɪˈsɪfɪk]",
+    "cx": "a.",
+    "sy": "明确的,具体的,独特的"
+  },
+  {
+    "word": "spin",
+    "yb": "[spɪn]",
+    "cx": "v.",
+    "sy": "& n. 纺，（使）快速旋转；旋转，旋转运动"
+  },
+  {
+    "word": "spiritual",
+    "yb": "[ˈspɪrɪtʃʊəl]",
+    "cx": "a.",
+    "sy": "精神的； 心灵的"
+  },
+  {
+    "word": "spit",
+    "yb": "[spɪt]",
+    "cx": "v.",
+    "sy": "吐唾沫；吐痰"
+  },
+  {
+    "word": "splendid",
+    "yb": "[ˈsplendɪd]",
+    "cx": "a.",
+    "sy": "灿烂的，辉煌的；（口语）极好的"
+  },
+  {
+    "word": "split",
+    "yb": "[splɪt]",
+    "cx": "v.",
+    "sy": "撕开;切开"
+  },
+  {
+    "word": "sponsor",
+    "yb": "[ˈspɔnsə(r)]",
+    "cx": "n.",
+    "sy": "赞助者，赞助商"
+  },
+  {
+    "word": "spoonful",
+    "yb": "[ˈspuːnfʊl]",
+    "cx": "n.",
+    "sy": "一匙（的量）"
+  },
+  {
+    "word": "spot",
+    "yb": "[spɔt]",
+    "cx": "n.",
+    "sy": "斑点，污点；场所，地点 v. 沾上污渍，弄脏"
+  },
+  {
+    "word": "spray",
+    "yb": "[spreɪ]",
+    "cx": "n.",
+    "sy": "/ v. 水雾,喷雾(器)喷洒"
+  },
+  {
+    "word": "spy",
+    "yb": "[spaɪ]",
+    "cx": "n.",
+    "sy": "密探,间谍 v.侦探,刺探"
+  },
+  {
+    "word": "squid",
+    "yb": "[skwɪd]",
+    "cx": "n.",
+    "sy": "鱿鱼"
+  },
+  {
+    "word": "squirrel",
+    "yb": "[ˈskwɪr(ə)l; (US) ˈskwɜːrəl]",
+    "cx": "n.",
+    "sy": "松鼠"
+  },
+  {
+    "word": "stable",
+    "yb": "[ˈsteɪb(ə)l]",
+    "cx": "a.",
+    "sy": "稳固的，牢固的"
+  },
+  {
+    "word": "stadium",
+    "yb": "[ˈsteɪdɪəm]",
+    "cx": "n.",
+    "sy": "（露天）体育场"
+  },
+  {
+    "word": "staff",
+    "yb": "[stɑːf]",
+    "cx": "n.",
+    "sy": "全体职工（雇员）"
+  },
+  {
+    "word": "stage",
+    "yb": "[steɪdʒ]",
+    "cx": "n.",
+    "sy": "舞台；阶段"
+  },
+  {
+    "word": "stain",
+    "yb": "[steɪn]",
+    "cx": "n.",
+    "sy": "污点，污渍，染色剂"
+  },
+  {
+    "word": "stainless",
+    "yb": "[ˈsteɪnlɪs]",
+    "cx": "a.",
+    "sy": "无污点的"
+  },
+  {
+    "word": "stare",
+    "yb": "[steə(r)]",
+    "cx": "vi.",
+    "sy": "盯，凝视"
+  },
+  {
+    "word": "starvation",
+    "yb": "[stɑːˈveɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "饥饿； 饿死"
+  },
+  {
+    "word": "starve",
+    "yb": "[stɑːv]",
+    "cx": "v.",
+    "sy": "饿死"
+  },
+  {
+    "word": "state",
+    "yb": "[steɪt]",
+    "cx": "n.",
+    "sy": "状态； 情形；国家，（美国的）州"
+  },
+  {
+    "word": "statement",
+    "yb": "[ˈsteɪtmənt]",
+    "cx": "n.",
+    "sy": "声明，陈诉，说法"
+  },
+  {
+    "word": "statistics",
+    "yb": "[stəˈtɪstɪks]",
+    "cx": "n.",
+    "sy": "统计数字，统计资料，统计学"
+  },
+  {
+    "word": "statue",
+    "yb": "[ˈstætjuː]",
+    "cx": "n.",
+    "sy": "法令，法规，章程"
+  },
+  {
+    "word": "status",
+    "yb": "[ˈsteɪtəs]",
+    "cx": "n.",
+    "sy": "法律地位（身份）"
+  },
+  {
+    "word": "steady",
+    "yb": "[ˈstedɪ]",
+    "cx": "a.",
+    "sy": "稳固的；平稳的"
+  },
+  {
+    "word": "steak",
+    "yb": "[steɪk]",
+    "cx": "n.",
+    "sy": "牛排，肉排，鱼排"
+  },
+  {
+    "word": "steam",
+    "yb": "[stiːm]",
+    "cx": "n.",
+    "sy": "汽，水蒸气"
+  },
+  {
+    "word": "steep",
+    "yb": "[stiːp]",
+    "cx": "a.",
+    "sy": "险峻的； 陡峭的"
+  },
+  {
+    "word": "steward",
+    "yb": "[ˈstjuːəd; (US) ˈstuːərd]",
+    "cx": "n.",
+    "sy": "(火车、飞机、轮船等)男服务员；男乘务员"
+  },
+  {
+    "word": "stewardess",
+    "yb": "[stjuːəˈdes, ˈstjuːədɪs]",
+    "cx": "n.",
+    "sy": "女乘务员,空中小姐"
+  },
+  {
+    "word": "stomachache",
+    "yb": "[ˈstʌməkeɪk]",
+    "cx": "n.",
+    "sy": "胃疼"
+  },
+  {
+    "word": "stopwatch",
+    "yb": "[ˈstɔpwɔtʃ]",
+    "cx": "n.",
+    "sy": "记秒表；跑表"
+  },
+  {
+    "word": "storage",
+    "yb": "[ˈstɔːrɪdʒ]",
+    "cx": "n.",
+    "sy": "贮藏； 储存"
+  },
+  {
+    "word": "stout",
+    "yb": "[staʊt]",
+    "cx": "a.",
+    "sy": "肥壮的，厚实牢固的"
+  },
+  {
+    "word": "straightforward",
+    "yb": "[streɪtˈfɔːwəd]",
+    "cx": "a.",
+    "sy": "/ ad. 简单的，坦率的"
+  },
+  {
+    "word": "strait",
+    "yb": "[streɪt]",
+    "cx": "n.",
+    "sy": "海峡"
+  },
+  {
+    "word": "straw",
+    "yb": "[strɔː]",
+    "cx": "n.",
+    "sy": "稻草"
+  },
+  {
+    "word": "strawberry",
+    "yb": "[ˈstrɔːbərɪ; (US) -berɪ]",
+    "cx": "n.",
+    "sy": "草莓"
+  },
+  {
+    "word": "stream",
+    "yb": "[striːm]",
+    "cx": "n.",
+    "sy": "小河；溪流"
+  },
+  {
+    "word": "strengthen",
+    "yb": "[ˈstreŋθ(ə)n]",
+    "cx": "vt.",
+    "sy": "加强，增强"
+  },
+  {
+    "word": "strike",
+    "yb": "[straɪk]",
+    "cx": "v.",
+    "sy": "（钟）鸣;敲（响）,罢工"
+  },
+  {
+    "word": "string",
+    "yb": "[strɪŋ]",
+    "cx": "n.",
+    "sy": "细绳，线，带"
+  },
+  {
+    "word": "struggle",
+    "yb": "[ˈstrʌɡ(ə)l]",
+    "cx": "vi.",
+    "sy": "斗争"
+  },
+  {
+    "word": "stubborn",
+    "yb": "[ˈstʌbən]",
+    "cx": "a.",
+    "sy": "固执的，倔强的"
+  },
+  {
+    "word": "studio",
+    "yb": "[ˈstjuːdɪəʊ]",
+    "cx": "n.",
+    "sy": "工作室，演播室"
+  },
+  {
+    "word": "stupid",
+    "yb": "[ˈstjuːpɪd]",
+    "cx": "a.",
+    "sy": "愚蠢的，笨的"
+  },
+  {
+    "word": "subjective",
+    "yb": "[səbˈdʒektɪv]",
+    "cx": "a.",
+    "sy": "主观的"
+  },
+  {
+    "word": "submit",
+    "yb": "[səbˈmɪt]",
+    "cx": "v.",
+    "sy": "提交，呈递（文件，建议等）"
+  },
+  {
+    "word": "subscribe",
+    "yb": "[səbˈskraɪb]",
+    "cx": "v.",
+    "sy": "订阅,订购（报刊等）"
+  },
+  {
+    "word": "substitute",
+    "yb": "[ˈsʌbstɪtjuːt]",
+    "cx": "v.",
+    "sy": "代替，取代"
+  },
+  {
+    "word": "subtraction",
+    "yb": "[səbˈtrɔkʃ(ə)n]",
+    "cx": "n.",
+    "sy": "（算数中的）减"
+  },
+  {
+    "word": "suck",
+    "yb": "[sʌk]",
+    "cx": "vt.",
+    "sy": "吸吮"
+  },
+  {
+    "word": "suffer",
+    "yb": "[ˈsʌfə(r)]",
+    "cx": "vi.",
+    "sy": "受苦，遭受"
+  },
+  {
+    "word": "suffering",
+    "yb": "[ˈsʌfərɪŋ]",
+    "cx": "n.",
+    "sy": "痛苦，苦难"
+  },
+  {
+    "word": "suite",
+    "yb": "[swiːt]",
+    "cx": "n.",
+    "sy": "套间；组曲"
+  },
+  {
+    "word": "suitcase",
+    "yb": "[ˈsjuːtkeɪs]",
+    "cx": "n.",
+    "sy": "(旅行用)小提箱,衣箱"
+  },
+  {
+    "word": "sunburnt",
+    "yb": "[ˈsʌnbɜːnt]",
+    "cx": "a.",
+    "sy": "晒黑的"
+  },
+  {
+    "word": "Sunday",
+    "yb": "[ˈsʌndeɪ]",
+    "cx": "n.",
+    "sy": "星期日"
+  },
+  {
+    "word": "sunrise",
+    "yb": "[ˈsʌnraɪs]",
+    "cx": "n.",
+    "sy": "黎明，拂晓"
+  },
+  {
+    "word": "sunset",
+    "yb": "[ˈsʌnset]",
+    "cx": "n.",
+    "sy": "日落(时分)"
+  },
+  {
+    "word": "superb",
+    "yb": "[suːˈpɜːb]",
+    "cx": "a.",
+    "sy": "卓越的,质量极高的"
+  },
+  {
+    "word": "superior",
+    "yb": "[suːˈpɪərɪə(r)]",
+    "cx": "a.",
+    "sy": "更胜一筹的 n. 上级，上司"
+  },
+  {
+    "word": "supply",
+    "yb": "[səˈplaɪ]",
+    "cx": "vt.",
+    "sy": "& n. 供给，供应"
+  },
+  {
+    "word": "supreme",
+    "yb": "[suːˈpriːm]",
+    "cx": "a.",
+    "sy": "至高无上的,最高的"
+  },
+  {
+    "word": "surface",
+    "yb": "[ˈsɜːfɪs]",
+    "cx": "n.",
+    "sy": "表面"
+  },
+  {
+    "word": "surgeon",
+    "yb": "[ˈsɜːdʒ(ə)n]",
+    "cx": "n.",
+    "sy": "外科医生"
+  },
+  {
+    "word": "surplus",
+    "yb": "[ˈsɜːpləs]",
+    "cx": "n.",
+    "sy": "过剩，剩余"
+  },
+  {
+    "word": "surround",
+    "yb": "[səˈraʊnd]",
+    "cx": "vt.",
+    "sy": "围绕；包围"
+  },
+  {
+    "word": "surrounding",
+    "yb": "[səˈraʊndɪŋ]",
+    "cx": "a.",
+    "sy": "周围的"
+  },
+  {
+    "word": "survival",
+    "yb": "[səˈvaɪv(ə)l]",
+    "cx": "n.",
+    "sy": "存活，幸存"
+  },
+  {
+    "word": "survive",
+    "yb": "[səˈvaɪv]",
+    "cx": "v.",
+    "sy": "生存，存活，幸免于难"
+  },
+  {
+    "word": "suspect",
+    "yb": "[səˈspekt]",
+    "cx": "n.",
+    "sy": "犯罪嫌疑人"
+  },
+  {
+    "word": "suspension",
+    "yb": "[səˈspenʃ(ə)n]",
+    "cx": "n.",
+    "sy": "暂令停职,推迟,延期"
+  },
+  {
+    "word": "swallow",
+    "yb": "[ˈswɔləʊ]",
+    "cx": "vt.",
+    "sy": "吞下；咽下"
+  },
+  {
+    "word": "swap",
+    "yb": "[swɔp]",
+    "cx": "v.",
+    "sy": "交换（东西）"
+  },
+  {
+    "word": "sweat",
+    "yb": "[swet]",
+    "cx": "n.",
+    "sy": "汗，汗水"
+  },
+  {
+    "word": "swift",
+    "yb": "[swɪft]",
+    "cx": "a.",
+    "sy": "快的，迅速的"
+  },
+  {
+    "word": "swing",
+    "yb": "[swɪŋ]",
+    "cx": "vt.",
+    "sy": "挥舞，摆动 n. 秋千"
+  },
+  {
+    "word": "Swiss",
+    "yb": "[swɪŋ]",
+    "cx": "a.",
+    "sy": "瑞士人的 n. 瑞士人"
+  },
+  {
+    "word": "sword",
+    "yb": "[sɔːd]",
+    "cx": "n.",
+    "sy": "剑，刀"
+  },
+  {
+    "word": "sympathy",
+    "yb": "[ˈsɪmpəθɪ]",
+    "cx": "n.",
+    "sy": "同情"
+  },
+  {
+    "word": "symphony",
+    "yb": "[ˈsɪmfənɪ]",
+    "cx": "n.",
+    "sy": "交响乐"
+  },
+  {
+    "word": "symptom",
+    "yb": "[ˈsɪmfənɪ]",
+    "cx": "n.",
+    "sy": "症状"
+  },
+  {
+    "word": "systematic",
+    "yb": "[sɪstəˈmætɪk]",
+    "cx": "a.",
+    "sy": "系统的,有条理的"
+  },
+  {
+    "word": "tail",
+    "yb": "[teɪl]",
+    "cx": "n.",
+    "sy": "(动物的)尾巴"
+  },
+  {
+    "word": "tailor",
+    "yb": "[ˈteɪlə(r)]",
+    "cx": "n.",
+    "sy": "裁缝"
+  },
+  {
+    "word": "tank",
+    "yb": "[tæŋk]",
+    "cx": "n.",
+    "sy": "储水容量；坦克"
+  },
+  {
+    "word": "tanker",
+    "yb": "[ˈtæŋkə(r)]",
+    "cx": "n.",
+    "sy": "油船"
+  },
+  {
+    "word": "target",
+    "yb": "[ˈtɑːɡɪt]",
+    "cx": "n.",
+    "sy": "/ v. 目标，把...作为攻击目标"
+  },
+  {
+    "word": "tasteless",
+    "yb": "[ˈteɪstlɪs]",
+    "cx": "a.",
+    "sy": "无滋味的"
+  },
+  {
+    "word": "tasty",
+    "yb": "[ˈteɪstɪ]",
+    "cx": "a.",
+    "sy": "味道好的"
+  },
+  {
+    "word": "tax",
+    "yb": "[tæks]",
+    "cx": "n.",
+    "sy": "税，税款"
+  },
+  {
+    "word": "teapot",
+    "yb": "[ˈtiːpɔt]",
+    "cx": "n.",
+    "sy": "茶壶"
+  },
+  {
+    "word": "tear",
+    "yb": "[teə(r)]",
+    "cx": "n.",
+    "sy": "眼泪 v. 扯破, 撕开"
+  },
+  {
+    "word": "tease",
+    "yb": "[tiːz]",
+    "cx": "v.",
+    "sy": "取笑，戏弄，寻开心"
+  },
+  {
+    "word": "technical",
+    "yb": "[ˈteknɪk(ə)l]",
+    "cx": "a.",
+    "sy": "技术的，工艺的"
+  },
+  {
+    "word": "technique",
+    "yb": "[ˈteknɪk(ə)l]",
+    "cx": "n.",
+    "sy": "技术;技巧,方法"
+  },
+  {
+    "word": "technology",
+    "yb": "[tekˈnɔlədʒɪ]",
+    "cx": "n.",
+    "sy": "技术"
+  },
+  {
+    "word": "telegram",
+    "yb": "[ˈtelɪɡræm]",
+    "cx": "n.",
+    "sy": "电报"
+  },
+  {
+    "word": "telegraph",
+    "yb": "[ˈtelɪɡrɑːf; (US) -ɡræf]",
+    "cx": "v.",
+    "sy": "(拍) 电报"
+  },
+  {
+    "word": "telescope",
+    "yb": "[ˈtelɪɡrɑːf; (US) -ɡræf]",
+    "cx": "n.",
+    "sy": "望远镜"
+  },
+  {
+    "word": "television",
+    "yb": "[ˈtelɪɡrɑːf; (US) -ɡræf]",
+    "cx": "n.",
+    "sy": "电视"
+  },
+  {
+    "word": "temperature",
+    "yb": "[ˈtemprɪtʃə(r)]",
+    "cx": "n.",
+    "sy": "温度"
+  },
+  {
+    "word": "temple",
+    "yb": "[ˈtemp(ə)l]",
+    "cx": "n.",
+    "sy": "庙宇，寺院"
+  },
+  {
+    "word": "temporary",
+    "yb": "[ˈtempərərɪ]",
+    "cx": "a.",
+    "sy": "短暂的，暂时的"
+  },
+  {
+    "word": "temptation",
+    "yb": "[tempˈteɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "引诱；诱惑"
+  },
+  {
+    "word": "tend",
+    "yb": "[tend]",
+    "cx": "v.",
+    "sy": "往往会，常常就，倾向，趋于"
+  },
+  {
+    "word": "tendency",
+    "yb": "[ˈtendənsɪ]",
+    "cx": "n.",
+    "sy": "倾向，偏好，性情"
+  },
+  {
+    "word": "tense",
+    "yb": "[tens]",
+    "cx": "a.",
+    "sy": "心烦意乱的，紧张的"
+  },
+  {
+    "word": "tension",
+    "yb": "[ˈtenʃ(ə)n]",
+    "cx": "n.",
+    "sy": "紧张局势，矛盾"
+  },
+  {
+    "word": "tentative",
+    "yb": "[tent]",
+    "cx": "a.",
+    "sy": "不确定的，踌躇的"
+  },
+  {
+    "word": "term",
+    "yb": "[tɜːm]",
+    "cx": "n.",
+    "sy": "学期;术语;条款;项"
+  },
+  {
+    "word": "terminal",
+    "yb": "[tɜːm]",
+    "cx": "a.",
+    "sy": "(火车汽车飞机)终点站"
+  },
+  {
+    "word": "terrify",
+    "yb": "[ˈterɪfaɪ]",
+    "cx": "vt.",
+    "sy": "使人感到恐怖"
+  },
+  {
+    "word": "terror",
+    "yb": "[ˈterə(r)]",
+    "cx": "n.",
+    "sy": "恐惧，惊恐"
+  },
+  {
+    "word": "theft",
+    "yb": "[θeft]",
+    "cx": "n.",
+    "sy": "盗窃案"
+  },
+  {
+    "word": "theme",
+    "yb": "[θiːm]",
+    "cx": "n.",
+    "sy": "主题"
+  },
+  {
+    "word": "theoretical",
+    "yb": "[θɪəˈretɪk(ə)l]",
+    "cx": "a.",
+    "sy": "理论的"
+  },
+  {
+    "word": "theory",
+    "yb": "[θɪəˈretɪk(ə)l]",
+    "cx": "n.",
+    "sy": "理论"
+  },
+  {
+    "word": "therefore",
+    "yb": "[ˈðeəfɔː(r)]",
+    "cx": "ad.",
+    "sy": "因此，所以"
+  },
+  {
+    "word": "thermos",
+    "yb": "[ˈθɜːmɔs]",
+    "cx": "n.",
+    "sy": "热水瓶"
+  },
+  {
+    "word": "thirst",
+    "yb": "[θɜːd]",
+    "cx": "n.",
+    "sy": "渴； 口渴"
+  },
+  {
+    "word": "thorough",
+    "yb": "[ˈθʌrə; (US) ˈθʌrəʊ]",
+    "cx": "a.",
+    "sy": "彻底的"
+  },
+  {
+    "word": "thread",
+    "yb": "[θred]",
+    "cx": "n.",
+    "sy": "线"
+  },
+  {
+    "word": "thrill",
+    "yb": "[θrɪl]",
+    "cx": "n.",
+    "sy": "/ v. 兴奋，激动"
+  },
+  {
+    "word": "thriller",
+    "yb": "[ˈθrɪlə(r)]",
+    "cx": "n.",
+    "sy": "惊险小说"
+  },
+  {
+    "word": "throat",
+    "yb": "[θrəʊt]",
+    "cx": "n.",
+    "sy": "喉咙"
+  },
+  {
+    "word": "throughout",
+    "yb": "[θruːˈaʊt]",
+    "cx": "prep.",
+    "sy": "遍及，贯穿"
+  },
+  {
+    "word": "thunder",
+    "yb": "[ˈθʌndə(r)]",
+    "cx": "n.",
+    "sy": "& v. 雷声，打雷"
+  },
+  {
+    "word": "thunderstorm",
+    "yb": "[ˈθʌndəstɔːm]",
+    "cx": "n.",
+    "sy": "雷电交加暴风雨"
+  },
+  {
+    "word": "thus",
+    "yb": "[ðʌs]",
+    "cx": "ad.",
+    "sy": "这样；因而"
+  },
+  {
+    "word": "Tibeta",
+    "yb": "[ti'betən]",
+    "cx": "n.",
+    "sy": "西藏人；西藏语"
+  },
+  {
+    "word": "tick",
+    "yb": "[tɪk]",
+    "cx": "vt.",
+    "sy": "作记号"
+  },
+  {
+    "word": "tight",
+    "yb": "[taɪt]",
+    "cx": "a.",
+    "sy": "紧的"
+  },
+  {
+    "word": "tin",
+    "yb": "[tɪn]",
+    "cx": "n.",
+    "sy": "（英）罐头，听头"
+  },
+  {
+    "word": "tiny",
+    "yb": "[ˈtaɪnɪ]",
+    "cx": "adj.",
+    "sy": "tinier, tiniest a. 极小的，微小的"
+  },
+  {
+    "word": "tip",
+    "yb": "[tɪp]",
+    "cx": "n.",
+    "sy": "& v.顶端，尖端；告诫； 提示 (给)小费"
+  },
+  {
+    "word": "tissue",
+    "yb": "[ˈtɪʃuː, ˈtɪsjuː]",
+    "cx": "n.",
+    "sy": "（人，动植物的）组织，纸巾"
+  },
+  {
+    "word": "toast",
+    "yb": "[təʊst]",
+    "cx": "v.",
+    "sy": "/ n. 烤"
+  },
+  {
+    "word": "tobacco",
+    "yb": "[təʊst]",
+    "cx": "n.",
+    "sy": "烟草，烟叶"
+  },
+  {
+    "word": "Tokyo",
+    "yb": "[ˈtəʊkjəʊ]",
+    "cx": "n.",
+    "sy": "东京"
+  },
+  {
+    "word": "tolerate",
+    "yb": "[ˈtɔləreɪt]",
+    "cx": "v.",
+    "sy": "容许，允许，忍受"
+  },
+  {
+    "word": "tomb",
+    "yb": "[tuːm]",
+    "cx": "n.",
+    "sy": "坟墓"
+  },
+  {
+    "word": "tongue",
+    "yb": "[tʌŋ]",
+    "cx": "n.",
+    "sy": "舌，舌头"
+  },
+  {
+    "word": "toothpaste",
+    "yb": "[ˈtuːθpeɪst]",
+    "cx": "n.",
+    "sy": "牙膏"
+  },
+  {
+    "word": "tortoise",
+    "yb": "[ˈtɔpɪk]",
+    "cx": "n.",
+    "sy": "乌龟"
+  },
+  {
+    "word": "tough",
+    "yb": "[ˈtɔt(ə)lɪ]",
+    "cx": "a.",
+    "sy": "坚硬的；结实的；棘手的，难解的"
+  },
+  {
+    "word": "tour",
+    "yb": "[tʊə(r)]",
+    "cx": "n.",
+    "sy": "参观, 观光, 旅行"
+  },
+  {
+    "word": "tourism",
+    "yb": "[ˈtʊərɪz(ə)m]",
+    "cx": "n.",
+    "sy": "旅游业；观光"
+  },
+  {
+    "word": "tournament",
+    "yb": "[ˈtʊənəmənt; (US) ˈtɜːrn-]",
+    "cx": "n.",
+    "sy": "锦标赛，联赛"
+  },
+  {
+    "word": "track",
+    "yb": "[træk]",
+    "cx": "n.",
+    "sy": "轨道；田径"
+  },
+  {
+    "word": "tractor",
+    "yb": "[ˈtræktə(r)]",
+    "cx": "n.",
+    "sy": "拖拉机"
+  },
+  {
+    "word": "trade",
+    "yb": "[treɪd]",
+    "cx": "n.",
+    "sy": "贸易 vt.用...进行交换"
+  },
+  {
+    "word": "trainer",
+    "yb": "[treɪˈnə(r)]",
+    "cx": "n.",
+    "sy": "训练人；教练"
+  },
+  {
+    "word": "tram",
+    "yb": "[træm]",
+    "cx": "n.",
+    "sy": "有轨电车"
+  },
+  {
+    "word": "transform",
+    "yb": "[trænsˈfɔːm]",
+    "cx": "v.",
+    "sy": "使改变形态,使改观"
+  },
+  {
+    "word": "translation",
+    "yb": "[trænsˈleɪʃ(ə)n]",
+    "cx": "n.",
+    "sy": "翻译；译文"
+  },
+  {
+    "word": "transparent",
+    "yb": "[trænsˈpærənt]",
+    "cx": "a.",
+    "sy": "透明的，清澈的"
+  },
+  {
+    "word": "translator",
+    "yb": "[træns'leitə]",
+    "cx": "n.",
+    "sy": "翻译家，译者"
+  },
+  {
+    "word": "trap",
+    "yb": "[træp]",
+    "cx": "n.",
+    "sy": "陷阱 vt. 使陷入困境"
+  },
+  {
+    "word": "treasure",
+    "yb": "[ˈtreʒə(r)]",
+    "cx": "n.",
+    "sy": "金银财宝, 财富"
+  },
+  {
+    "word": "tremble",
+    "yb": "[ˈtremb(ə)l]",
+    "cx": "v.",
+    "sy": "颤抖"
+  },
+  {
+    "word": "trend",
+    "yb": "[trend]",
+    "cx": "n.",
+    "sy": "趋势，倾向，动态"
+  },
+  {
+    "word": "trial",
+    "yb": "[ˈtraɪəl]",
+    "cx": "n.",
+    "sy": "审判；试验；试用"
+  },
+  {
+    "word": "triangle",
+    "yb": "[ˈtraɪæŋɡ(ə)l]",
+    "cx": "n.",
+    "sy": "& adj.三角形;三角形的"
+  },
+  {
+    "word": "trick",
+    "yb": "[trɪk]",
+    "cx": "n.",
+    "sy": "诡计，把戏"
+  },
+  {
+    "word": "troop",
+    "yb": "[truːp]",
+    "cx": "n.",
+    "sy": "部队"
+  },
+  {
+    "word": "troublesome",
+    "yb": "[ˈtrʌb(ə)lsəm]",
+    "cx": "a.",
+    "sy": "令人烦恼, 讨厌"
+  },
+  {
+    "word": "trousers",
+    "yb": "[ˈtraʊzəz]",
+    "cx": "n.",
+    "sy": "裤子，长裤"
+  },
+  {
+    "word": "truck",
+    "yb": "[trʌk]",
+    "cx": "n.",
+    "sy": "卡车, 运货车；车皮 v. 装车；用货车运"
+  },
+  {
+    "word": "trunk",
+    "yb": "[trʌŋk]",
+    "cx": "n.",
+    "sy": "树干；大箱子"
+  },
+  {
+    "word": "tube",
+    "yb": "[tjuːb; (US) tuːb]",
+    "cx": "n.",
+    "sy": "管，管状物"
+  },
+  {
+    "word": "tune",
+    "yb": "[tjuːn; (US) tuːn]",
+    "cx": "n.",
+    "sy": "曲调，曲子"
+  },
+  {
+    "word": "tutor",
+    "yb": "[ˈtjuːtə(r)]",
+    "cx": "n.",
+    "sy": "家庭教师，私人教师，导师"
+  },
+  {
+    "word": "twist",
+    "yb": "[twɪst]",
+    "cx": "v.",
+    "sy": "/ n. 使弯曲，转动"
+  },
+  {
+    "word": "type",
+    "yb": "[ˈtaɪp]",
+    "cx": "vt.",
+    "sy": "打字"
+  },
+  {
+    "word": "typewriter",
+    "yb": "[ˈtaɪpraɪtə(r)]",
+    "cx": "n.",
+    "sy": "打字机"
+  },
+  {
+    "word": "typical",
+    "yb": "[ˈtɪpɪk(ə)l]",
+    "cx": "a.",
+    "sy": "典型的，有代表性的，特有的"
+  },
+  {
+    "word": "typhoon",
+    "yb": "[taɪˈfuːn]",
+    "cx": "n.",
+    "sy": "台风"
+  },
+  {
+    "word": "typist",
+    "yb": "[ˈtaɪpɪst]",
+    "cx": "n.",
+    "sy": "打字员"
+  },
+  {
+    "word": "unable",
+    "yb": "[juː ˈən]",
+    "cx": "a.",
+    "sy": "不能的，不能胜任的"
+  },
+  {
+    "word": "unbearable",
+    "yb": "[ʌnˈbeərəb(ə)l]",
+    "cx": "a.",
+    "sy": "难耐得,无法接受的"
+  },
+  {
+    "word": "unbelievable",
+    "yb": "[ʌnbɪˈliːvəb(ə)l]",
+    "cx": "a.",
+    "sy": "难以置信的"
+  },
+  {
+    "word": "uncertain",
+    "yb": "[ˈsɜːt(ə)n]",
+    "cx": "a.",
+    "sy": "不确定的"
+  },
+  {
+    "word": "unconditional",
+    "yb": "[ʌnkənˈdɪʃən(ə)l]",
+    "cx": "a.",
+    "sy": "无条件，绝对的"
+  },
+  {
+    "word": "unconscious",
+    "yb": "[ʌnˈkɔnʃəs]",
+    "cx": "a.",
+    "sy": "昏迷,不省人事的"
+  },
+  {
+    "word": "understanding",
+    "yb": "[ʌndəˈstændɪŋ]",
+    "cx": "n.",
+    "sy": "领会;理解"
+  },
+  {
+    "word": "underwear",
+    "yb": "[ˈʌndəweə(r)]",
+    "cx": "n.",
+    "sy": "内衣"
+  },
+  {
+    "word": "undivided",
+    "yb": "[ʌndɪˈvaɪdɪd]",
+    "cx": "a.",
+    "sy": "没分开的；专一的； 专心的"
+  },
+  {
+    "word": "undo",
+    "yb": "[ʌnˈduː]",
+    "cx": "v.",
+    "sy": "解开，松开"
+  },
+  {
+    "word": "unemployment",
+    "yb": "[ʌnɪmˈplɔɪmənt]",
+    "cx": "n.",
+    "sy": "失业,失业状态"
+  },
+  {
+    "word": "unfair",
+    "yb": "[ʌnˈfeə(r)]",
+    "cx": "a.",
+    "sy": "不公平的，不公正的"
+  },
+  {
+    "word": "unfit",
+    "yb": "[ʌnˈfɪt]",
+    "cx": "a.",
+    "sy": "不合宜的，不相宜的"
+  },
+  {
+    "word": "unfold",
+    "yb": "[ʌnˈfəʊld]",
+    "cx": "vt.",
+    "sy": "展开，打开"
+  },
+  {
+    "word": "unfortunate",
+    "yb": "[ʌnˈfəʊld]",
+    "cx": "a.",
+    "sy": "不幸的"
+  },
+  {
+    "word": "uniform",
+    "yb": "[ˈjuːnɪfɔːm]",
+    "cx": "n.",
+    "sy": "制服"
+  },
+  {
+    "word": "union",
+    "yb": "[ˈjuːnjən]",
+    "cx": "n.",
+    "sy": "联合,联盟；工会"
+  },
+  {
+    "word": "unique",
+    "yb": "[jʊˈniːk]",
+    "cx": "a.",
+    "sy": "惟一的,独一无二的"
+  },
+  {
+    "word": "unite",
+    "yb": "[jʊˈnaɪt]",
+    "cx": "v.",
+    "sy": "联合，团结"
+  },
+  {
+    "word": "universal",
+    "yb": "[juːnɪˈvɜːs(ə)l]",
+    "cx": "a.",
+    "sy": "普遍的，全体的"
+  },
+  {
+    "word": "universe",
+    "yb": "[ˈjuːnɪvɜːs]",
+    "cx": "n.",
+    "sy": "宇宙"
+  },
+  {
+    "word": "unlike",
+    "yb": "[ʌnˈlaɪk]",
+    "cx": "prep.",
+    "sy": "不像，和...不同"
+  },
+  {
+    "word": "unmarried",
+    "yb": "[ʌnˈmærɪd]",
+    "cx": "a.",
+    "sy": "未婚的，独身的"
+  },
+  {
+    "word": "unrest",
+    "yb": "[ʌnˈrest]",
+    "cx": "n.",
+    "sy": "不安；骚动"
+  },
+  {
+    "word": "upon",
+    "yb": "[əˈpɔn]",
+    "cx": "prep.",
+    "sy": "在......上面"
+  },
+  {
+    "word": "upper",
+    "yb": "[ˈʌpə(r)]",
+    "cx": "a.",
+    "sy": "较高的，较上的"
+  },
+  {
+    "word": "upward",
+    "yb": "[ˈʌpwəd]",
+    "cx": "ad.",
+    "sy": "向上；往上"
+  },
+  {
+    "word": "urban",
+    "yb": "[ˈɜːbən]",
+    "cx": "a.",
+    "sy": "城市的，都市的"
+  },
+  {
+    "word": "urge",
+    "yb": "[ɜːdʒ]",
+    "cx": "v.",
+    "sy": "敦促，催促，力劝"
+  },
+  {
+    "word": "urgent",
+    "yb": "[ˈɜːdʒənt]",
+    "cx": "a.",
+    "sy": "紧急的，紧迫的"
+  },
+  {
+    "word": "user",
+    "yb": "[ˈjuːzə]",
+    "cx": "n.",
+    "sy": "使用者；用户"
+  },
+  {
+    "word": "vacant",
+    "yb": "[ˈveɪkənt]",
+    "cx": "a.",
+    "sy": "空缺的，未被占用的"
+  },
+  {
+    "word": "vague",
+    "yb": "[veɪɡ]",
+    "cx": "a.",
+    "sy": "含糊的，紧迫的"
+  },
+  {
+    "word": "vain",
+    "yb": "[veɪn]",
+    "cx": "n.",
+    "sy": "自负的，自视过高的，徒劳的，无效的"
+  },
+  {
+    "word": "valid",
+    "yb": "[ˈvælɪd]",
+    "cx": "a.",
+    "sy": "有效的,合理的,有根据的"
+  },
+  {
+    "word": "valley",
+    "yb": "[ˈvælɪ]",
+    "cx": "n.",
+    "sy": "山谷, 溪谷"
+  },
+  {
+    "word": "vanilla",
+    "yb": "[vəˈnɪlə]",
+    "cx": "n.",
+    "sy": "香草"
+  },
+  {
+    "word": "variety",
+    "yb": "[vəˈraɪətɪ]",
+    "cx": "n.",
+    "sy": "种种，种类"
+  },
+  {
+    "word": "various",
+    "yb": "[ˈveərɪəs]",
+    "cx": "a.",
+    "sy": "各种各样的，不同的"
+  },
+  {
+    "word": "vase",
+    "yb": "[vɑːz; (US) veɪs]",
+    "cx": "n.",
+    "sy": "（花）瓶；瓶饰"
+  },
+  {
+    "word": "vast",
+    "yb": "[vɑːst; (US) væst]",
+    "cx": "a.",
+    "sy": "巨大的，广阔的"
+  },
+  {
+    "word": "veal",
+    "yb": "[viːl]",
+    "cx": "n.",
+    "sy": "（食用）小牛肉"
+  },
+  {
+    "word": "vehicle",
+    "yb": "[ˈviːɪk(ə)l; (US) ˈviːhɪkl]",
+    "cx": "n.",
+    "sy": "交通工具，车辆"
+  },
+  {
+    "word": "version",
+    "yb": "[ˈvɜːʃ(ə)n; (US) ˈvərʒn]",
+    "cx": "n.",
+    "sy": "变体，变种，改写本"
+  },
+  {
+    "word": "vertical",
+    "yb": "[ˈvɜːtɪk(ə)l]",
+    "cx": "a.",
+    "sy": "垂直的，纵向的"
+  },
+  {
+    "word": "via",
+    "yb": "[ˈvaɪə]",
+    "cx": "prep.",
+    "sy": "经过（某地），通过"
+  },
+  {
+    "word": "vice",
+    "yb": "[vaɪs]",
+    "cx": "n.",
+    "sy": "罪行，不道德行为"
+  },
+  {
+    "word": "victim",
+    "yb": "[ˈvɪktɪm]",
+    "cx": "n.",
+    "sy": "受害者，牺牲品"
+  },
+  {
+    "word": "victory",
+    "yb": "[ˈvɪktərɪ]",
+    "cx": "n.",
+    "sy": "胜利"
+  },
+  {
+    "word": "viewer",
+    "yb": "[ˈvjuːə(r)]",
+    "cx": "n.",
+    "sy": "观看者"
+  },
+  {
+    "word": "vinegar",
+    "yb": "['vilidʒə]",
+    "cx": "n.",
+    "sy": "醋"
+  },
+  {
+    "word": "violate",
+    "yb": "[ˈvaɪəleɪt]",
+    "cx": "v.",
+    "sy": "违反（法律、协议等），侵犯"
+  },
+  {
+    "word": "violence",
+    "yb": "[ˈvaɪələns]",
+    "cx": "n.",
+    "sy": "暴力行为"
+  },
+  {
+    "word": "violinist",
+    "yb": "[vaɪəˈlɪnɪst]",
+    "cx": "n.",
+    "sy": "提琴家，提琴手"
+  },
+  {
+    "word": "virtue",
+    "yb": "[ˈvɜːtjuː]",
+    "cx": "n.",
+    "sy": "美德,正直的品行,德行"
+  },
+  {
+    "word": "virus",
+    "yb": "[ˈvaɪərəs]",
+    "cx": "n.",
+    "sy": "病毒"
+  },
+  {
+    "word": "visa",
+    "yb": "[ˈviːzə]",
+    "cx": "n.",
+    "sy": "签证，背签"
+  },
+  {
+    "word": "visual",
+    "yb": "[ˈvɪʒjʊəl]",
+    "cx": "a.",
+    "sy": "视力的，视觉的"
+  },
+  {
+    "word": "vital",
+    "yb": "[ˈvaɪt(ə)l]",
+    "cx": "a.",
+    "sy": "必不可少的，对...极重要的"
+  },
+  {
+    "word": "vivid",
+    "yb": "[ˈvɪvɪd]",
+    "cx": "a.",
+    "sy": "生动，逼真的，鲜明的"
+  },
+  {
+    "word": "voluntary",
+    "yb": "[ˈvɔləntərɪ]",
+    "cx": "a.",
+    "sy": "自愿的，主动的"
+  },
+  {
+    "word": "vote",
+    "yb": "[vəʊt]",
+    "cx": "vi.",
+    "sy": "选举，投票"
+  },
+  {
+    "word": "voyage",
+    "yb": "[ˈvɔɪɪdʒ]",
+    "cx": "n.",
+    "sy": "航行，旅行"
+  },
+  {
+    "word": "wag",
+    "yb": "[ˈvɔɪɪdʒ]",
+    "cx": "v.",
+    "sy": "摇动；摆动"
+  },
+  {
+    "word": "wage",
+    "yb": "[weɪdʒ]",
+    "cx": "n.",
+    "sy": "工资，工钱，报酬"
+  },
+  {
+    "word": "waist",
+    "yb": "[weɪst]",
+    "cx": "n.",
+    "sy": "腰，腰部，腰围"
+  },
+  {
+    "word": "wallet",
+    "yb": "[ˈwɔlɪt]",
+    "cx": "n.",
+    "sy": "(放钱,证件等的)皮夹"
+  },
+  {
+    "word": "walnut",
+    "yb": "[ˈwɔːlnʌt]",
+    "cx": "n.",
+    "sy": "核桃，胡桃"
+  },
+  {
+    "word": "wander",
+    "yb": "[ˈwɔndə(r)]",
+    "cx": "vi.",
+    "sy": "漫游,游荡,漫步,流浪"
+  },
+  {
+    "word": "ward",
+    "yb": "[wɔːd]",
+    "cx": "n.",
+    "sy": "保卫,看护,病房,收容所"
+  },
+  {
+    "word": "warehouse",
+    "yb": "[ˈweəhaʊs]",
+    "cx": "n.",
+    "sy": "仓库，货栈"
+  },
+  {
+    "word": "washroom",
+    "yb": "[ˈwɔʃrʊm, ˈwɔʃruːm]",
+    "cx": "n.",
+    "sy": "盥洗室"
+  },
+  {
+    "word": "wax",
+    "yb": "[wæks]",
+    "cx": "n.",
+    "sy": "蜡"
+  },
+  {
+    "word": "wayside",
+    "yb": "[weɪ]",
+    "cx": "a.",
+    "sy": "路边的"
+  },
+  {
+    "word": "web",
+    "yb": "[web]",
+    "cx": "n.",
+    "sy": "网，网状物"
+  },
+  {
+    "word": "wedding",
+    "yb": "[ˈwedɪŋ]",
+    "cx": "n.",
+    "sy": "婚礼,结婚"
+  },
+  {
+    "word": "weed",
+    "yb": "[wiːd]",
+    "cx": "n.",
+    "sy": "杂草，野草"
+  },
+  {
+    "word": "weep",
+    "yb": "[wiːp]",
+    "cx": "v.",
+    "sy": "哭泣，流泪"
+  },
+  {
+    "word": "weigh",
+    "yb": "[weɪ]",
+    "cx": "vt.",
+    "sy": "称...的重量，重（若干）"
+  },
+  {
+    "word": "welfare",
+    "yb": "[ˈwelfeə(r)]",
+    "cx": "n.",
+    "sy": "幸福，福利"
+  },
+  {
+    "word": "wheat",
+    "yb": "[wiːt; (US) hwiːt]",
+    "cx": "n.",
+    "sy": "小麦"
+  },
+  {
+    "word": "whisper",
+    "yb": "[ˈwɪspə(r)]",
+    "cx": "v.",
+    "sy": "低语，私下说"
+  },
+  {
+    "word": "whistle",
+    "yb": "[waɪt; (US) hwaɪt]",
+    "cx": "n.",
+    "sy": "口哨，口哨声"
+  },
+  {
+    "word": "widespread",
+    "yb": "[ˈwaɪdspred, -ˈspred]",
+    "cx": "a.",
+    "sy": "分布广的,普遍的"
+  },
+  {
+    "word": "will",
+    "yb": "[wɪl]",
+    "cx": "n.",
+    "sy": "意志, 遗嘱"
+  },
+  {
+    "word": "willing",
+    "yb": "[ˈwɪlɪŋ]",
+    "cx": "a.",
+    "sy": "乐意的； 愿意的"
+  },
+  {
+    "word": "windbreaker",
+    "yb": "['wind,breikә]",
+    "cx": "n.",
+    "sy": "风衣,防风(皮)夹克"
+  },
+  {
+    "word": "wipe",
+    "yb": "[waɪp]",
+    "cx": "v.",
+    "sy": "擦；擦净；擦干"
+  },
+  {
+    "word": "wire",
+    "yb": "[ˈwaɪə(r)]",
+    "cx": "n.",
+    "sy": "电线"
+  },
+  {
+    "word": "wisdom",
+    "yb": "[ˈwɪzdəm]",
+    "cx": "n.",
+    "sy": "智慧"
+  },
+  {
+    "word": "withdraw",
+    "yb": "[wɪðˈdrɔː]",
+    "cx": "v.",
+    "sy": "撤回，撤离"
+  },
+  {
+    "word": "within",
+    "yb": "[wɪˈðɪn]",
+    "cx": "prep.",
+    "sy": "在......里面"
+  },
+  {
+    "word": "witness",
+    "yb": "[ˈwɪtnɪs]",
+    "cx": "v.",
+    "sy": "/ n. 目击者，见证人"
+  },
+  {
+    "word": "woollen",
+    "yb": "['wulin]",
+    "cx": "a.",
+    "sy": "羊毛的，羊毛制的"
+  },
+  {
+    "word": "workforce",
+    "yb": "['wə:kfɔ:s]",
+    "cx": "n.",
+    "sy": "劳动力"
+  },
+  {
+    "word": "worldwide",
+    "yb": "[ˈwɜːldwaɪd, -ˈwaɪd]",
+    "cx": "a.",
+    "sy": "遍及全球的，世界范围的"
+  },
+  {
+    "word": "worm",
+    "yb": "[wɜːm]",
+    "cx": "n.",
+    "sy": "软体虫,蠕虫(尤指蚯蚓)"
+  },
+  {
+    "word": "worn",
+    "yb": "[wɜrn /wɜːm]",
+    "cx": "a.",
+    "sy": "用坏,用旧的,疲惫的"
+  },
+  {
+    "word": "worthwhile",
+    "yb": "[wɜːθˈwaɪl]",
+    "cx": "a.",
+    "sy": "值得做的"
+  },
+  {
+    "word": "worthy",
+    "yb": "[wɜːθˈwaɪl]",
+    "cx": "a.",
+    "sy": "值得的"
+  },
+  {
+    "word": "wound",
+    "yb": "[wuːnd]",
+    "cx": "vt.",
+    "sy": "伤,伤害 n.创伤,伤口"
+  },
+  {
+    "word": "wounded",
+    "yb": "[wuːndɪd]",
+    "cx": "a.",
+    "sy": "受伤的"
+  },
+  {
+    "word": "wrestle",
+    "yb": "[ˈres(ə)l]",
+    "cx": "v.",
+    "sy": "摔跤"
+  },
+  {
+    "word": "wrinkle",
+    "yb": "[ˈrɪŋk(ə)l]",
+    "cx": "n.",
+    "sy": "皱纹"
+  },
+  {
+    "word": "wrist",
+    "yb": "[rɪst]",
+    "cx": "n.",
+    "sy": "手腕，腕关节"
+  },
+  {
+    "word": "yard",
+    "yb": "[jɑːd]",
+    "cx": "n.",
+    "sy": "码；院子；场地"
+  },
+  {
+    "word": "yawn",
+    "yb": "[jɔːn]",
+    "cx": "v.",
+    "sy": "打哈欠"
+  },
+  {
+    "word": "yell",
+    "yb": "[jel]",
+    "cx": "v.",
+    "sy": "叫喊，吼叫"
+  },
+  {
+    "word": "yoghurt",
+    "yb": "['jɔgət,'jəʊ-]",
+    "cx": "n.",
+    "sy": "酸奶"
+  },
+  {
+    "word": "youth",
+    "yb": "[juːθ]",
+    "cx": "n.",
+    "sy": "青春；青年"
+  },
+  {
+    "word": "yummy",
+    "yb": "[ˈjʌmɪ]",
+    "cx": "a.",
+    "sy": "很好吃的"
+  },
+  {
+    "word": "zebra",
+    "yb": "[ˈzebrə, ˈziːbrə]",
+    "cx": "n.",
+    "sy": "斑马"
+  },
+  {
+    "word": "zip",
+    "yb": "[zɪp]",
+    "cx": "v.",
+    "sy": "& n.拉开(或扣上)......的拉链；拉链"
+  },
+  {
+    "word": "zipper",
+    "yb": "[ˈzɪpə(r)]",
+    "cx": "n.",
+    "sy": "拉链"
+  },
+  {
+    "word": "zone",
+    "yb": "[zuː]",
+    "cx": "n.",
+    "sy": "区域；范围"
+  },
+  {
+    "word": "zoom",
+    "yb": "[zuːm]",
+    "cx": "v.",
+    "sy": "快速移动，迅速前往，猛涨"
+  }
+];
+
+// 短语数据
+const phraseData = [
+  {
+    "phrase": "a bit (of)",
+    "translation": "有一点，一会儿"
+  },
+  {
+    "phrase": "a few",
+    "translation": "一些，少量"
+  },
+  {
+    "phrase": "a great deal",
+    "translation": "大量，许多"
+  },
+  {
+    "phrase": "a good/great many",
+    "translation": "大量，许多"
+  },
+  {
+    "phrase": "a kind of",
+    "translation": "一种，一类"
+  },
+  {
+    "phrase": "a little",
+    "translation": "一点，少许"
+  },
+  {
+    "phrase": "a lot of",
+    "translation": "许多，大量"
+  },
+  {
+    "phrase": "a number of",
+    "translation": "一些，许多"
+  },
+  {
+    "phrase": "a pair of",
+    "translation": "一双，一副"
+  },
+  {
+    "phrase": "a piece of",
+    "translation": "一块(张，根，片)"
+  },
+  {
+    "phrase": "above all",
+    "translation": "首先，首要"
+  },
+  {
+    "phrase": "according to",
+    "translation": "根据，按照"
+  },
+  {
+    "phrase": "add up to",
+    "translation": "合计达......"
+  },
+  {
+    "phrase": "after all",
+    "translation": "毕竟，终究"
+  },
+  {
+    "phrase": "after class",
+    "translation": "课后"
+  },
+  {
+    "phrase": "again and again",
+    "translation": "反复地，再三地"
+  },
+  {
+    "phrase": "agree to do sth.",
+    "translation": "同意做某事"
+  },
+  {
+    "phrase": "agree with sb.",
+    "translation": "同意某人的看法，与某人看法一致"
+  },
+  {
+    "phrase": "ahead of",
+    "translation": "在......之前"
+  },
+  {
+    "phrase": "all in all",
+    "translation": "总的来说，总计"
+  },
+  {
+    "phrase": "all kinds of",
+    "translation": "各种各样的"
+  },
+  {
+    "phrase": "all over",
+    "translation": "到处，遍及，结束"
+  },
+  {
+    "phrase": "all right",
+    "translation": "行,好吧，（病）好了"
+  },
+  {
+    "phrase": "all the best",
+    "translation": "一切顺利，万事如意"
+  },
+  {
+    "phrase": "answer for",
+    "translation": "对......负责"
+  },
+  {
+    "phrase": "apart from",
+    "translation": "除去，除了"
+  },
+  {
+    "phrase": "arrive at (in) a place",
+    "translation": "到达某地"
+  },
+  {
+    "phrase": "as a matter of fact",
+    "translation": "事实上，其实"
+  },
+  {
+    "phrase": "as a result （",
+    "translation": "作为）结果"
+  },
+  {
+    "phrase": "as...as",
+    "translation": "像，如同"
+  },
+  {
+    "phrase": "as soon as",
+    "translation": "一......就......"
+  },
+  {
+    "phrase": "as far as （",
+    "translation": "表示程度，范围）就......；尽......"
+  },
+  {
+    "phrase": "as if",
+    "translation": "好像，仿佛"
+  },
+  {
+    "phrase": "as long as",
+    "translation": "只要"
+  },
+  {
+    "phrase": "as though",
+    "translation": "好像，仿佛"
+  },
+  {
+    "phrase": "as usual",
+    "translation": "通常，平常地"
+  },
+  {
+    "phrase": "as well",
+    "translation": "也，还有"
+  },
+  {
+    "phrase": "as well as",
+    "translation": "除......之外（也）"
+  },
+  {
+    "phrase": "belong to",
+    "translation": "属于"
+  },
+  {
+    "phrase": "be proud of",
+    "translation": "骄傲，自豪"
+  },
+  {
+    "phrase": "be strict with",
+    "translation": "对......严格要求"
+  },
+  {
+    "phrase": "both...and",
+    "translation": "两个都，既...又..."
+  },
+  {
+    "phrase": "break away from",
+    "translation": "脱离......"
+  },
+  {
+    "phrase": "break down",
+    "translation": "损坏; (把化合物等) 分解，（汽车）抛锚"
+  },
+  {
+    "phrase": "break in",
+    "translation": "闯入，强行进入，插嘴，打断"
+  },
+  {
+    "phrase": "break off",
+    "translation": "打断; 折断"
+  },
+  {
+    "phrase": "break out （",
+    "translation": "战争、火灾等）突然发生，爆发"
+  },
+  {
+    "phrase": "break up",
+    "translation": "分解；分裂"
+  },
+  {
+    "phrase": "bring in",
+    "translation": "引来，引进，吸收"
+  },
+  {
+    "phrase": "bring on",
+    "translation": "引起，导致，使前进"
+  },
+  {
+    "phrase": "bring up",
+    "translation": "教育，培养"
+  },
+  {
+    "phrase": "build up",
+    "translation": "逐步建立"
+  },
+  {
+    "phrase": "by accident",
+    "translation": "偶然"
+  },
+  {
+    "phrase": "by air ( bus, train, ship )",
+    "translation": "乘飞机（公共汽车，火车，轮船）"
+  },
+  {
+    "phrase": "by and by",
+    "translation": "不久以后，逐渐地"
+  },
+  {
+    "phrase": "by day",
+    "translation": "日间，在白天"
+  },
+  {
+    "phrase": "by the way",
+    "translation": "顺便说"
+  },
+  {
+    "phrase": "call for",
+    "translation": "提倡，号召, 需要"
+  },
+  {
+    "phrase": "call in",
+    "translation": "召来，召集"
+  },
+  {
+    "phrase": "call on",
+    "translation": "拜访，访问"
+  },
+  {
+    "phrase": "call up",
+    "translation": "号召，打电话"
+  },
+  {
+    "phrase": "care for",
+    "translation": "喜欢；照顾（病人）"
+  },
+  {
+    "phrase": "carry off",
+    "translation": "携走，夺走"
+  },
+  {
+    "phrase": "carry on",
+    "translation": "继续下去; 继续开展"
+  },
+  {
+    "phrase": "carry out",
+    "translation": "开展，执行"
+  },
+  {
+    "phrase": "catch up with",
+    "translation": "赶上（或超过）"
+  },
+  {
+    "phrase": "change into",
+    "translation": "转换成，把...变成"
+  },
+  {
+    "phrase": "check in",
+    "translation": "报到，登记"
+  },
+  {
+    "phrase": "check out",
+    "translation": "查明; 结账"
+  },
+  {
+    "phrase": "clear up",
+    "translation": "整理，收拾, (天气)放晴"
+  },
+  {
+    "phrase": "come about",
+    "translation": "发生，产生"
+  },
+  {
+    "phrase": "come across (",
+    "translation": "偶然)遇见(或发现）"
+  },
+  {
+    "phrase": "come back",
+    "translation": "回来，想起来"
+  },
+  {
+    "phrase": "come down",
+    "translation": "落，下来"
+  },
+  {
+    "phrase": "come from",
+    "translation": "出生（于），来自"
+  },
+  {
+    "phrase": "come in",
+    "translation": "进入，进来"
+  },
+  {
+    "phrase": "come off",
+    "translation": "从...离开，脱落"
+  },
+  {
+    "phrase": "come on",
+    "translation": "来吧，赶快"
+  },
+  {
+    "phrase": "come out",
+    "translation": "出来,(书)出版，发行"
+  },
+  {
+    "phrase": "come to",
+    "translation": "共计，达到"
+  },
+  {
+    "phrase": "come true",
+    "translation": "变为现实，成为事实"
+  },
+  {
+    "phrase": "come up",
+    "translation": "上来，上升，抬头"
+  },
+  {
+    "phrase": "come up with",
+    "translation": "追上，赶上；想出（主意）；找出（答案）"
+  },
+  {
+    "phrase": "compare to",
+    "translation": "与......相比"
+  },
+  {
+    "phrase": "compare with",
+    "translation": "与......相比"
+  },
+  {
+    "phrase": "congratulate...on",
+    "translation": "祝贺......"
+  },
+  {
+    "phrase": "connect to",
+    "translation": "连接，相连"
+  },
+  {
+    "phrase": "connect with",
+    "translation": "与......相连"
+  },
+  {
+    "phrase": "cut down",
+    "translation": "砍倒"
+  },
+  {
+    "phrase": "cut off",
+    "translation": "切断"
+  },
+  {
+    "phrase": "cut up",
+    "translation": "齐根割掉，切碎"
+  },
+  {
+    "phrase": "day and night",
+    "translation": "日日夜夜"
+  },
+  {
+    "phrase": "do one's best",
+    "translation": "尽最大的努力"
+  },
+  {
+    "phrase": "deal with",
+    "translation": "处理，对付"
+  },
+  {
+    "phrase": "depend on (upon)",
+    "translation": "依靠，相信，信赖"
+  },
+  {
+    "phrase": "die out",
+    "translation": "消失，灭亡"
+  },
+  {
+    "phrase": "different from",
+    "translation": "与......不同"
+  },
+  {
+    "phrase": "divide up",
+    "translation": "分配"
+  },
+  {
+    "phrase": "divide...into...",
+    "translation": "把......分成......"
+  },
+  {
+    "phrase": "do some cleaning (shopping)",
+    "translation": "做扫除（买东西）"
+  },
+  {
+    "phrase": "dozens of",
+    "translation": "几十"
+  },
+  {
+    "phrase": "drop in",
+    "translation": "顺便走访（某人）"
+  },
+  {
+    "phrase": "due to",
+    "translation": "由于，因为"
+  },
+  {
+    "phrase": "each other",
+    "translation": "相互"
+  },
+  {
+    "phrase": "earn one's living",
+    "translation": "谋生"
+  },
+  {
+    "phrase": "either...or",
+    "translation": "或者......或者......"
+  },
+  {
+    "phrase": "enjoy oneself",
+    "translation": "过得愉快"
+  },
+  {
+    "phrase": "even if",
+    "translation": "即使，尽管"
+  },
+  {
+    "phrase": "even though",
+    "translation": "即使，尽管"
+  },
+  {
+    "phrase": "ever since",
+    "translation": "自那时起直到现在"
+  },
+  {
+    "phrase": "face to face",
+    "translation": "面对面"
+  },
+  {
+    "phrase": "fall asleep",
+    "translation": "入睡"
+  },
+  {
+    "phrase": "fall ill",
+    "translation": "患病，病倒"
+  },
+  {
+    "phrase": "far away",
+    "translation": "遥远的"
+  },
+  {
+    "phrase": "far from",
+    "translation": "远离"
+  },
+  {
+    "phrase": "feel like doing",
+    "translation": "想要..., 感觉要..."
+  },
+  {
+    "phrase": "figure out",
+    "translation": "理解，想明白"
+  },
+  {
+    "phrase": "fill ... with",
+    "translation": "用......填充"
+  },
+  {
+    "phrase": "fill in",
+    "translation": "填充"
+  },
+  {
+    "phrase": "find out",
+    "translation": "查明，发现，了解"
+  },
+  {
+    "phrase": "first of all",
+    "translation": "首先"
+  },
+  {
+    "phrase": "for ever",
+    "translation": "永远"
+  },
+  {
+    "phrase": "for example",
+    "translation": "例如"
+  },
+  {
+    "phrase": "for good",
+    "translation": "永远"
+  },
+  {
+    "phrase": "from now on",
+    "translation": "从今以后，今后"
+  },
+  {
+    "phrase": "from then on",
+    "translation": "从那时起"
+  },
+  {
+    "phrase": "from... to",
+    "translation": "从......到......"
+  },
+  {
+    "phrase": "from time to time",
+    "translation": "不时，偶尔"
+  },
+  {
+    "phrase": "get along with",
+    "translation": "与......相处"
+  },
+  {
+    "phrase": "get away",
+    "translation": "逃; 离"
+  },
+  {
+    "phrase": "get back",
+    "translation": "返回; 回来; 回家"
+  },
+  {
+    "phrase": "get close (to)",
+    "translation": "接近"
+  },
+  {
+    "phrase": "get down",
+    "translation": "降下"
+  },
+  {
+    "phrase": "get down to",
+    "translation": "开始认真（做某事）"
+  },
+  {
+    "phrase": "get in",
+    "translation": "进入, 收获，达到"
+  },
+  {
+    "phrase": "get off",
+    "translation": "脱下（衣服等）；下车"
+  },
+  {
+    "phrase": "get on",
+    "translation": "上车；过活"
+  },
+  {
+    "phrase": "get on with sb.",
+    "translation": "与......相处"
+  },
+  {
+    "phrase": "get through",
+    "translation": "通过，拨通（电话）"
+  },
+  {
+    "phrase": "get together",
+    "translation": "聚会，联欢"
+  },
+  {
+    "phrase": "get up",
+    "translation": "起床"
+  },
+  {
+    "phrase": "give away",
+    "translation": "分发"
+  },
+  {
+    "phrase": "give back",
+    "translation": "归还；送回"
+  },
+  {
+    "phrase": "give in",
+    "translation": "屈服，让步"
+  },
+  {
+    "phrase": "give out",
+    "translation": "分发"
+  },
+  {
+    "phrase": "give up",
+    "translation": "放?"
+  },
+  {
+    "phrase": "go ahead",
+    "translation": "走在前面，领先；干吧，干下去"
+  },
+  {
+    "phrase": "go away",
+    "translation": "走开，离去"
+  },
+  {
+    "phrase": "go by",
+    "translation": "走过; 经过; 过去"
+  },
+  {
+    "phrase": "go fishing (shopping, skating) （",
+    "translation": "去）钓鱼（买东西，滑冰）"
+  },
+  {
+    "phrase": "go for",
+    "translation": "主张"
+  },
+  {
+    "phrase": "go for a walk",
+    "translation": "散步"
+  },
+  {
+    "phrase": "go in for",
+    "translation": "参加，喜欢"
+  },
+  {
+    "phrase": "go off",
+    "translation": "走开"
+  },
+  {
+    "phrase": "go on",
+    "translation": "继续"
+  },
+  {
+    "phrase": "go on doing...",
+    "translation": "继续干某事，不停地干某事"
+  },
+  {
+    "phrase": "go on with",
+    "translation": "继续"
+  },
+  {
+    "phrase": "go out",
+    "translation": "出去, 熄灭"
+  },
+  {
+    "phrase": "go over",
+    "translation": "仔细检查，复习"
+  },
+  {
+    "phrase": "go through",
+    "translation": "浏览; 翻阅，通过"
+  },
+  {
+    "phrase": "grow up",
+    "translation": "长大成人，成长"
+  },
+  {
+    "phrase": "had better (do)",
+    "translation": "最好（做）"
+  },
+  {
+    "phrase": "hand in",
+    "translation": "上交; 交纳"
+  },
+  {
+    "phrase": "hand out",
+    "translation": "分发"
+  },
+  {
+    "phrase": "have a cold",
+    "translation": "患感冒"
+  },
+  {
+    "phrase": "hang on （",
+    "translation": "打电话时）不挂断，等待片刻"
+  },
+  {
+    "phrase": "hang up",
+    "translation": "挂断电话"
+  },
+  {
+    "phrase": "have a gift for",
+    "translation": "对......有天赋"
+  },
+  {
+    "phrase": "have a good time",
+    "translation": "玩得高兴，过得愉快"
+  },
+  {
+    "phrase": "have classes",
+    "translation": "上课"
+  },
+  {
+    "phrase": "have fun with",
+    "translation": "玩得高兴"
+  },
+  {
+    "phrase": "have got to",
+    "translation": "不得不；必须"
+  },
+  {
+    "phrase": "have to",
+    "translation": "不得不；必须"
+  },
+  {
+    "phrase": "hear of",
+    "translation": "听说，知道"
+  },
+  {
+    "phrase": "hear from",
+    "translation": "收到......的来信"
+  },
+  {
+    "phrase": "help oneself to",
+    "translation": "请随便吃点"
+  },
+  {
+    "phrase": "help sb. with sth.",
+    "translation": "帮助某人做某事"
+  },
+  {
+    "phrase": "help...out",
+    "translation": "帮助某人解决困难"
+  },
+  {
+    "phrase": "hold on",
+    "translation": "等一等（别挂电话）"
+  },
+  {
+    "phrase": "hold one's breath",
+    "translation": "不出气,屏住呼吸"
+  },
+  {
+    "phrase": "hold out",
+    "translation": "伸出；坚持，维持"
+  },
+  {
+    "phrase": "hold up",
+    "translation": "阻挡，使停顿"
+  },
+  {
+    "phrase": "hundreds of",
+    "translation": "几百，成百上千"
+  },
+  {
+    "phrase": "hurry up",
+    "translation": "赶快，快点"
+  },
+  {
+    "phrase": "in a hurry",
+    "translation": "匆忙，很快地"
+  },
+  {
+    "phrase": "in all",
+    "translation": "总之"
+  },
+  {
+    "phrase": "in a word",
+    "translation": "简言之，总之"
+  },
+  {
+    "phrase": "in common",
+    "translation": "共同，共有"
+  },
+  {
+    "phrase": "in debt",
+    "translation": "欠债"
+  },
+  {
+    "phrase": "in danger",
+    "translation": "处在危险状态"
+  },
+  {
+    "phrase": "in fact",
+    "translation": "事实上，实际上"
+  },
+  {
+    "phrase": "in front of",
+    "translation": "在......前面"
+  },
+  {
+    "phrase": "in need of",
+    "translation": "需要，缺少"
+  },
+  {
+    "phrase": "in order",
+    "translation": "按顺序"
+  },
+  {
+    "phrase": "in order that",
+    "translation": "为了"
+  },
+  {
+    "phrase": "in order to",
+    "translation": "为了"
+  },
+  {
+    "phrase": "in other words",
+    "translation": "换句话说"
+  },
+  {
+    "phrase": "in peace",
+    "translation": "安静，宁静"
+  },
+  {
+    "phrase": "in public",
+    "translation": "当众；公开"
+  },
+  {
+    "phrase": "in surprise",
+    "translation": "吃惊，惊讶"
+  },
+  {
+    "phrase": "in the end",
+    "translation": "最后，终于"
+  },
+  {
+    "phrase": "in time",
+    "translation": "及时，来得及"
+  },
+  {
+    "phrase": "instead of",
+    "translation": "代替，而不是"
+  },
+  {
+    "phrase": "join in",
+    "translation": "参加，加入"
+  },
+  {
+    "phrase": "join up",
+    "translation": "联合起来，联结起来"
+  },
+  {
+    "phrase": "just now",
+    "translation": "现在，刚才"
+  },
+  {
+    "phrase": "keep back",
+    "translation": "留下"
+  },
+  {
+    "phrase": "keep doing sth.",
+    "translation": "继续做某事"
+  },
+  {
+    "phrase": "keep off",
+    "translation": "勿踏; 勿踩"
+  },
+  {
+    "phrase": "keep on",
+    "translation": "继续（进行）"
+  },
+  {
+    "phrase": "keep one's word",
+    "translation": "守信"
+  },
+  {
+    "phrase": "keep up",
+    "translation": "保持; 维持; 继续"
+  },
+  {
+    "phrase": "knock at",
+    "translation": "敲"
+  },
+  {
+    "phrase": "knock into sb.",
+    "translation": "撞上"
+  },
+  {
+    "phrase": "laugh at",
+    "translation": "嘲笑"
+  },
+  {
+    "phrase": "lead to",
+    "translation": "导致，导向"
+  },
+  {
+    "phrase": "let in",
+    "translation": "让......进来，放进"
+  },
+  {
+    "phrase": "let out",
+    "translation": "放掉, 泄露"
+  },
+  {
+    "phrase": "live on",
+    "translation": "以...为主食，靠...为生"
+  },
+  {
+    "phrase": "look after",
+    "translation": "照顾"
+  },
+  {
+    "phrase": "look ahead",
+    "translation": "向前看，展望未来"
+  },
+  {
+    "phrase": "look down upon",
+    "translation": "看不起，轻视"
+  },
+  {
+    "phrase": "look for",
+    "translation": "寻找"
+  },
+  {
+    "phrase": "look forward to",
+    "translation": "盼望"
+  },
+  {
+    "phrase": "look into",
+    "translation": "向...里面看去; 调查"
+  },
+  {
+    "phrase": "look out",
+    "translation": "留神，当心"
+  },
+  {
+    "phrase": "look through",
+    "translation": "看穿, 浏览"
+  },
+  {
+    "phrase": "look up",
+    "translation": "查找"
+  },
+  {
+    "phrase": "lots of",
+    "translation": "许多，大量"
+  },
+  {
+    "phrase": "make a face",
+    "translation": "做鬼脸，做苦脸"
+  },
+  {
+    "phrase": "make friends with",
+    "translation": "与......交朋友"
+  },
+  {
+    "phrase": "make up",
+    "translation": "和解，化装"
+  },
+  {
+    "phrase": "make up of",
+    "translation": "由......组成，构成"
+  },
+  {
+    "phrase": "make up one's mind",
+    "translation": "下决心"
+  },
+  {
+    "phrase": "millions of",
+    "translation": "成百万上千万，数以百万计"
+  },
+  {
+    "phrase": "more or less",
+    "translation": "或多或少"
+  },
+  {
+    "phrase": "neither...nor",
+    "translation": "既不......也不......"
+  },
+  {
+    "phrase": "next to",
+    "translation": "紧接着，相邻，次于"
+  },
+  {
+    "phrase": "no doubt",
+    "translation": "无疑地"
+  },
+  {
+    "phrase": "no longer",
+    "translation": "不再"
+  },
+  {
+    "phrase": "not any more",
+    "translation": "不再"
+  },
+  {
+    "phrase": "not at all",
+    "translation": "一点也不，绝非"
+  },
+  {
+    "phrase": "not only ... but also",
+    "translation": "不仅...而且..."
+  },
+  {
+    "phrase": "not so...as",
+    "translation": "不像，不如"
+  },
+  {
+    "phrase": "not till/until",
+    "translation": "直到......才"
+  },
+  {
+    "phrase": "now and then",
+    "translation": "不时，偶尔"
+  },
+  {
+    "phrase": "now that",
+    "translation": "既然"
+  },
+  {
+    "phrase": "of course",
+    "translation": "当然"
+  },
+  {
+    "phrase": "on (the, an) average",
+    "translation": "平均，按平均数计算"
+  },
+  {
+    "phrase": "on duty",
+    "translation": "值日，值班"
+  },
+  {
+    "phrase": "on foot",
+    "translation": "走路，步行"
+  },
+  {
+    "phrase": "on show",
+    "translation": "展出，在上演（放映）"
+  },
+  {
+    "phrase": "on time",
+    "translation": "准时"
+  },
+  {
+    "phrase": "on/over the radio",
+    "translation": "通过收音机"
+  },
+  {
+    "phrase": "once again",
+    "translation": "再一次"
+  },
+  {
+    "phrase": "once more",
+    "translation": "再一次"
+  },
+  {
+    "phrase": "once upon a time",
+    "translation": "从前，很久以前"
+  },
+  {
+    "phrase": "one after another",
+    "translation": "一个接一个"
+  },
+  {
+    "phrase": "open up",
+    "translation": "开启；开创; 开辟"
+  },
+  {
+    "phrase": "or else",
+    "translation": "否则，要不然"
+  },
+  {
+    "phrase": "ought to",
+    "translation": "应该"
+  },
+  {
+    "phrase": "out of breath",
+    "translation": "上气不接下气"
+  },
+  {
+    "phrase": "out of order",
+    "translation": "运转不正常，出毛病"
+  },
+  {
+    "phrase": "out of work",
+    "translation": "失业"
+  },
+  {
+    "phrase": "over and over again",
+    "translation": "反复，多次重复"
+  },
+  {
+    "phrase": "pass by",
+    "translation": "经过"
+  },
+  {
+    "phrase": "pay attention to",
+    "translation": "注意"
+  },
+  {
+    "phrase": "pay back",
+    "translation": "偿还（借款等）"
+  },
+  {
+    "phrase": "pay for",
+    "translation": "付款"
+  },
+  {
+    "phrase": "pay off",
+    "translation": "偿清(欠款等)"
+  },
+  {
+    "phrase": "persuade sb. to do",
+    "translation": "说服"
+  },
+  {
+    "phrase": "pick out",
+    "translation": "选出"
+  },
+  {
+    "phrase": "pick up",
+    "translation": "拾起，捡起, 接收；开车去接......"
+  },
+  {
+    "phrase": "point out",
+    "translation": "指出"
+  },
+  {
+    "phrase": "point to",
+    "translation": "指向"
+  },
+  {
+    "phrase": "prevent ... from",
+    "translation": "妨碍,,防止,,预防"
+  },
+  {
+    "phrase": "put away",
+    "translation": "储存"
+  },
+  {
+    "phrase": "put down",
+    "translation": "记下"
+  },
+  {
+    "phrase": "put off",
+    "translation": "推迟"
+  },
+  {
+    "phrase": "put on",
+    "translation": "穿，戴上，上演"
+  },
+  {
+    "phrase": "put on a performance",
+    "translation": "演出"
+  },
+  {
+    "phrase": "put on weight",
+    "translation": "发福，增加体重"
+  },
+  {
+    "phrase": "put out",
+    "translation": "扑灭，关熄"
+  },
+  {
+    "phrase": "put up",
+    "translation": "挂起，举起, 贴（广告等）"
+  },
+  {
+    "phrase": "put up with",
+    "translation": "忍受"
+  },
+  {
+    "phrase": "rather than",
+    "translation": "而不，非"
+  },
+  {
+    "phrase": "refer to",
+    "translation": "提到，涉及，有关"
+  },
+  {
+    "phrase": "regard... as",
+    "translation": "把......看作"
+  },
+  {
+    "phrase": "ring back",
+    "translation": "回电话"
+  },
+  {
+    "phrase": "ring off",
+    "translation": "挂断电话，停止讲话"
+  },
+  {
+    "phrase": "ring up",
+    "translation": "打电话给"
+  },
+  {
+    "phrase": "right away",
+    "translation": "立即，马上"
+  },
+  {
+    "phrase": "right now",
+    "translation": "立即，马上"
+  },
+  {
+    "phrase": "run away",
+    "translation": "逃跑, 失控"
+  },
+  {
+    "phrase": "run out of",
+    "translation": "用完"
+  },
+  {
+    "phrase": "save one's life",
+    "translation": "挽救某人生命"
+  },
+  {
+    "phrase": "scores of",
+    "translation": "许多，大量"
+  },
+  {
+    "phrase": "see...off",
+    "translation": "为某人送行"
+  },
+  {
+    "phrase": "sell out",
+    "translation": "卖完, 出卖"
+  },
+  {
+    "phrase": "send for",
+    "translation": "派人去叫（请）"
+  },
+  {
+    "phrase": "send out",
+    "translation": "发出，派遣"
+  },
+  {
+    "phrase": "send up",
+    "translation": "发出, 射出"
+  },
+  {
+    "phrase": "sentence...to death",
+    "translation": "判处死刑"
+  },
+  {
+    "phrase": "separate...from...",
+    "translation": "分开"
+  },
+  {
+    "phrase": "set down",
+    "translation": "放下"
+  },
+  {
+    "phrase": "set free",
+    "translation": "释放，解放"
+  },
+  {
+    "phrase": "set off",
+    "translation": "动身，起程；使爆发"
+  },
+  {
+    "phrase": "set out",
+    "translation": "出发; 开始"
+  },
+  {
+    "phrase": "set up settle down",
+    "translation": "建立创立 定居，平静下来"
+  },
+  {
+    "phrase": "show off",
+    "translation": "炫耀"
+  },
+  {
+    "phrase": "side by side",
+    "translation": "肩并肩，一起"
+  },
+  {
+    "phrase": "so as to",
+    "translation": "以便，为的是"
+  },
+  {
+    "phrase": "so far",
+    "translation": "到目前为止"
+  },
+  {
+    "phrase": "so far as （",
+    "translation": "表示程度，范围）就......，尽......"
+  },
+  {
+    "phrase": "so long as",
+    "translation": "只要"
+  },
+  {
+    "phrase": "so...that",
+    "translation": "太......以至于......"
+  },
+  {
+    "phrase": "sooner or later",
+    "translation": "迟早，早晚"
+  },
+  {
+    "phrase": "speed up",
+    "translation": "加快速度"
+  },
+  {
+    "phrase": "spend...on",
+    "translation": "在......花钱"
+  },
+  {
+    "phrase": "stand for",
+    "translation": "代表，象征"
+  },
+  {
+    "phrase": "tick to",
+    "translation": "坚持"
+  },
+  {
+    "phrase": "stop doing sth.",
+    "translation": "停止做某事"
+  },
+  {
+    "phrase": "stop to do sth.",
+    "translation": "停下来做某事"
+  },
+  {
+    "phrase": "struggle against",
+    "translation": "同......作斗争"
+  },
+  {
+    "phrase": "such as",
+    "translation": "例如"
+  },
+  {
+    "phrase": "take away",
+    "translation": "拿走"
+  },
+  {
+    "phrase": "take it easy",
+    "translation": "别着急，别紧张"
+  },
+  {
+    "phrase": "take off",
+    "translation": "脱下，起飞"
+  },
+  {
+    "phrase": "take one's time",
+    "translation": "从容，慢慢行动"
+  },
+  {
+    "phrase": "take out",
+    "translation": "取出"
+  },
+  {
+    "phrase": "take place",
+    "translation": "发生"
+  },
+  {
+    "phrase": "take sb. in the arms",
+    "translation": "搂抱"
+  },
+  {
+    "phrase": "take the place of",
+    "translation": "取代，代替"
+  },
+  {
+    "phrase": "take up",
+    "translation": "占去，占据（时间、地位等）"
+  },
+  {
+    "phrase": "talk about",
+    "translation": "谈论，议论"
+  },
+  {
+    "phrase": "talk of",
+    "translation": "谈论，议论"
+  },
+  {
+    "phrase": "the day after tomorrow",
+    "translation": "后天"
+  },
+  {
+    "phrase": "the day before yesterday",
+    "translation": "前天"
+  },
+  {
+    "phrase": "the more...the more",
+    "translation": "越...就越..."
+  },
+  {
+    "phrase": "the other day",
+    "translation": "前几天，某日"
+  },
+  {
+    "phrase": "think about",
+    "translation": "考虑（是否去做）"
+  },
+  {
+    "phrase": "think of",
+    "translation": "想起,考虑,认为,看法"
+  },
+  {
+    "phrase": "thousands of",
+    "translation": "成千上万，几千"
+  },
+  {
+    "phrase": "throw away",
+    "translation": "扔掉"
+  },
+  {
+    "phrase": "too...to",
+    "translation": "太......以至于不......"
+  },
+  {
+    "phrase": "try on",
+    "translation": "试穿，试试看"
+  },
+  {
+    "phrase": "try out",
+    "translation": "试验"
+  },
+  {
+    "phrase": "turn down",
+    "translation": "关小，调低"
+  },
+  {
+    "phrase": "turn off",
+    "translation": "关掉（水、电、电视、收音机等）"
+  },
+  {
+    "phrase": "turn on",
+    "translation": "打开（水、电视、收音机、灯、煤气等）"
+  },
+  {
+    "phrase": "turn over",
+    "translation": "翻动，犁翻（土地）"
+  },
+  {
+    "phrase": "turn up",
+    "translation": "到达，来到；开大（声音）"
+  },
+  {
+    "phrase": "up and down",
+    "translation": "上下，来回"
+  },
+  {
+    "phrase": "used to sth.",
+    "translation": "习惯于"
+  },
+  {
+    "phrase": "used to do sth.",
+    "translation": "过去常常"
+  },
+  {
+    "phrase": "wait for",
+    "translation": "等候，等待"
+  },
+  {
+    "phrase": "wake up",
+    "translation": "醒来"
+  },
+  {
+    "phrase": "work out",
+    "translation": "算出，解决"
+  },
+  {
+    "phrase": "worry about",
+    "translation": "担心，烦恼"
+  },
+  {
+    "phrase": "wrap up",
+    "translation": "包好, 伪装"
+  },
+  {
+    "phrase": "write down",
+    "translation": "写下，记下"
+  },
+  {
+    "phrase": "write to",
+    "translation": "写信给..."
+  }
+]
+
+// 导出数据模块（兼容浏览器环境）
+if (typeof window !== 'undefined') {
+    window.wordData = wordData;
+    window.phraseData = phraseData;
+}
