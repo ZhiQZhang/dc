@@ -246,11 +246,17 @@ function loadCurrentItem() {
         }
         pageElements.learning.itemText.textContent = wordContent.trim();
         ensurePronounceButton(item.word);
+        // 设置释义 - 单词数据结构，兼容多字段
+        const meaning = [item.cx, item.sy, item.translation, item.meaning]
+            .filter(Boolean)
+            .join(' ')
+            .trim();
+        pageElements.learning.itemMeaning.textContent = meaning || '暂无释义';
     } else if (item.phrase) {
         // 短语
         pageElements.learning.itemText.textContent = item.phrase;
         ensurePronounceButton(item.phrase);
-        pageElements.learning.itemMeaning.textContent = item.translation;
+        pageElements.learning.itemMeaning.textContent = item.translation || item.meaning || '暂无释义';
     } else {
         // 未知类型，提供默认显示
         pageElements.learning.itemText.textContent = '未知项目';
@@ -690,22 +696,29 @@ async function getRandomFromCache(mode, count){
 // 在音标后方插入发音按钮，并绑定请求逻辑
 function ensurePronounceButton(text){
   try{
-    // 移除旧按钮避免重复
-    const old = document.getElementById('play-audio-btn');
-    if(old && old.parentElement){ old.parentElement.removeChild(old); }
+    // 清理旧按钮避免重复
+    const oldF = document.getElementById('play-audio-btn-f');
+    const oldM = document.getElementById('play-audio-btn-m');
+    if(oldF && oldF.parentElement){ oldF.parentElement.removeChild(oldF); }
+    if(oldM && oldM.parentElement){ oldM.parentElement.removeChild(oldM); }
     if(!text){ return; }
-    const btn = document.createElement('button');
-    btn.id = 'play-audio-btn';
-    btn.type = 'button';
-    btn.className = 'btn-outline';
-    btn.textContent = '发音';
-    // 放在音标后：紧跟在#item-text元素之后
+    const btnFemale = document.createElement('button');
+    btnFemale.id = 'play-audio-btn-f';
+    btnFemale.type = 'button';
+    btnFemale.className = 'btn-outline';
+    btnFemale.textContent = '女声';
+    const btnMale = document.createElement('button');
+    btnMale.id = 'play-audio-btn-m';
+    btnMale.type = 'button';
+    btnMale.className = 'btn-outline';
+    btnMale.textContent = '男声';
+    // 插入位置：紧跟在#item-text之后
     if(pageElements.learning.itemText){
-      pageElements.learning.itemText.insertAdjacentElement('afterend', btn);
+      pageElements.learning.itemText.insertAdjacentElement('afterend', btnMale);
+      pageElements.learning.itemText.insertAdjacentElement('afterend', btnFemale);
     }
-    btn.addEventListener('click', () => {
-      playPronunciation(text);
-    });
+    btnFemale.addEventListener('click', () => { playPronunciation(text, 0); });
+    btnMale.addEventListener('click', () => { playPronunciation(text, 1); });
   }catch(e){ console.warn('插入发音按钮失败', e); }
 }
 
@@ -732,7 +745,7 @@ function buildYoudaoSign(query){
   return { sign, salt, curtime };
 }
 
-function playPronunciation(query){
+function playPronunciation(query, voice){
   try{
     const { sign, salt, curtime } = buildYoudaoSign(query);
     $.ajax({
@@ -749,6 +762,7 @@ function playPronunciation(query){
         signType: 'v3',
         curtime: curtime,
         vocabId: youdaoConfig.vocabId,
+        voice: String(voice) // 0为女声，1为男声
       },
       success: function (data) {
         try{
