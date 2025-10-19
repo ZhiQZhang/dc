@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>英语单词记忆助手</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 顶部导航 -->
+        <header class="app-header">
+            <h1>英语单词记忆助手</h1>
+        </header>
+
+        <!-- 主要内容区域 -->
+        <main class="app-main">
+
+            <!-- 设置页面 -->
+            <section id="settings-page" class="page active">
+                <h2>学习设置</h2>
+                <div class="settings-group">
+                    <h3>学习数量</h3>
+                    <div class="setting-item">
+                        <label for="learning-count">每次学习数量:</label>
+                        <input type="number" id="learning-count" min="10" max="100" value="20">
+                    </div>
+                </div>
+                <div class="settings-group">
+                    <h3>学习偏好</h3>
+                    <div class="setting-item">
+                        <label for="random-order">
+                            <input type="checkbox" id="random-order" checked>
+                            随机顺序学习
+                        </label>
+                    </div>
+                    <div class="setting-item">
+                        <label for="auto-play">
+                            <input type="checkbox" id="auto-play">
+                            自动播放发音
+                        </label>
+                    </div>
+                </div>
+                <button id="save-settings" class="btn-primary">保存设置</button>
+                <button id="back-from-settings" class="btn-secondary">返回</button>
+            </section>
+        </main>
+
+        <!-- 底部导航栏 -->
+        <nav class="app-nav">
+            <a class="nav-item" href="index.html">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-text">首页</span>
+            </a>
+            <a class="nav-item" href="mode.html">
+                <span class="nav-icon">📚</span>
+                <span class="nav-text">学习</span>
+            </a>
+            <a class="nav-item" href="results.html">
+                <span class="nav-icon">📊</span>
+                <span class="nav-text">统计</span>
+            </a>
+            <a class="nav-item active" href="settings.html">
+                <span class="nav-icon">⚙️</span>
+                <span class="nav-text">设置</span>
+            </a>
+        </nav>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

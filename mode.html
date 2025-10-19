@@ -15,34 +15,37 @@
 
         <!-- 主要内容区域 -->
         <main class="app-main">
-            <!-- 欢迎页面 -->
-            <section id="welcome-page" class="page active">
-                <div class="welcome-content">
-                    <div class="logo">📚</div>
-                    <h2>英语单词记忆助手</h2>
-                    <p>轻松学习，快速记忆</p>
-                    <div class="stats-summary">
-                        <div class="stat-item">
-                            <div class="stat-number">0</div>
-                            <div class="stat-label">已学习单词</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">0</div>
-                            <div class="stat-label">已掌握短语</div>
-                        </div>
+
+            <!-- 学习模式选择页面 -->
+            <section id="mode-selection" class="page active">
+                <h2>选择学习模式</h2>
+                <div class="mode-options">
+                    <div class="mode-card" data-mode="words">
+                        <div class="mode-icon">🔤</div>
+                        <h3>单词学习</h3>
+                        <p>学习高考核心单词</p>
                     </div>
-                    <button id="start-learning" class="btn-primary">开始学习</button>
+                    <div class="mode-card" data-mode="phrases">
+                        <div class="mode-icon">📝</div>
+                        <h3>短语学习</h3>
+                        <p>掌握常用英语短语</p>
+                    </div>
+                    <div class="mode-card" data-mode="review">
+                        <div class="mode-icon">🔄</div>
+                        <h3>复习模式</h3>
+                        <p>复习已学习内容</p>
+                    </div>
                 </div>
+                <button id="back-to-welcome" class="btn-secondary">返回</button>
             </section>
         </main>
 
-        <!-- 底部导航栏 -->
-        <nav class="app-nav">
-            <a class="nav-item active" href="index.html">
+        <!-- 底部导航栏 -->        <nav class="app-nav">
+            <a class="nav-item" href="index.html">
                 <span class="nav-icon">🏠</span>
                 <span class="nav-text">首页</span>
             </a>
-            <a class="nav-item" href="mode.html">
+            <a class="nav-item active" href="mode.html">
                 <span class="nav-icon">📚</span>
                 <span class="nav-text">学习</span>
             </a>

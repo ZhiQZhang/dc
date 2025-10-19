@@ -41,6 +41,7 @@ body {
 .app-main {
     flex: 1;
     padding: 1rem;
+    padding-bottom: 4.5rem;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -359,7 +360,7 @@ body {
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 2rem;
-    height: 200px;
+    height: 200px; /* 原为200px，增高以避免图表拥挤 */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -421,6 +422,8 @@ body {
     box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
     position: sticky;
     bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav-item {
@@ -433,6 +436,7 @@ body {
     padding: 0.5rem;
     color: #666;
     transition: color 0.3s;
+    text-decoration: none;
 }
 
 .nav-item.active {
@@ -455,10 +459,10 @@ body {
         margin: 0 auto;
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
     }
-    
+
     .app-nav {
-        max-width: 500px;
-        margin: 0 auto;
+        width: 100%;
+        margin: 0;
     }
 }
 
@@ -466,21 +470,34 @@ body {
     .app-main {
         padding: 0.8rem;
     }
-    
+
     .btn-primary, .btn-secondary {
         padding: 0.7rem 1.2rem;
         font-size: 0.9rem;
     }
-    
+
     .content-card {
         padding: 1.2rem;
     }
-    
+
     .item-display h3 {
         font-size: 1.4rem;
     }
-    
+
     .meaning-text {
         font-size: 1.1rem;
     }
+}
+
+/* 让学习区的单词与音标按换行显示 */
+#item-text {
+  white-space: pre-line; /* 支持\n作为换行 */
+  line-height: 1.6;
+}
+
+/* 可选：音标单独行时的微距样式（如未来拆分为独立元素）*/
+#item-phonetic {
+  display: block;
+  margin-top: 6px;
+  color: #666;
 }
